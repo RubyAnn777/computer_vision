@@ -28,3 +28,42 @@ dev = [
     "ruff>=0.17.4",
     "ty>=0.0.99",
 ]
+
+
+# this ruff setup has been done with AI support
+
+[tool.ruff]
+line-length = 88
+src = ["src", "tests"]
+extend-include = ["notebooks/*.py"]
+
+[tool.ruff.lint]
+select = [
+    "E", "W",   # pycodestyle
+    "F",        # pyflakes: unused imports, undefined names
+    "I",        # import sorting (replaces isort)
+    "B",        # flake8-bugbear: likely bugs
+    "UP",       # pyupgrade: modern syntax for 3.12
+    "N",        # pep8-naming
+    "SIM",      # simplifications
+    "NPY",      # NumPy-specific rules (deprecated APIs, legacy RNG)
+    "PT",       # pytest style
+    "RUF",      # ruff's own rules
+    "D",        # docstrings
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+"notebooks/**" = ["D", "B018"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra", "--strict-markers", "--strict-config", "--import-mode=importlib"]
+xfail_strict = true
+
+[tool.coverage.run]
+source = ["computer_vision"]
+branch = true
