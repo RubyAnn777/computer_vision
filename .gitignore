@@ -1,19 +1,19 @@
-# Environment 
+# Environment
 .venv/
 .env
 
-# Python bytecode 
+# Python bytecode
 __pycache__/
 *.py[cod]
 
-# Tool caches 
+# Tool caches
 .ruff_cache/
 .pytest_cache/
 .coverage
 htmlcov/
 __marimo__/
 
-# Build output 
+# Build output
 build/
 dist/
 *.egg-info/
@@ -25,6 +25,6 @@ data/interim/
 *.onnx
 runs/
 
-# OS / editor noise 
+# OS / editor noise
 .DS_Store
 .ipynb_checkpoints/
