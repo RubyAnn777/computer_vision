@@ -1,0 +1,30 @@
+# Environment 
+.venv/
+.env
+
+# Python bytecode 
+__pycache__/
+*.py[cod]
+
+# Tool caches 
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+__marimo__/
+
+# Build output 
+build/
+dist/
+*.egg-info/
+
+# Data and model artefacts
+data/raw/
+data/interim/
+*.pt
+*.onnx
+runs/
+
+# OS / editor noise 
+.DS_Store
+.ipynb_checkpoints/
