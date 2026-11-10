@@ -33,3 +33,9 @@ repos:
         language: system
         types: [python]
         pass_filenames: false
+      - id: pytest-fast
+        name: pytest (fast suite)
+        entry: uv run pytest -m "not slow" -q
+        language: system
+        types: [python]
+        pass_filenames: false

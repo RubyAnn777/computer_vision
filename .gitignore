@@ -21,6 +21,7 @@ dist/
 # Data and model artefacts
 data/raw/
 data/interim/
+data/processed/
 *.pt
 *.onnx
 runs/

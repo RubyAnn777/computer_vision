@@ -50,6 +50,7 @@ select = [
     "PT",       # pytest style
     "RUF",      # ruff's own rules
     "D",        # docstrings
+    "PTH",      # flake8-use-pathlib: Path over os.path
 ]
 
 [tool.ruff.lint.pydocstyle]
@@ -63,6 +64,9 @@ convention = "numpy"
 testpaths = ["tests"]
 addopts = ["-ra", "--strict-markers", "--strict-config", "--import-mode=importlib"]
 xfail_strict = true
+markers = [
+    "slow: long-running tests (rendering, training); skipped by the pre-commit hook",
+]
 
 [tool.coverage.run]
 source = ["computer_vision"]
