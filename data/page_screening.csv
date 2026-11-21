@@ -1,0 +1,117 @@
+page_id,set,decision,rule,duplicate_of,note,screened_on,policy_version
+aldi-sued_kw46-26-op-mp_p002,pool,exclude,P4,,loyalty-programme advert; no product depicted,2026-11-21,1.2
+aldi-sued_kw46-26-op-mp_p006,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw46-26-op-mp_p008,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw46-26-op-mp_p010,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw46-26-op-mp_p026,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw46-26-op-mp_p032,pool,exclude,P4,,app and newsletter advert; only flyer thumbnails,2026-11-21,1.2
+aldi-sued_kw47-26-op_p007,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw47-26-op_p021,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw47-26-op_p024,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw47-26-op_p025,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw47-26-op_p031,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw47-26-op_p032,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw48-26-vop_p003,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw48-26-vop_p008,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw48-26-vop_p010,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw48-26-vop_p014,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw48-26-vop_p020,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw48-26-vop_p024,pool,exclude,P4,,WhatsApp channel advert; no product depicted,2026-11-21,1.2
+aldi-sued_kw49-26-vop_p009,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw49-26-vop_p011,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw49-26-vop_p013,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw49-26-vop_p016,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw49-26-vop_p017,pool,eligible,,,,2026-11-21,1.2
+aldi-sued_kw49-26-vop_p025,pool,exclude,P4,,WhatsApp channel advert; identical to aldi-sued_kw48-26-vop_p024,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d46_p001,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d46_p010,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d46_p027,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d46_p029,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d46_p037,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d46_p068,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d48_p001,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d48_p002,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d48_p006,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d48_p029,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d48_p031,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d48_p064,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d48_p075,pool,exclude,P4,,messenger flyer advert; phone mock-up only,2026-11-21,1.2
+kaufland_de-de-kdz1-3000-d48_p078,pool,exclude,P5,kaufland_de-de-kdz1-3000-d46_p068,Black Week marketplace page; near-identical to earlier week,2026-11-21,1.2
+kaufland_de-de-leaflet1-3000-d46-od_p005,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-leaflet1-3000-d46-od_p007,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-wrapper1-3000-d47_p003,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-wrapper1-3000-d47_p010,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-wrapper1-3000-d47_p013,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-wrapper1-3000-d47_p023,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-wrapper1-3000-d47_p028,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-wrapper1-3000-d47_p042,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-wrapper1-3000-d47_p052,pool,eligible,,,,2026-11-21,1.2
+kaufland_de-de-wrapper1-3000-d47_p059,pool,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p001,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p002,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p003,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p004,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p005,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p006,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p007,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p008,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p009,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p010,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p011,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p012,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p013,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p014,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p015,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p016,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p017,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p018,unseen,eligible,,,,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p019,unseen,exclude,P4,,app advert; no product depicted,2026-11-21,1.2
+mueller_drogerie-kw47-2026_p020,unseen,eligible,,,,2026-11-21,1.2
+norma_2026-44-ede_p004,pool,eligible,,,,2026-11-21,1.2
+norma_2026-44-ede_p005,pool,eligible,,,,2026-11-21,1.2
+norma_2026-44-ede_p013,pool,eligible,,,,2026-11-21,1.2
+norma_2026-44-ede_p019,pool,exclude,P4,,mobile tariff advert; only SIM-card graphics (borderline),2026-11-21,1.2
+norma_2026-44-ede_p020,pool,eligible,,,,2026-11-21,1.2
+norma_2026-44-ede_p023,pool,eligible,,,,2026-11-21,1.2
+norma_2026-45-ede_p002,pool,eligible,,,,2026-11-21,1.2
+norma_2026-45-ede_p003,pool,eligible,,,,2026-11-21,1.2
+norma_2026-45-ede_p012,pool,eligible,,,,2026-11-21,1.2
+norma_2026-45-ede_p018,pool,eligible,,,,2026-11-21,1.2
+norma_2026-45-ede_p027,pool,eligible,,,,2026-11-21,1.2
+norma_2026-45-ede_p030,pool,exclude,P1,,packs shown only inside a laid Christmas table,2026-11-21,1.2
+norma_2026-46-ede_p007,pool,eligible,,,,2026-11-21,1.2
+norma_2026-46-ede_p010,pool,eligible,,,,2026-11-21,1.2
+norma_2026-46-ede_p011,pool,eligible,,,,2026-11-21,1.2
+norma_2026-46-ede_p013,pool,eligible,,,,2026-11-21,1.2
+norma_2026-46-ede_p014,pool,eligible,,,,2026-11-21,1.2
+norma_2026-46-ede_p025,pool,exclude,P5,norma_2026-44-ede_p020,identical Preissenkung page,2026-11-21,1.2
+norma_2026-48-ede_p012,pool,eligible,,,,2026-11-21,1.2
+norma_2026-48-ede_p016,pool,eligible,,,,2026-11-21,1.2
+norma_2026-48-ede_p017,pool,eligible,,,,2026-11-21,1.2
+norma_2026-48-ede_p019,pool,eligible,,,,2026-11-21,1.2
+norma_2026-48-ede_p023,pool,eligible,,,,2026-11-21,1.2
+norma_2026-48-ede_p032,pool,exclude,P1,,packs shown only inside a laid Christmas table; identical to norma_2026-45-ede_p030,2026-11-21,1.2
+penny_penny-hz-kw46-15a-04-80_p003,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw46-15a-04-80_p021,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw46-15a-04-80_p030,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw46-15a-04-80_p036,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw46-15a-04-80_p037,pool,exclude,P4,,icons only (fruit and vegetable promise),2026-11-21,1.2
+penny_penny-hz-kw46-15a-04-80_p039,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw46-15a-04-80_p040,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw46-15a-04-80_p047,pool,exclude,P4,,coupon and app page; one tiny collectible pack (borderline),2026-11-21,1.2
+penny_penny-hz-kw47-15a-04-80_p013,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw47-15a-04-80_p015,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw47-15a-04-80_p020,pool,exclude,P1,,offers are decorations placed in a living-room scene (borderline),2026-11-21,1.2
+penny_penny-hz-kw47-15a-04-80_p024,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw47-15a-04-80_p027,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw47-15a-04-80_p031,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw47-15a-04-80_p041,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw47-15a-04-80_p042,pool,exclude,P1,,products only inside a shopping-trolley scene,2026-11-21,1.2
+penny_penny-hz-kw48-15a-04-80_p002,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw48-15a-04-80_p006,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw48-15a-04-80_p011,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw48-15a-04-80_p013,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw48-15a-04-80_p018,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw48-15a-04-80_p020,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw48-15a-04-80_p030,pool,eligible,,,,2026-11-21,1.2
+penny_penny-hz-kw48-15a-04-80_p041,pool,exclude,P4,,icons only (fruit and vegetable promise),2026-11-21,1.2
