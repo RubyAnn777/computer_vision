@@ -1,7 +1,7 @@
 # Annotation policy
 
 > **Frozen.** Labelling rules locked on 2026-11-21 after the 5-page pilot
-> (v1.3); v1.4 only adds page-eligibility rule P7.
+> (v1.3); v1.4 only adds page-eligibility rule P7 and clarifies the process.
 > These rules apply unchanged to every page in pass 1 and pass 2. Any later
 > change requires re-checking every page already annotated and a new entry
 > in the change log.
@@ -29,7 +29,12 @@ them.
   y points down.
 - Coordinates are pixel edges: a box's width is `xmax - xmin`, with no `+1`.
 - Page images are never resized or re-encoded after annotation, because the
-  boxes are only valid for that exact file.
+  boxes are only valid for that exact file. Their SHA-256 sums are kept in
+  `data/annotation_images.sha256` (written and checked from the repo root
+  with `shasum -a 256 data/interim/pages/annotate/*.png` and
+  `shasum -a 256 -c data/annotation_images.sha256`). Re-rendering reproduces the image size
+  exactly, but pixel values can differ by one grey level between platforms
+  and library builds, which leaves every box valid.
 
 ## Page eligibility (P)
 
@@ -45,9 +50,10 @@ them.
   the eligible pages with the smallest SHA-256 keys of `"<seed>:<page_id>"`
   are taken, which is uniform sampling without replacement. Main pool: 10
   pages per weekly Müller flyer. Test: every page of the Müller Drogerie KW47
-  2026 flyer. Unseen retailers: the pages drawn for Aldi Süd, Kaufland and
-  Penny (24 per retailer, spread over flyer weeks) that were annotated before
-  the design changed (see change log). Pages are never chosen by hand.
+  2026 flyer. Unseen retailers: 24 pages each for Aldi Süd, Kaufland and
+  Penny, spread evenly over their flyer weeks; every eligible page of this
+  draw is annotated. Only pages that the automatic check in `pages.csv` marks
+  `suggested_eligible = yes` can be drawn. Pages are never chosen by hand.
   Discarded pages are not replaced.
 - **P4** A page is excluded if it depicts no item for sale at all: app,
   loyalty, newsletter or messenger adverts, service tariffs, icon-only pages.
@@ -55,7 +61,7 @@ them.
   large its products.
 - **P5** A page is excluded if it repeats, with the same layout and the same
   products, a page from an earlier flyer week in the sample. The earlier copy
-  is kept and the excluded page names it in `duplicate_of`.
+  is kept and the excluded page names it in `note`.
 - **P6** A page is excluded if its image is defective (blank, cut, corrupted
   or the wrong page).
 - **P7** A page is excluded if it offers underwear or lingerie (typically
@@ -80,7 +86,7 @@ them.
   product. Only the pack next to it is boxed. A plated dish with no pack is not
   boxed.
 - **R6** Contents shown spilling out in front of a pack (nuts, pasta) are not
-  part of the box, unless the loose food itself is the offer (R4). if non food items
+  part of the box, unless the loose food itself is the offer (R4). If non-food items
   are shown in front of the box, they are included.
 - **R7** Never boxed: price tags and badges, logos, text, quality seals,
   icons, people, props (plates, boards, cutlery).
@@ -109,8 +115,8 @@ them.
    not yet annotated.
 3. **Pilot.** After the first 5 pages, this policy was reviewed and frozen as
    v1.3 on 2026-11-21 (see the note at the top).
-4. **Pass 2 (consistency check).** At least 3 days after pass 1, 10 seeded
-   pages (2 per retailer, Müller included) are re-annotated into
+4. **Pass 2 (consistency check).** At least 3 days after pass 1, 10 pages,
+   chosen by the annotator from all four retailers, are re-annotated into
    `data/annotations/pass2/` without looking at pass 1. Pass 2 only measures
    annotation consistency (mean IoU of matched boxes and agreement F1 at
    IoU 0.5).
@@ -122,13 +128,9 @@ them.
 | Column | Meaning |
 | --- | --- |
 | `page_id` | Canonical page id |
-| `set` | `pool` or `unseen` |
 | `decision` | `eligible` or `exclude` |
 | `rule` | `P1`, `P4`, `P5`, `P6` or `P7`; empty if eligible |
-| `duplicate_of` | Page id of the kept copy; only for `P5` |
-| `note` | What is on the page, one phrase |
-| `screened_on` | Date |
-| `policy_version` | Policy version used |
+| `note` | What is on the page, one phrase (for `P5`, the id of the kept copy) |
 
 ## Change log
 
@@ -139,4 +141,4 @@ them.
 | 1.2 | 2026-11-21 | Added P4 (no product), P5 (duplicate), P6 (defect) and the "never a reason" list; P3 rewritten to match the code; no replacement of discarded pages; R1 restored to food or non-food (needed for Müller); added Process, log files and change log. No page had been annotated, so nothing needed re-checking. |
 | 1.3 | 2026-11-21 | G5 (minimum box size of 20 px) removed: every product that passes G3 is boxed, whatever its size. No separate overlap rule: G2 covers occluders. Annotation log and edge-case log dropped; `page_screening.csv` is the only log. Pass 2 gap set to at least 3 days. Policy frozen after the 5-page pilot. |
 | 1.3 | 2026-11-23 | Dataset design changed, labelling rules unchanged: Müller becomes the main retailer and the supermarkets become the unseen set; Scope and P3 updated. |
-| 1.4 | 2026-11-23 | Added P7 (underwear and lingerie pages). Two already annotated pages excluded; their box files moved to `data/annotations/excluded/`. Labelling rules unchanged. |
+| 1.4 | 2026-11-23 | Added P7 (underwear and lingerie pages). Two already annotated pages excluded; their box files moved to `data/annotations/excluded/`. Unseen set is the full seeded draw (all eligible pages annotated); pass-2 pages are chosen by hand; image checksums added; `page_screening.csv` cut to four columns (`page_id`, `decision`, `rule`, `note`), since the set is in the sample file. Labelling rules unchanged. |

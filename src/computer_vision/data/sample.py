@@ -1,7 +1,8 @@
 """Deterministic selection of the pages to annotate.
 
 A fixed number of pages per retailer is drawn, spread evenly over that retailer's flyer
-groups (weeks).
+groups (weeks). The same function draws the Müller pool and the unseen supermarket
+pages.
 The draw must give the same pages on every machine and every Python version, so it
 does not use a random number generator. Instead every page gets a selection key,
 the SHA-256 of ``"<seed>:<page_id>"``, and each flyer group keeps the pages with
@@ -28,7 +29,9 @@ class Candidate:
     flyer_group : str
         Weekly flyer group; the quota is spread evenly over these.
     eligible : bool
-        Whether the page may be annotated at all (page rule P1).
+        Whether the page may be drawn at all. The sampling script sets it from
+        the automatic ``suggested_eligible`` flag in ``pages.csv``; the human
+        screening against the page rules (P1 to P7) comes after the draw.
     """
 
     page_id: str
@@ -93,7 +96,7 @@ def select_pages(
     Parameters
     ----------
     candidates : Iterable[Candidate]
-        All pages of the main pool, in any order.
+        All pages of one set (pool or unseen), in any order.
     per_retailer : int
         Pages to draw for each retailer.
     seed : int

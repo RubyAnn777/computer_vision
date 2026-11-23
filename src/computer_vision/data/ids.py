@@ -2,8 +2,9 @@
 
 Every page is named ``<retailer>_<catalog>_p<NNN>``, for example
 ``aldi-sued_kw46-26-op-mp_p014``. The id is the file stem of the page image
-and of its annotation file, and the join key between the manifest, the split
-file and the annotation log, so it is only ever produced by `make_page_id`.
+and of its annotation file, and the join key between the page list, the sample,
+the screening file and the split file, so it is only ever produced by
+`make_page_id`. The ``catalog`` field is the ``flyer_slug`` in the CSV files.
 
 Design notes
 ------------

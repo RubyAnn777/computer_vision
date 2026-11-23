@@ -15,6 +15,10 @@ Every flyer in ``data/raw/flyers.csv`` has a ``split_role``:
   the pool pages that were not drawn, they are the input for the automatically
   extracted tile collection.
 
+Only pages that the automatic check in ``pages.csv`` marks
+``suggested_eligible == "yes"`` can be drawn; pages marked ``review`` cannot.
+This removed 19 unseen pages from the frame and no pool page.
+
 The output is committed. Running the script again on the same ``data/raw``
 gives the same file byte for byte; the SHA-256 of ``pages.csv`` is stored in
 every row so that a changed input is visible.
