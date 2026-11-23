@@ -33,6 +33,19 @@ SETTINGS: dict[str, object] = {
     # Update the weights after every batch. The default (nbs 64) sums 8 batches
     # per update; with 4 batches per epoch that is one update every 2 epochs.
     "nbs": 8,
+    # Optimizer written out: these four values are exactly what Ultralytics'
+    # "auto" picks for this data (AdamW, lr 0.002 for one class, beta1 0.9,
+    # no bias warm-up), so the learning rate can be tuned.
+    "optimizer": "AdamW",
+    "lr0": 0.002,
+    "momentum": 0.9,
+    "warmup_bias_lr": 0.0,
+    "freeze": None,  # number of first layers kept fixed; None trains all
+    # Augmentation defaults, written out so they can be tuned.
+    "fliplr": 0.5,  # left-right flip probability (mirrors the text)
+    "hsv_h": 0.015,  # colour jitter: hue, saturation, brightness
+    "hsv_s": 0.7,
+    "hsv_v": 0.4,
     "seed": 2026,
     "deterministic": True,
     "plots": True,
@@ -69,6 +82,8 @@ def train(name: str, weights: str = WEIGHTS, **overrides: object) -> Path:
         "device": device,
         # Absolute, because Ultralytics nests a relative project inside runs/detect.
         "project": str(Path("runs/detect").resolve()),
+        # Reuse the folder of an interrupted run instead of creating name2.
+        "exist_ok": True,
     }
 
     model = YOLO(weights)
