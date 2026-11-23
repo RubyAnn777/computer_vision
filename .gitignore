@@ -19,7 +19,8 @@ dist/
 *.egg-info/
 
 # Data and model artefacts
-data/raw/
+data/raw/*
+!data/raw/*.csv
 data/interim/
 data/processed/
 *.pt
