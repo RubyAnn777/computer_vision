@@ -1,18 +1,21 @@
 # Annotation policy
 
-Version 1.2, 2026-11-21. See the change log at the end.
+> **Frozen.** Version 1.3, locked on 2026-11-21 after the 5-page pilot.
+> These rules apply unchanged to every page in pass 1 and pass 2. Any later
+> change requires re-checking every page already annotated and a new entry
+> in the change log.
 
 The boxes are drawn with the provided bounding box tool (`bbox_tool.html`) and
 used in two ways: first, as hand-labelled ground truth for a single-class
 detector ("product"), and second, cropped, as tiles for the manual image
 collection used in later tasks. The flyers were collected with a Claude agent
-and then reviewed manually. Rules are numbered so that the report and the
-edge-case log can cite them.
+and then reviewed manually. Rules are numbered so that the report can cite
+them.
 
 ## Scope
 
-- Source: German supermarket flyers. Main pool: Kaufland, Aldi Süd, Penny
-  and Norma. Unseen retailer: Müller (drugstore), used only for evaluation and
+- Source: German supermarket flyers. Main pool: Kaufland, Aldi Süd and
+  Penny. Unseen retailer: Müller (drugstore), used only for evaluation and
   never for training, model selection or threshold tuning.
 - One class only: `product`.
 
@@ -67,7 +70,8 @@ edge-case log can cite them.
   product. Only the pack next to it is boxed. A plated dish with no pack is not
   boxed.
 - **R6** Contents shown spilling out in front of a pack (nuts, pasta) are not
-  part of the box, unless the loose food itself is the offer (R4).
+  part of the box, unless the loose food itself is the offer (R4). if non food items
+  are shown in front of the box, they are included.
 - **R7** Never boxed: price tags and badges, logos, text, quality seals,
   icons, people, props (plates, boards, cutlery).
 
@@ -90,11 +94,11 @@ edge-case log can cite them.
    visibly skipped in the tool.
 2. **Pass 1 (ground truth).** Every eligible page is annotated in
    `bbox_tool.html`, with images from `data/interim/pages/annotate/` and
-   annotations saved to `data/annotations/pass1/`. Each finished page gets a
-   row in `data/annotation_log.csv`.
-3. **Pilot.** After the first 5 pages, this policy is revised once and frozen
-   with the date. A later change means re-checking every page already
-   annotated, and is logged below.
+   annotations saved to `data/annotations/pass1/`. Every eligible page
+   contains at least one product (P4), so a page without a `.txt` file is
+   not yet annotated.
+3. **Pilot.** After the first 5 pages, this policy was reviewed and frozen as
+   v1.3 on 2026-11-21 (see the note at the top).
 4. **Pass 2 (consistency check).** At least 3 days after pass 1, 10 seeded
    pages (2 per retailer, Müller included) are re-annotated into
    `data/annotations/pass2/` without looking at pass 1. Pass 2 only measures
@@ -123,3 +127,4 @@ edge-case log can cite them.
 | 1.0 | 2026-11-10 | First draft. |
 | 1.1 | 2026-11-10 | Non-food included; three-offer page rule removed. |
 | 1.2 | 2026-11-21 | Added P4 (no product), P5 (duplicate), P6 (defect) and the "never a reason" list; P3 rewritten to match the code; no replacement of discarded pages; R1 restored to food or non-food (needed for Müller); added Process, log files and change log. No page had been annotated, so nothing needed re-checking. |
+| 1.3 | 2026-11-21 | G5 (minimum box size of 20 px) removed: every product that passes G3 is boxed, whatever its size. No separate overlap rule: G2 covers occluders. Annotation log and edge-case log dropped; `page_screening.csv` is the only log. Pass 2 gap set to at least 3 days. Policy frozen after the 5-page pilot. |

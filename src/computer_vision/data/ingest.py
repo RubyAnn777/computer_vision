@@ -1,7 +1,7 @@
 """Bring every flyer page to one common resolution.
 
 Flyers arrive as JPEG pages of different sizes (Aldi Süd 1807 x 3189,
-Kaufland 1458 x 2400) and as PDFs (Penny, Norma, Edeka). Annotations are pixel
+Kaufland 1458 x 2400) and as PDFs (Penny, Edeka). Annotations are pixel
 coordinates, and the policy's minimum box size is in pixels, so every page is
 stored with the same long side before anyone draws a box. This plays the role
 that a fixed DPI plays for PDF-only datasets.
