@@ -5,8 +5,9 @@ The method is explained step by step in
 model on every val page, compares its boxes with the hand-drawn boxes in
 ``data/annotations/pass1/`` and writes into the run folder
 
-- ``threshold.csv``: hits, wrong boxes, misses, precision, recall and F1 for
-  every threshold from 0.01 to 0.99;
+- ``threshold.csv``: hits, wrong boxes, misses, precision, recall, F1 and
+  the median crop scores (clean, complete) for every threshold from 0.01
+  to 0.99;
 - ``threshold.json``: the chosen threshold and its scores.
 
 Rule (D16): finding many products matters more than avoiding wrong boxes,
@@ -18,9 +19,9 @@ the threshold with the highest recall whose precision is still at least
 Only val pages are used, never test or unseen pages: the threshold is a
 setting, and settings are chosen on val.
 
-Usage::
+Usage, with the final model of the tuning (``docs/tuning/report.md``)::
 
-    uv run python scripts/tune_threshold.py --run runs/detect/yolo11n_full
+    uv run python scripts/tune_threshold.py --run runs/detect/s2_final
 """
 
 import argparse
