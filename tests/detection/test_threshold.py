@@ -7,6 +7,7 @@ from computer_vision.detection.threshold import (
     crop_scores,
     iou,
     match,
+    page_errors,
     precision_first,
     score_at,
 )
@@ -24,7 +25,7 @@ def test_iou_identical_disjoint_and_half():
 def test_match_most_confident_prediction_takes_the_box():
     predictions = [(0.4, BOX), (0.9, BOX)]
     assert match(predictions, [BOX]) == [
-        Match(0.9, True, 1.0, 1.0),
+        Match(0.9, True, 1.0, 1.0, 0),
         Match(0.4, False),
     ]
 
@@ -80,5 +81,20 @@ def test_precision_first_highest_recall_above_minimum():
         score(0.9, 1, 0.5, 0),
     ]
     assert precision_first(scores, 0.95).threshold == 0.8
+    # same recall: the higher threshold only drops wrong boxes, so it wins
+    same_recall = [score(0.06, 0.81, 0.986, 0), score(0.10, 0.84, 0.986, 0)]
+    assert precision_first(same_recall, 0.80).threshold == 0.10
     with pytest.raises(ValueError, match="no threshold"):
         precision_first(scores[:1], 0.95)
+
+
+def test_page_errors_sorts_every_box_into_one_kind():
+    other = (20.0, 0.0, 30.0, 10.0)
+    loose = (0.0, 0.0, 10.0, 30.0)  # IoU 1/3 with BOX
+    far = (50.0, 50.0, 60.0, 60.0)
+    predictions = [(0.9, BOX), (0.8, loose), (0.7, far), (0.1, other)]
+    errors = page_errors(predictions, [BOX, other], threshold=0.5)
+    assert errors.hits == [BOX]
+    assert errors.localization == [loose]
+    assert errors.false_positives == [far]
+    assert errors.missed == [other]  # its prediction is below the threshold

@@ -77,6 +77,7 @@ class Match:
     hit: bool
     clean: float | None = None  # crop scores, only for hits
     complete: float | None = None
+    truth: int | None = None  # index of the matched hand-drawn box
 
 
 def match(
@@ -113,7 +114,7 @@ def match(
             continue
         taken[best] = True
         clean, complete = crop_scores(box, truths[best])
-        result.append(Match(confidence, True, clean, complete))
+        result.append(Match(confidence, True, clean, complete, best))
     return result
 
 
@@ -175,10 +176,49 @@ def best_threshold(scores: Sequence[Score]) -> Score:
 def precision_first(scores: Sequence[Score], min_precision: float) -> Score:
     """Return the highest-recall score with at least ``min_precision``.
 
-    On a tie in recall, the lowest threshold. Raises ``ValueError`` if no
-    threshold reaches ``min_precision``.
+    On a tie in recall, the one with the highest precision: if raising the
+    threshold drops only wrong boxes, the higher threshold is better. Raises
+    ``ValueError`` if no threshold reaches ``min_precision``.
     """
     good = [s for s in scores if s.precision >= min_precision]
     if not good:
         raise ValueError(f"no threshold reaches precision {min_precision}")
-    return max(good, key=lambda s: (s.recall, -s.threshold))
+    return max(good, key=lambda s: (s.recall, s.precision, -s.threshold))
+
+
+@dataclass(frozen=True)
+class PageErrors:
+    """What happened on one page at a fixed threshold, for pictures."""
+
+    hits: list[BoxF]  # found a product (IoU >= min_iou)
+    localization: list[BoxF]  # touches a product, but too loosely to count
+    false_positives: list[BoxF]  # on something that is not a product
+    missed: list[BoxF]  # hand-drawn boxes that nothing found
+
+
+def page_errors(
+    predictions: Sequence[tuple[float, BoxF]],
+    truths: Sequence[BoxF],
+    threshold: float,
+    min_iou: float = 0.5,
+    min_overlap: float = 0.1,
+) -> PageErrors:
+    """Sort the predictions of one page into hits and the three error kinds.
+
+    A wrong box (no match) is a localization error if it overlaps some
+    hand-drawn box with IoU of at least ``min_overlap``, otherwise a false
+    positive.
+    """
+    kept = sorted((p for p in predictions if p[0] >= threshold), key=lambda p: -p[0])
+    matched = match(kept, truths, min_iou)
+    errors = PageErrors([], [], [], [])
+    for (_, box), m in zip(kept, matched, strict=True):
+        if m.hit:
+            errors.hits.append(box)
+        elif any(iou(box, t) >= min_overlap for t in truths):
+            errors.localization.append(box)
+        else:
+            errors.false_positives.append(box)
+    found = {m.truth for m in matched}
+    errors.missed.extend(t for i, t in enumerate(truths) if i not in found)
+    return errors
