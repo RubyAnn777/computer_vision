@@ -30,7 +30,7 @@ of memory) is logged as failed and skipped; the stage continues.
 
 Usage::
 
-    uv run python scripts/tune_hyperparams.py --stage 1   # 5 runs
+    uv run python scripts/tune_hyperparams.py --stage 1   # 3 runs
     uv run python scripts/tune_hyperparams.py --stage 2   # 5 runs (+ final)
 """
 
@@ -50,15 +50,15 @@ DOCS = Path("docs/tuning")
 TIE = 0.02  # val mAP50-95 differences up to this count as noise
 SCORE = "mAP50-95"
 
-# (model, image size), smallest and fastest first. 1920 px is left out: on
-# the Mac, yolo11n at 1920 px already needed 22 GB and stalled in epoch 1
-# (memory swapping); yolo11m at 1600 px would need about as much.
+# (model, image size), smallest and fastest first. Left out because the Mac
+# ran out of memory and swapped (epoch 1 took minutes instead of seconds):
+# yolo11n at 1920 px (22 GB) and yolo11s at 1600 px (27 GB). yolo11m was
+# dropped too: it needs even more memory, and the larger yolo11s already
+# scored below yolo11n at 1280 px.
 STAGE1 = [
     ("yolo11n", 1280),
     ("yolo11n", 1600),
     ("yolo11s", 1280),
-    ("yolo11s", 1600),
-    ("yolo11m", 1280),
 ]
 
 # One change at a time, applied to the stage-1 winner.
