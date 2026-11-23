@@ -1,1 +1,1 @@
-"""Dataset utilities: page identity, hashing, annotations and splits."""
+"""Dataset utilities: page ids, page rendering, seeded page sampling and splits."""
