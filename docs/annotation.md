@@ -1,6 +1,7 @@
 # Annotation policy
 
-> **Frozen.** Version 1.3, locked on 2026-11-21 after the 5-page pilot.
+> **Frozen.** Labelling rules locked on 2026-11-21 after the 5-page pilot
+> (v1.3); v1.4 only adds page-eligibility rule P7.
 > These rules apply unchanged to every page in pass 1 and pass 2. Any later
 > change requires re-checking every page already annotated and a new entry
 > in the change log.
@@ -14,9 +15,11 @@ them.
 
 ## Scope
 
-- Source: German supermarket flyers. Main pool: Kaufland, Aldi Süd and
-  Penny. Unseen retailer: Müller (drugstore), used only for evaluation and
-  never for training, model selection or threshold tuning.
+- Source: German retail flyers. Main retailer: Müller (drugstore), whose
+  weekly flyers are split into training, validation and test sets by whole
+  flyer. Unseen retailers: the supermarkets Aldi Süd, Kaufland and Penny, used
+  only for evaluation and never for training, model selection or threshold
+  tuning.
 - One class only: `product`.
 
 ## Coordinates
@@ -38,12 +41,14 @@ them.
   `data/page_screening.csv`, eligible pages included, so that the exclusion
   rate can be reported per rule and retailer.
 - **P3** Pages to annotate are drawn by the seeded function `select_pages`
-  in `scripts/select_annotation_pages.py` (seed 2026). Within each retailer,
-  the quota of 24 pages is spread evenly over the flyer weeks. Within a week,
-  the eligible pages with the smallest SHA-256 keys of `"<seed>:<page_id>"` are
-  taken, which is uniform sampling without replacement. The unseen set is
-  every page of one Müller flyer. Pages are never chosen by hand. Discarded
-  pages are not replaced.
+  in `scripts/select_annotation_pages.py` (seed 2026): within a flyer group,
+  the eligible pages with the smallest SHA-256 keys of `"<seed>:<page_id>"`
+  are taken, which is uniform sampling without replacement. Main pool: 10
+  pages per weekly Müller flyer. Test: every page of the Müller Drogerie KW47
+  2026 flyer. Unseen retailers: the pages drawn for Aldi Süd, Kaufland and
+  Penny (24 per retailer, spread over flyer weeks) that were annotated before
+  the design changed (see change log). Pages are never chosen by hand.
+  Discarded pages are not replaced.
 - **P4** A page is excluded if it depicts no item for sale at all: app,
   loyalty, newsletter or messenger adverts, service tariffs, icon-only pages.
   A page with at least one depicted product stays eligible, however few or
@@ -53,6 +58,11 @@ them.
   is kept and the excluded page names it in `duplicate_of`.
 - **P6** A page is excluded if its image is defective (blank, cut, corrupted
   or the wrong page).
+- **P7** A page is excluded if it offers underwear or lingerie (typically
+  shown worn by models), because its crops are unsuitable as tiles for a
+  customer gift. If such a page was already annotated, its box file is moved
+  from `pass1/` to `data/annotations/excluded/`, so it is kept in git history
+  but never enters a split.
 
 ## What is a product (R)
 
@@ -114,7 +124,7 @@ them.
 | `page_id` | Canonical page id |
 | `set` | `pool` or `unseen` |
 | `decision` | `eligible` or `exclude` |
-| `rule` | `P1`, `P4`, `P5` or `P6`; empty if eligible |
+| `rule` | `P1`, `P4`, `P5`, `P6` or `P7`; empty if eligible |
 | `duplicate_of` | Page id of the kept copy; only for `P5` |
 | `note` | What is on the page, one phrase |
 | `screened_on` | Date |
@@ -128,3 +138,5 @@ them.
 | 1.1 | 2026-11-10 | Non-food included; three-offer page rule removed. |
 | 1.2 | 2026-11-21 | Added P4 (no product), P5 (duplicate), P6 (defect) and the "never a reason" list; P3 rewritten to match the code; no replacement of discarded pages; R1 restored to food or non-food (needed for Müller); added Process, log files and change log. No page had been annotated, so nothing needed re-checking. |
 | 1.3 | 2026-11-21 | G5 (minimum box size of 20 px) removed: every product that passes G3 is boxed, whatever its size. No separate overlap rule: G2 covers occluders. Annotation log and edge-case log dropped; `page_screening.csv` is the only log. Pass 2 gap set to at least 3 days. Policy frozen after the 5-page pilot. |
+| 1.3 | 2026-11-23 | Dataset design changed, labelling rules unchanged: Müller becomes the main retailer and the supermarkets become the unseen set; Scope and P3 updated. |
+| 1.4 | 2026-11-23 | Added P7 (underwear and lingerie pages). Two already annotated pages excluded; their box files moved to `data/annotations/excluded/`. Labelling rules unchanged. |
