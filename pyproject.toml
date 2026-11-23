@@ -15,6 +15,7 @@ dependencies = [
     "pandas>=3.1.1",
     "pymupdf>=2.1",
     "scikit-learn>=1.9.1",
+    "ultralytics>=8.4.216",
 ]
 
 [build-system]
