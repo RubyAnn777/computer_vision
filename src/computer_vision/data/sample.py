@@ -1,6 +1,6 @@
 """Deterministic selection of the pages to annotate.
 
-A fixed number of pages per retailer is drawn, spread evenly over that retailer's flyer 
+A fixed number of pages per retailer is drawn, spread evenly over that retailer's flyer
 groups (weeks).
 The draw must give the same pages on every machine and every Python version, so it
 does not use a random number generator. Instead every page gets a selection key,
