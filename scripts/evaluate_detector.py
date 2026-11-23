@@ -1,20 +1,28 @@
-"""Evaluate a frozen model on the test or unseen pages (run once, at the end).
+"""Evaluate the frozen model on val, test or unseen pages (run once, at the end).
 
 Only run this after the model and threshold are frozen in a tagged commit
 (``git tag frozen-before-test``): test and unseen pages must not influence
-any setting.
+any setting. Val is included so the notebook can compare all splits with the
+same code.
 
 For the chosen split this writes ``runs/detect/<run>/eval_<split>/`` with
 
 - ``metrics.json``: mAP50 and mAP50-95 (computed by Ultralytics over all
   confidences) and, per threshold, hits, wrong boxes, misses, precision,
   recall, F1 and the crop scores, all at IoU 0.5;
+- ``predictions.csv``: every predicted box down to confidence 0.001, with the
+  hand-drawn box it matched (if any) and the overlap;
+- ``truths.csv``: every hand-drawn box, with the confidence of the
+  prediction that found it (empty if none). A box counts as found at a
+  threshold ``t`` exactly when that confidence is at least ``t``, because
+  matching runs from the most confident prediction down;
 - ``pages/<page_id>_t<threshold>.jpg``: every page with green hits, orange
   localization errors (box touches a product but IoU < 0.5), red false
   positives and blue missed products, for the visual examples in the report.
 
 Usage (``R`` is the frozen run folder, e.g. ``runs/detect/tune_n_1280``)::
 
+    uv run python scripts/evaluate_detector.py --run R --split val
     uv run python scripts/evaluate_detector.py --run R --split test
     uv run python scripts/evaluate_detector.py --run R --split unseen --thresholds 0.30
 """
@@ -34,6 +42,7 @@ from computer_vision.data.yolo import read_boxes
 from computer_vision.detection.threshold import (
     BoxF,
     Match,
+    iou,
     match,
     page_errors,
     score_at,
@@ -56,7 +65,7 @@ def main() -> None:
     """Score one split and draw the error pictures."""
     parser = argparse.ArgumentParser(description="Evaluate on test or unseen.")
     parser.add_argument("--run", type=Path, required=True, help="training run folder")
-    parser.add_argument("--split", choices=["test", "unseen"], required=True)
+    parser.add_argument("--split", choices=["val", "test", "unseen"], required=True)
     parser.add_argument(
         "--thresholds",
         type=float,
@@ -99,6 +108,8 @@ def main() -> None:
         )
     matched: list[Match] = []
     n_truths = 0
+    prediction_rows: list[dict[str, object]] = []
+    truth_rows: list[dict[str, object]] = []
     for page_id in pages:
         image_path = IMAGES / f"{page_id}.png"
         truths: list[BoxF] = list(read_boxes(BOXES / f"{page_id}.txt"))
@@ -114,8 +125,44 @@ def main() -> None:
                 boxes.conf.tolist(), boxes.xyxy.tolist(), strict=True
             )
         ]
-        matched += match(predictions, truths, MIN_IOU)
+        page_matches = match(predictions, truths, MIN_IOU)
+        matched += page_matches
         n_truths += len(truths)
+        found_by: dict[int, float] = {}
+        ordered = sorted(predictions, key=lambda p: -p[0])  # the order of match()
+        for (confidence, box), m in zip(ordered, page_matches, strict=True):
+            overlaps = [iou(box, t) for t in truths]
+            if m.truth is not None:
+                found_by[m.truth] = confidence
+            prediction_rows.append(
+                {
+                    "page_id": page_id,
+                    "xmin": round(box[0], 1),
+                    "ymin": round(box[1], 1),
+                    "xmax": round(box[2], 1),
+                    "ymax": round(box[3], 1),
+                    "confidence": round(confidence, 5),
+                    "truth_index": "" if m.truth is None else m.truth,
+                    "iou": "" if m.truth is None else round(overlaps[m.truth], 4),
+                    "best_iou_any_truth": round(max(overlaps, default=0.0), 4),
+                    "clean": "" if m.clean is None else round(m.clean, 4),
+                    "complete": "" if m.complete is None else round(m.complete, 4),
+                }
+            )
+        for index, (x0, y0, x1, y1) in enumerate(truths):
+            truth_rows.append(
+                {
+                    "page_id": page_id,
+                    "truth_index": index,  # line order in the box file
+                    "xmin": x0,
+                    "ymin": y0,
+                    "xmax": x1,
+                    "ymax": y1,
+                    "found_by_confidence": round(found_by[index], 5)
+                    if index in found_by
+                    else "",
+                }
+            )
         for t in thresholds:
             errors = page_errors(predictions, truths, t, MIN_IOU)
             image = cv2.imread(str(image_path))
@@ -139,6 +186,11 @@ def main() -> None:
         "at_thresholds": [asdict(score_at(matched, n_truths, t)) for t in thresholds],
     }
     (out / "metrics.json").write_text(json.dumps(summary, indent=2) + "\n")
+    for name, rows in (("predictions", prediction_rows), ("truths", truth_rows)):
+        with (out / f"{name}.csv").open("w", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+            writer.writeheader()
+            writer.writerows(rows)
     print(f"{args.split}: {len(pages)} pages, {n_truths} hand-drawn boxes")
     print(f"mAP50 {summary['mAP50']:.3f}, mAP50-95 {summary['mAP50-95']:.3f}")
     for s in summary["at_thresholds"]:
