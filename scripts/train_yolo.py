@@ -34,9 +34,14 @@ WEIGHTS = "yolo11n.pt"  # COCO-pretrained; Ultralytics downloads it on first use
 
 SETTINGS: dict[str, object] = {
     "imgsz": 1280,  # small products stay visible; archive and test both shrink
-    "epochs": 150,  # upper limit; early stopping usually ends sooner
-    "patience": 30,  # stop after 30 epochs without a better val score
+    "epochs": 150,  # one epoch is only 4 steps, so all 150 take about 13 min
+    # No early stopping: the val score dips after warm-up and needs more than
+    # 30 epochs to recover, so patience 30 stopped the first run too soon.
+    "patience": 150,
     "batch": 8,  # lower to 4 if the Mac runs out of memory
+    # Update the weights after every batch. The default (nbs 64) sums 8 batches
+    # per update; with 4 batches per epoch that is one update every 2 epochs.
+    "nbs": 8,
     "seed": 2026,
     "deterministic": True,
     # Absolute, because Ultralytics nests a relative project inside runs/detect.
