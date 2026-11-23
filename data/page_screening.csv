@@ -1,133 +1,133 @@
-page_id,set,decision,rule,duplicate_of,note,screened_on,policy_version
-aldi-sued_kw46-26-op-mp_p002,unseen,exclude,P4,,loyalty-programme advert; no product depicted,2026-11-21,1.2
-aldi-sued_kw46-26-op-mp_p006,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw46-26-op-mp_p008,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw46-26-op-mp_p010,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw46-26-op-mp_p026,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw46-26-op-mp_p032,unseen,exclude,P4,,app and newsletter advert; only flyer thumbnails,2026-11-21,1.2
-aldi-sued_kw47-26-op_p007,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw47-26-op_p021,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw47-26-op_p024,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw47-26-op_p025,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw47-26-op_p031,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw47-26-op_p032,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw48-26-vop_p003,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw48-26-vop_p008,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw48-26-vop_p010,unseen,exclude,P7,,clothing page with lingerie and tights worn by models,2026-11-23,1.4
-aldi-sued_kw48-26-vop_p014,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw48-26-vop_p020,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw48-26-vop_p024,unseen,exclude,P4,,WhatsApp channel advert; no product depicted,2026-11-21,1.2
-aldi-sued_kw49-26-vop_p009,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw49-26-vop_p011,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw49-26-vop_p013,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw49-26-vop_p016,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw49-26-vop_p017,unseen,eligible,,,,2026-11-21,1.2
-aldi-sued_kw49-26-vop_p025,unseen,exclude,P4,,WhatsApp channel advert; identical to aldi-sued_kw48-26-vop_p024,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d46_p001,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d46_p010,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d46_p027,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d46_p029,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d46_p037,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d46_p068,unseen,exclude,P4,,Black Week advert for the online marketplace; no flyer offer (discarded by Ruby),2026-11-23,1.4
-kaufland_de-de-kdz1-3000-d48_p001,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d48_p002,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d48_p006,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d48_p029,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d48_p031,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d48_p064,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d48_p075,unseen,exclude,P4,,messenger flyer advert; phone mock-up only,2026-11-21,1.2
-kaufland_de-de-kdz1-3000-d48_p078,unseen,exclude,P4,,Black Week advert for the online marketplace; no flyer offer (same page as kaufland_de-de-kdz1-3000-d46_p068),2026-11-23,1.4
-kaufland_de-de-leaflet1-3000-d46-od_p005,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-leaflet1-3000-d46-od_p007,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-wrapper1-3000-d47_p003,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-wrapper1-3000-d47_p010,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-wrapper1-3000-d47_p013,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-wrapper1-3000-d47_p023,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-wrapper1-3000-d47_p028,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-wrapper1-3000-d47_p042,unseen,eligible,,,,2026-11-21,1.2
-kaufland_de-de-wrapper1-3000-d47_p052,unseen,exclude,P4,,coupon page; packs only illustrate category discounts (discarded by Ruby),2026-11-23,1.4
-kaufland_de-de-wrapper1-3000-d47_p059,unseen,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p001,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p002,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p003,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p004,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p005,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p006,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p007,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p008,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p009,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p010,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p011,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p012,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p013,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p014,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p015,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p016,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p017,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p018,test,eligible,,,,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p019,test,exclude,P4,,app advert; no product depicted,2026-11-21,1.2
-mueller_drogerie-kw47-2026_p020,test,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw46-15a-04-80_p003,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw46-15a-04-80_p021,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw46-15a-04-80_p030,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw46-15a-04-80_p036,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw46-15a-04-80_p037,unseen,exclude,P4,,icons only (fruit and vegetable promise),2026-11-21,1.2
-penny_penny-hz-kw46-15a-04-80_p039,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw46-15a-04-80_p040,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw46-15a-04-80_p047,unseen,exclude,P4,,coupon and app page; one tiny collectible pack (borderline),2026-11-21,1.2
-penny_penny-hz-kw47-15a-04-80_p013,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw47-15a-04-80_p015,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw47-15a-04-80_p020,unseen,exclude,P1,,offers are decorations placed in a living-room scene (borderline),2026-11-21,1.2
-penny_penny-hz-kw47-15a-04-80_p024,unseen,exclude,P7,,clothing page with men's underwear worn by a model,2026-11-23,1.4
-penny_penny-hz-kw47-15a-04-80_p027,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw47-15a-04-80_p031,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw47-15a-04-80_p041,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw47-15a-04-80_p042,unseen,exclude,P1,,products only inside a shopping-trolley scene,2026-11-21,1.2
-penny_penny-hz-kw48-15a-04-80_p002,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw48-15a-04-80_p006,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw48-15a-04-80_p011,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw48-15a-04-80_p013,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw48-15a-04-80_p018,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw48-15a-04-80_p020,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw48-15a-04-80_p030,unseen,eligible,,,,2026-11-21,1.2
-penny_penny-hz-kw48-15a-04-80_p041,unseen,exclude,P4,,icons only (fruit and vegetable promise),2026-11-21,1.2
-mueller_prospekt-2023-kw48_p003,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2023-kw48_p006,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2023-kw48_p007,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2023-kw48_p010,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2023-kw48_p011,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2023-kw48_p012,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2023-kw48_p013,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2023-kw48_p015,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2023-kw48_p016,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2023-kw48_p017,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw46_p001,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw46_p005,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw46_p007,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw46_p010,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw46_p011,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw46_p012,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw46_p014,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw46_p018,pool,exclude,P4,,"Müller app advert; phone mock-up, no product depicted",2026-11-23,1.3
-mueller_prospekt-2024-kw46_p019,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw46_p022,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw48_p006,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw48_p007,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw48_p011,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw48_p012,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw48_p013,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw48_p015,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw48_p016,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw48_p017,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw48_p018,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw48_p019,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw49_p001,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw49_p002,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw49_p004,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw49_p005,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw49_p006,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw49_p007,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw49_p009,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw49_p011,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw49_p013,pool,eligible,,,,2026-11-23,1.3
-mueller_prospekt-2024-kw49_p017,pool,eligible,,,,2026-11-23,1.3
+page_id,decision,rule,note
+aldi-sued_kw46-26-op-mp_p002,exclude,P4,loyalty-programme advert; no product depicted
+aldi-sued_kw46-26-op-mp_p006,eligible,,
+aldi-sued_kw46-26-op-mp_p008,eligible,,
+aldi-sued_kw46-26-op-mp_p010,eligible,,
+aldi-sued_kw46-26-op-mp_p026,eligible,,
+aldi-sued_kw46-26-op-mp_p032,exclude,P4,app and newsletter advert; only flyer thumbnails
+aldi-sued_kw47-26-op_p007,eligible,,
+aldi-sued_kw47-26-op_p021,eligible,,
+aldi-sued_kw47-26-op_p024,eligible,,
+aldi-sued_kw47-26-op_p025,eligible,,
+aldi-sued_kw47-26-op_p031,eligible,,
+aldi-sued_kw47-26-op_p032,eligible,,
+aldi-sued_kw48-26-vop_p003,eligible,,
+aldi-sued_kw48-26-vop_p008,eligible,,
+aldi-sued_kw48-26-vop_p010,exclude,P7,clothing page with lingerie and tights worn by models
+aldi-sued_kw48-26-vop_p014,eligible,,
+aldi-sued_kw48-26-vop_p020,eligible,,
+aldi-sued_kw48-26-vop_p024,exclude,P4,WhatsApp channel advert; no product depicted
+aldi-sued_kw49-26-vop_p009,eligible,,
+aldi-sued_kw49-26-vop_p011,eligible,,
+aldi-sued_kw49-26-vop_p013,eligible,,
+aldi-sued_kw49-26-vop_p016,eligible,,
+aldi-sued_kw49-26-vop_p017,eligible,,
+aldi-sued_kw49-26-vop_p025,exclude,P4,WhatsApp channel advert; identical to aldi-sued_kw48-26-vop_p024
+kaufland_de-de-kdz1-3000-d46_p001,eligible,,
+kaufland_de-de-kdz1-3000-d46_p010,eligible,,
+kaufland_de-de-kdz1-3000-d46_p027,eligible,,
+kaufland_de-de-kdz1-3000-d46_p029,eligible,,
+kaufland_de-de-kdz1-3000-d46_p037,eligible,,
+kaufland_de-de-kdz1-3000-d46_p068,exclude,P4,Black Week advert for the online marketplace; no flyer offer (discarded by Ruby)
+kaufland_de-de-kdz1-3000-d48_p001,eligible,,
+kaufland_de-de-kdz1-3000-d48_p002,eligible,,
+kaufland_de-de-kdz1-3000-d48_p006,eligible,,
+kaufland_de-de-kdz1-3000-d48_p029,eligible,,
+kaufland_de-de-kdz1-3000-d48_p031,eligible,,
+kaufland_de-de-kdz1-3000-d48_p064,eligible,,
+kaufland_de-de-kdz1-3000-d48_p075,exclude,P4,messenger flyer advert; phone mock-up only
+kaufland_de-de-kdz1-3000-d48_p078,exclude,P4,Black Week advert for the online marketplace; no flyer offer (same page as kaufland_de-de-kdz1-3000-d46_p068)
+kaufland_de-de-leaflet1-3000-d46-od_p005,eligible,,
+kaufland_de-de-leaflet1-3000-d46-od_p007,eligible,,
+kaufland_de-de-wrapper1-3000-d47_p003,eligible,,
+kaufland_de-de-wrapper1-3000-d47_p010,eligible,,
+kaufland_de-de-wrapper1-3000-d47_p013,eligible,,
+kaufland_de-de-wrapper1-3000-d47_p023,eligible,,
+kaufland_de-de-wrapper1-3000-d47_p028,eligible,,
+kaufland_de-de-wrapper1-3000-d47_p042,eligible,,
+kaufland_de-de-wrapper1-3000-d47_p052,exclude,P4,coupon page; packs only illustrate category discounts (discarded by Ruby)
+kaufland_de-de-wrapper1-3000-d47_p059,eligible,,
+mueller_drogerie-kw47-2026_p001,eligible,,
+mueller_drogerie-kw47-2026_p002,eligible,,
+mueller_drogerie-kw47-2026_p003,eligible,,
+mueller_drogerie-kw47-2026_p004,eligible,,
+mueller_drogerie-kw47-2026_p005,eligible,,
+mueller_drogerie-kw47-2026_p006,eligible,,
+mueller_drogerie-kw47-2026_p007,eligible,,
+mueller_drogerie-kw47-2026_p008,eligible,,
+mueller_drogerie-kw47-2026_p009,eligible,,
+mueller_drogerie-kw47-2026_p010,eligible,,
+mueller_drogerie-kw47-2026_p011,eligible,,
+mueller_drogerie-kw47-2026_p012,eligible,,
+mueller_drogerie-kw47-2026_p013,eligible,,
+mueller_drogerie-kw47-2026_p014,eligible,,
+mueller_drogerie-kw47-2026_p015,eligible,,
+mueller_drogerie-kw47-2026_p016,eligible,,
+mueller_drogerie-kw47-2026_p017,eligible,,
+mueller_drogerie-kw47-2026_p018,eligible,,
+mueller_drogerie-kw47-2026_p019,exclude,P4,app advert; no product depicted
+mueller_drogerie-kw47-2026_p020,eligible,,
+penny_penny-hz-kw46-15a-04-80_p003,eligible,,
+penny_penny-hz-kw46-15a-04-80_p021,eligible,,
+penny_penny-hz-kw46-15a-04-80_p030,eligible,,
+penny_penny-hz-kw46-15a-04-80_p036,eligible,,
+penny_penny-hz-kw46-15a-04-80_p037,exclude,P4,icons only (fruit and vegetable promise)
+penny_penny-hz-kw46-15a-04-80_p039,eligible,,
+penny_penny-hz-kw46-15a-04-80_p040,eligible,,
+penny_penny-hz-kw46-15a-04-80_p047,exclude,P4,coupon and app page; one tiny collectible pack (borderline)
+penny_penny-hz-kw47-15a-04-80_p013,eligible,,
+penny_penny-hz-kw47-15a-04-80_p015,eligible,,
+penny_penny-hz-kw47-15a-04-80_p020,exclude,P1,offers are decorations placed in a living-room scene (borderline)
+penny_penny-hz-kw47-15a-04-80_p024,exclude,P7,clothing page with men's underwear worn by a model
+penny_penny-hz-kw47-15a-04-80_p027,eligible,,
+penny_penny-hz-kw47-15a-04-80_p031,eligible,,
+penny_penny-hz-kw47-15a-04-80_p041,eligible,,
+penny_penny-hz-kw47-15a-04-80_p042,exclude,P1,products only inside a shopping-trolley scene
+penny_penny-hz-kw48-15a-04-80_p002,eligible,,
+penny_penny-hz-kw48-15a-04-80_p006,eligible,,
+penny_penny-hz-kw48-15a-04-80_p011,eligible,,
+penny_penny-hz-kw48-15a-04-80_p013,eligible,,
+penny_penny-hz-kw48-15a-04-80_p018,eligible,,
+penny_penny-hz-kw48-15a-04-80_p020,eligible,,
+penny_penny-hz-kw48-15a-04-80_p030,eligible,,
+penny_penny-hz-kw48-15a-04-80_p041,exclude,P4,icons only (fruit and vegetable promise)
+mueller_prospekt-2023-kw48_p003,eligible,,
+mueller_prospekt-2023-kw48_p006,eligible,,
+mueller_prospekt-2023-kw48_p007,eligible,,
+mueller_prospekt-2023-kw48_p010,eligible,,
+mueller_prospekt-2023-kw48_p011,eligible,,
+mueller_prospekt-2023-kw48_p012,eligible,,
+mueller_prospekt-2023-kw48_p013,eligible,,
+mueller_prospekt-2023-kw48_p015,eligible,,
+mueller_prospekt-2023-kw48_p016,eligible,,
+mueller_prospekt-2023-kw48_p017,eligible,,
+mueller_prospekt-2024-kw46_p001,eligible,,
+mueller_prospekt-2024-kw46_p005,eligible,,
+mueller_prospekt-2024-kw46_p007,eligible,,
+mueller_prospekt-2024-kw46_p010,eligible,,
+mueller_prospekt-2024-kw46_p011,eligible,,
+mueller_prospekt-2024-kw46_p012,eligible,,
+mueller_prospekt-2024-kw46_p014,eligible,,
+mueller_prospekt-2024-kw46_p018,exclude,P4,"Müller app advert; phone mock-up, no product depicted"
+mueller_prospekt-2024-kw46_p019,eligible,,
+mueller_prospekt-2024-kw46_p022,eligible,,
+mueller_prospekt-2024-kw48_p006,eligible,,
+mueller_prospekt-2024-kw48_p007,eligible,,
+mueller_prospekt-2024-kw48_p011,eligible,,
+mueller_prospekt-2024-kw48_p012,eligible,,
+mueller_prospekt-2024-kw48_p013,eligible,,
+mueller_prospekt-2024-kw48_p015,eligible,,
+mueller_prospekt-2024-kw48_p016,eligible,,
+mueller_prospekt-2024-kw48_p017,eligible,,
+mueller_prospekt-2024-kw48_p018,eligible,,
+mueller_prospekt-2024-kw48_p019,eligible,,
+mueller_prospekt-2024-kw49_p001,eligible,,
+mueller_prospekt-2024-kw49_p002,eligible,,
+mueller_prospekt-2024-kw49_p004,eligible,,
+mueller_prospekt-2024-kw49_p005,eligible,,
+mueller_prospekt-2024-kw49_p006,eligible,,
+mueller_prospekt-2024-kw49_p007,eligible,,
+mueller_prospekt-2024-kw49_p009,eligible,,
+mueller_prospekt-2024-kw49_p011,eligible,,
+mueller_prospekt-2024-kw49_p013,eligible,,
+mueller_prospekt-2024-kw49_p017,eligible,,
