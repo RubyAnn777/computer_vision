@@ -39,7 +39,8 @@ SETTINGS: dict[str, object] = {
     "batch": 8,  # lower to 4 if the Mac runs out of memory
     "seed": 2026,
     "deterministic": True,
-    "project": "runs/detect",
+    # Absolute, because Ultralytics nests a relative project inside runs/detect.
+    "project": str(Path("runs/detect").resolve()),
     "plots": True,
 }
 
