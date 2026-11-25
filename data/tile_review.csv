@@ -1,11 +1,11 @@
 number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1,mueller_haushalt-kueche-katalog-2026_p001_d000,1,keep,,,,
-2,mueller_haushalt-kueche-katalog-2026_p006_d000,1,keep,,,T1,logo
+2,mueller_haushalt-kueche-katalog-2026_p006_d000,1,exclude,T1,AI suggestion accepted in bulk,T1,logo
 3,mueller_haushalt-kueche-katalog-2026_p006_d001,1,keep,,,,
 4,mueller_haushalt-kueche-katalog-2026_p006_d002,1,keep,,,,
 5,mueller_haushalt-kueche-katalog-2026_p006_d003,1,keep,,,,
 6,mueller_haushalt-kueche-katalog-2026_p006_d004,1,keep,,,,
-7,mueller_haushalt-kueche-katalog-2026_p006_d005,1,keep,,,T4,kitchen scene
+7,mueller_haushalt-kueche-katalog-2026_p006_d005,1,exclude,T4,AI suggestion accepted in bulk,T4,kitchen scene
 8,mueller_haushalt-kueche-katalog-2026_p006_d006,1,keep,,,,
 9,mueller_haushalt-kueche-katalog-2026_p006_d007,1,keep,,,,
 10,mueller_haushalt-kueche-katalog-2026_p006_d008,1,keep,,,,
@@ -13,8 +13,8 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 12,mueller_haushalt-kueche-katalog-2026_p006_d010,1,keep,,,,
 13,mueller_haushalt-kueche-katalog-2026_p006_d011,1,keep,,,,
 14,mueller_haushalt-kueche-katalog-2026_p006_d012,1,keep,,,,
-15,mueller_haushalt-kueche-katalog-2026_p007_d000,1,keep,,,T1,icons
-16,mueller_haushalt-kueche-katalog-2026_p007_d001,1,keep,,,T1,logo
+15,mueller_haushalt-kueche-katalog-2026_p007_d000,1,exclude,T1,AI suggestion accepted in bulk,T1,icons
+16,mueller_haushalt-kueche-katalog-2026_p007_d001,1,exclude,T1,AI suggestion accepted in bulk,T1,logo
 17,mueller_haushalt-kueche-katalog-2026_p007_d002,1,keep,,,,
 18,mueller_haushalt-kueche-katalog-2026_p007_d003,1,keep,,,,
 19,mueller_haushalt-kueche-katalog-2026_p007_d004,1,keep,,,,
@@ -26,11 +26,11 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 25,mueller_haushalt-kueche-katalog-2026_p007_d010,1,keep,,,,
 26,mueller_haushalt-kueche-katalog-2026_p008_d000,1,keep,,,,
 27,mueller_haushalt-kueche-katalog-2026_p008_d001,1,keep,,,,
-28,mueller_haushalt-kueche-katalog-2026_p008_d002,1,keep,,,T4,food scene with headline
+28,mueller_haushalt-kueche-katalog-2026_p008_d002,1,exclude,T4,AI suggestion accepted in bulk,T4,food scene with headline
 29,mueller_haushalt-kueche-katalog-2026_p008_d003,1,keep,,,,
 30,mueller_haushalt-kueche-katalog-2026_p008_d004,1,keep,,,,
 31,mueller_haushalt-kueche-katalog-2026_p008_d005,1,keep,,,,
-32,mueller_haushalt-kueche-katalog-2026_p009_d000,1,keep,,,T1,brand text
+32,mueller_haushalt-kueche-katalog-2026_p009_d000,1,exclude,T1,AI suggestion accepted in bulk,T1,brand text
 33,mueller_haushalt-kueche-katalog-2026_p009_d001,1,keep,,,,
 34,mueller_haushalt-kueche-katalog-2026_p009_d002,1,keep,,,,
 35,mueller_haushalt-kueche-katalog-2026_p009_d003,1,keep,,,,
@@ -43,23 +43,23 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 42,mueller_haushalt-kueche-katalog-2026_p010_d004,1,keep,,,,
 43,mueller_haushalt-kueche-katalog-2026_p011_d000,1,keep,,,,
 44,mueller_haushalt-kueche-katalog-2026_p011_d001,1,keep,,,,
-45,mueller_haushalt-kueche-katalog-2026_p011_d002,1,keep,,,T2,partial
-46,mueller_haushalt-kueche-katalog-2026_p011_d003,1,keep,,,T2,partial
+45,mueller_haushalt-kueche-katalog-2026_p011_d002,1,exclude,T2,AI suggestion accepted in bulk,T2,partial
+46,mueller_haushalt-kueche-katalog-2026_p011_d003,1,exclude,T2,AI suggestion accepted in bulk,T2,partial
 47,mueller_haushalt-kueche-katalog-2026_p011_d004,1,keep,,,,
 48,mueller_haushalt-kueche-katalog-2026_p011_d005,1,keep,,,,
-49,mueller_haushalt-kueche-katalog-2026_p011_d006,1,keep,,,T4,styled food
+49,mueller_haushalt-kueche-katalog-2026_p011_d006,1,exclude,T4,AI suggestion accepted in bulk,T4,styled food
 50,mueller_haushalt-kueche-katalog-2026_p012_d000,1,keep,,,,
 51,mueller_haushalt-kueche-katalog-2026_p012_d001,1,keep,,,,
 52,mueller_haushalt-kueche-katalog-2026_p012_d002,1,keep,,,,
-53,mueller_haushalt-kueche-katalog-2026_p012_d003,1,keep,,,T2,unrecognisable
+53,mueller_haushalt-kueche-katalog-2026_p012_d003,1,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
 54,mueller_haushalt-kueche-katalog-2026_p012_d004,1,keep,,,,
 55,mueller_haushalt-kueche-katalog-2026_p012_d005,1,keep,,,,
 56,mueller_haushalt-kueche-katalog-2026_p012_d006,1,keep,,,,
-57,mueller_haushalt-kueche-katalog-2026_p013_d000,1,keep,,,T2,cut off
+57,mueller_haushalt-kueche-katalog-2026_p013_d000,1,exclude,T2,AI suggestion accepted in bulk,T2,cut off
 58,mueller_haushalt-kueche-katalog-2026_p013_d001,1,keep,,,,
-59,mueller_haushalt-kueche-katalog-2026_p013_d002,1,keep,,,T2,cut off
-60,mueller_haushalt-kueche-katalog-2026_p014_d000,1,keep,,,T1,icon
-61,mueller_haushalt-kueche-katalog-2026_p014_d001,2,keep,,,T2,unrecognisable close-up
+59,mueller_haushalt-kueche-katalog-2026_p013_d002,1,exclude,T2,AI suggestion accepted in bulk,T2,cut off
+60,mueller_haushalt-kueche-katalog-2026_p014_d000,1,exclude,T1,AI suggestion accepted in bulk,T1,icon
+61,mueller_haushalt-kueche-katalog-2026_p014_d001,2,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable close-up
 62,mueller_haushalt-kueche-katalog-2026_p014_d002,2,keep,,,,
 63,mueller_haushalt-kueche-katalog-2026_p014_d003,2,keep,,,,
 64,mueller_haushalt-kueche-katalog-2026_p014_d004,2,keep,,,,
@@ -67,21 +67,21 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 66,mueller_haushalt-kueche-katalog-2026_p014_d006,2,keep,,,,
 67,mueller_haushalt-kueche-katalog-2026_p015_d000,2,keep,,,,
 68,mueller_haushalt-kueche-katalog-2026_p015_d001,2,keep,,,,
-69,mueller_haushalt-kueche-katalog-2026_p015_d002,2,keep,,,T2,"streamer close-up, no product"
-70,mueller_haushalt-kueche-katalog-2026_p015_d003,2,keep,,,T2,"streamer close-up, no product"
+69,mueller_haushalt-kueche-katalog-2026_p015_d002,2,exclude,T2,AI suggestion accepted in bulk,T2,"streamer close-up, no product"
+70,mueller_haushalt-kueche-katalog-2026_p015_d003,2,exclude,T2,AI suggestion accepted in bulk,T2,"streamer close-up, no product"
 71,mueller_haushalt-kueche-katalog-2026_p015_d004,2,keep,,,,
 72,mueller_haushalt-kueche-katalog-2026_p015_d005,2,keep,,,,
 73,mueller_haushalt-kueche-katalog-2026_p015_d006,2,keep,,,,
 74,mueller_haushalt-kueche-katalog-2026_p015_d007,2,keep,,,,
 75,mueller_haushalt-kueche-katalog-2026_p015_d008,2,keep,,,,
 76,mueller_haushalt-kueche-katalog-2026_p015_d009,2,keep,,,,
-77,mueller_haushalt-kueche-katalog-2026_p017_d000,2,keep,,,T2,sliver
+77,mueller_haushalt-kueche-katalog-2026_p017_d000,2,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 78,mueller_haushalt-kueche-katalog-2026_p018_d000,2,keep,,,,
 79,mueller_haushalt-kueche-katalog-2026_p018_d001,2,keep,,,,
 80,mueller_haushalt-kueche-katalog-2026_p018_d002,2,keep,,,,
 81,mueller_haushalt-kueche-katalog-2026_p018_d003,2,keep,,,,
 82,mueller_haushalt-kueche-katalog-2026_p018_d004,2,keep,,,,
-83,mueller_haushalt-kueche-katalog-2026_p018_d005,2,keep,,,T2,partial
+83,mueller_haushalt-kueche-katalog-2026_p018_d005,2,exclude,T2,AI suggestion accepted in bulk,T2,partial
 84,mueller_haushalt-kueche-katalog-2026_p019_d000,2,keep,,,,
 85,mueller_haushalt-kueche-katalog-2026_p019_d001,2,keep,,,,
 86,mueller_haushalt-kueche-katalog-2026_p019_d002,2,keep,,,,
@@ -100,12 +100,12 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 99,mueller_haushalt-kueche-katalog-2026_p021_d005,2,keep,,,,
 100,mueller_haushalt-kueche-katalog-2026_p021_d006,2,keep,,,,
 101,mueller_haushalt-kueche-katalog-2026_p021_d007,2,keep,,,,
-102,mueller_haushalt-kueche-katalog-2026_p021_d008,2,keep,,,T2,partial tray
+102,mueller_haushalt-kueche-katalog-2026_p021_d008,2,exclude,T2,AI suggestion accepted in bulk,T2,partial tray
 103,mueller_haushalt-kueche-katalog-2026_p021_d009,2,keep,,,,
 104,mueller_haushalt-kueche-katalog-2026_p021_d010,2,keep,,,,
 105,mueller_haushalt-kueche-katalog-2026_p021_d011,2,keep,,,,
 106,mueller_haushalt-kueche-katalog-2026_p021_d012,2,keep,,,,
-107,mueller_haushalt-kueche-katalog-2026_p021_d013,2,keep,,,T2,fabric close-up
+107,mueller_haushalt-kueche-katalog-2026_p021_d013,2,exclude,T2,AI suggestion accepted in bulk,T2,fabric close-up
 108,mueller_haushalt-kueche-katalog-2026_p022_d000,2,keep,,,,
 109,mueller_haushalt-kueche-katalog-2026_p022_d001,2,keep,,,,
 110,mueller_haushalt-kueche-katalog-2026_p022_d002,2,keep,,,,
@@ -116,8 +116,8 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 115,mueller_haushalt-kueche-katalog-2026_p023_d003,2,keep,,,,
 116,mueller_haushalt-kueche-katalog-2026_p023_d004,2,keep,,,,
 117,mueller_haushalt-kueche-katalog-2026_p024_d000,2,keep,,,,
-118,mueller_haushalt-kueche-katalog-2026_p024_d001,2,keep,,,T3,several vases
-119,mueller_haushalt-kueche-katalog-2026_p024_d002,2,keep,,,T3,several vases
+118,mueller_haushalt-kueche-katalog-2026_p024_d001,2,exclude,T3,AI suggestion accepted in bulk,T3,several vases
+119,mueller_haushalt-kueche-katalog-2026_p024_d002,2,exclude,T3,AI suggestion accepted in bulk,T3,several vases
 120,mueller_haushalt-kueche-katalog-2026_p024_d003,2,keep,,,,
 121,mueller_haushalt-kueche-katalog-2026_p024_d004,3,keep,,,,
 122,mueller_haushalt-kueche-katalog-2026_p024_d005,3,keep,,,,
@@ -138,24 +138,24 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 137,mueller_haushalt-kueche-katalog-2026_p026_d006,3,keep,,,,
 138,mueller_haushalt-kueche-katalog-2026_p026_d007,3,keep,,,,
 139,mueller_haushalt-kueche-katalog-2026_p027_d000,3,keep,,,,
-140,mueller_haushalt-kueche-katalog-2026_p027_d001,3,keep,,,T1,badge text
+140,mueller_haushalt-kueche-katalog-2026_p027_d001,3,exclude,T1,AI suggestion accepted in bulk,T1,badge text
 141,mueller_haushalt-kueche-katalog-2026_p027_d002,3,keep,,,,
 142,mueller_haushalt-kueche-katalog-2026_p027_d003,3,keep,,,,
 143,mueller_haushalt-kueche-katalog-2026_p027_d004,3,keep,,,,
-144,mueller_haushalt-kueche-katalog-2026_p027_d005,3,keep,,,T3,several bags
-145,mueller_haushalt-kueche-katalog-2026_p027_d006,3,keep,,,T3,several bags
-146,mueller_haushalt-kueche-katalog-2026_p027_d007,3,keep,,,T3,several bags
-147,mueller_haushalt-kueche-katalog-2026_p028_d000,3,keep,,,T2,sliver
-148,mueller_haushalt-kueche-katalog-2026_p028_d001,3,keep,,,T2,partial
+144,mueller_haushalt-kueche-katalog-2026_p027_d005,3,exclude,T3,AI suggestion accepted in bulk,T3,several bags
+145,mueller_haushalt-kueche-katalog-2026_p027_d006,3,exclude,T3,AI suggestion accepted in bulk,T3,several bags
+146,mueller_haushalt-kueche-katalog-2026_p027_d007,3,exclude,T3,AI suggestion accepted in bulk,T3,several bags
+147,mueller_haushalt-kueche-katalog-2026_p028_d000,3,exclude,T2,AI suggestion accepted in bulk,T2,sliver
+148,mueller_haushalt-kueche-katalog-2026_p028_d001,3,exclude,T2,AI suggestion accepted in bulk,T2,partial
 149,mueller_haushalt-kueche-katalog-2026_p028_d002,3,keep,,,,
-150,mueller_haushalt-kueche-katalog-2026_p028_d003,3,keep,,,T2,partial
-151,mueller_haushalt-kueche-katalog-2026_p028_d004,3,keep,,,T2,partial
+150,mueller_haushalt-kueche-katalog-2026_p028_d003,3,exclude,T2,AI suggestion accepted in bulk,T2,partial
+151,mueller_haushalt-kueche-katalog-2026_p028_d004,3,exclude,T2,AI suggestion accepted in bulk,T2,partial
 152,mueller_haushalt-kueche-katalog-2026_p030_d000,3,keep,,,,
 153,mueller_haushalt-kueche-katalog-2026_p031_d000,3,keep,,,,
 154,mueller_haushalt-kueche-katalog-2026_p031_d001,3,keep,,,,
 155,mueller_haushalt-kueche-katalog-2026_p031_d002,3,keep,,,,
 156,mueller_haushalt-kueche-katalog-2026_p031_d003,3,keep,,,,
-157,mueller_haushalt-kueche-katalog-2026_p032_d000,3,keep,,,T2,sliver
+157,mueller_haushalt-kueche-katalog-2026_p032_d000,3,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 158,mueller_haushalt-kueche-katalog-2026_p032_d001,3,keep,,,,
 159,mueller_haushalt-kueche-katalog-2026_p032_d002,3,keep,,,,
 160,mueller_haushalt-kueche-katalog-2026_p032_d003,3,keep,,,,
@@ -180,15 +180,15 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 179,mueller_haushalt-kueche-katalog-2026_p033_d001,3,keep,,,,
 180,mueller_haushalt-kueche-katalog-2026_p033_d002,3,keep,,,,
 181,mueller_haushalt-kueche-katalog-2026_p033_d003,4,keep,,,,
-182,mueller_haushalt-kueche-katalog-2026_p033_d004,4,keep,,,T1,scent icon
-183,mueller_haushalt-kueche-katalog-2026_p033_d005,4,keep,,,T1,scent icon
-184,mueller_haushalt-kueche-katalog-2026_p033_d006,4,keep,,,T1,scent icon
-185,mueller_haushalt-kueche-katalog-2026_p033_d007,4,keep,,,T1,scent icon
-186,mueller_haushalt-kueche-katalog-2026_p033_d008,4,keep,,,T1,scent icon
-187,mueller_haushalt-kueche-katalog-2026_p033_d009,4,keep,,,T1,scent icon
-188,mueller_haushalt-kueche-katalog-2026_p033_d010,4,keep,,,T1,scent icon
-189,mueller_haushalt-kueche-katalog-2026_p033_d011,4,keep,,,T1,scent icon
-190,mueller_haushalt-kueche-katalog-2026_p033_d012,4,keep,,,T1,scent icon
+182,mueller_haushalt-kueche-katalog-2026_p033_d004,4,exclude,T1,AI suggestion accepted in bulk,T1,scent icon
+183,mueller_haushalt-kueche-katalog-2026_p033_d005,4,exclude,T1,AI suggestion accepted in bulk,T1,scent icon
+184,mueller_haushalt-kueche-katalog-2026_p033_d006,4,exclude,T1,AI suggestion accepted in bulk,T1,scent icon
+185,mueller_haushalt-kueche-katalog-2026_p033_d007,4,exclude,T1,AI suggestion accepted in bulk,T1,scent icon
+186,mueller_haushalt-kueche-katalog-2026_p033_d008,4,exclude,T1,AI suggestion accepted in bulk,T1,scent icon
+187,mueller_haushalt-kueche-katalog-2026_p033_d009,4,exclude,T1,AI suggestion accepted in bulk,T1,scent icon
+188,mueller_haushalt-kueche-katalog-2026_p033_d010,4,exclude,T1,AI suggestion accepted in bulk,T1,scent icon
+189,mueller_haushalt-kueche-katalog-2026_p033_d011,4,exclude,T1,AI suggestion accepted in bulk,T1,scent icon
+190,mueller_haushalt-kueche-katalog-2026_p033_d012,4,exclude,T1,AI suggestion accepted in bulk,T1,scent icon
 191,mueller_haushalt-kueche-katalog-2026_p033_d013,4,keep,,,,
 192,mueller_haushalt-kueche-katalog-2026_p033_d014,4,keep,,,,
 193,mueller_haushalt-kueche-katalog-2026_p033_d015,4,keep,,,,
@@ -206,7 +206,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 205,mueller_haushalt-kueche-katalog-2026_p034_d010,4,keep,,,,
 206,mueller_haushalt-kueche-katalog-2026_p035_d000,4,keep,,,,
 207,mueller_haushalt-kueche-katalog-2026_p035_d001,4,keep,,,,
-208,mueller_haushalt-kueche-katalog-2026_p036_d000,4,keep,,,T1,logo
+208,mueller_haushalt-kueche-katalog-2026_p036_d000,4,exclude,T1,AI suggestion accepted in bulk,T1,logo
 209,mueller_haushalt-kueche-katalog-2026_p036_d001,4,keep,,,,
 210,mueller_haushalt-kueche-katalog-2026_p036_d002,4,keep,,,,
 211,mueller_haushalt-kueche-katalog-2026_p036_d003,4,keep,,,,
@@ -216,7 +216,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 215,mueller_haushalt-kueche-katalog-2026_p037_d001,4,keep,,,,
 216,mueller_haushalt-kueche-katalog-2026_p037_d002,4,keep,,,,
 217,mueller_haushalt-kueche-katalog-2026_p037_d003,4,keep,,,,
-218,mueller_haushalt-kueche-katalog-2026_p038_d000,4,keep,,,T2,unrecognisable
+218,mueller_haushalt-kueche-katalog-2026_p038_d000,4,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
 219,mueller_haushalt-kueche-katalog-2026_p040_d000,4,keep,,,,
 220,mueller_haushalt-kueche-katalog-2026_p040_d001,4,keep,,,,
 221,mueller_haushalt-kueche-katalog-2026_p040_d002,4,keep,,,,
@@ -227,9 +227,9 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 226,mueller_haushalt-kueche-katalog-2026_p040_d007,4,keep,,,,
 227,mueller_haushalt-kueche-katalog-2026_p040_d008,4,keep,,,,
 228,mueller_haushalt-kueche-katalog-2026_p041_d000,4,keep,,,,
-229,mueller_haushalt-kueche-katalog-2026_p041_d001,4,keep,,,T2,partial
+229,mueller_haushalt-kueche-katalog-2026_p041_d001,4,exclude,T2,AI suggestion accepted in bulk,T2,partial
 230,mueller_haushalt-kueche-katalog-2026_p041_d002,4,keep,,,,
-231,mueller_haushalt-kueche-katalog-2026_p041_d003,4,keep,,,T2,partial handle
+231,mueller_haushalt-kueche-katalog-2026_p041_d003,4,exclude,T2,AI suggestion accepted in bulk,T2,partial handle
 232,mueller_haushalt-kueche-katalog-2026_p041_d004,4,keep,,,,
 233,mueller_haushalt-kueche-katalog-2026_p042_d000,4,keep,,,,
 234,mueller_haushalt-kueche-katalog-2026_p042_d001,4,keep,,,,
@@ -237,7 +237,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 236,mueller_haushalt-kueche-katalog-2026_p042_d003,4,keep,,,,
 237,mueller_haushalt-kueche-katalog-2026_p042_d004,4,keep,,,,
 238,mueller_haushalt-kueche-katalog-2026_p043_d000,4,keep,,,,
-239,mueller_haushalt-kueche-katalog-2026_p043_d001,4,keep,,,T3,two pots
+239,mueller_haushalt-kueche-katalog-2026_p043_d001,4,exclude,T3,AI suggestion accepted in bulk,T3,two pots
 240,mueller_haushalt-kueche-katalog-2026_p043_d002,4,keep,,,,
 241,mueller_haushalt-kueche-katalog-2026_p043_d003,5,keep,,,,
 242,mueller_haushalt-kueche-katalog-2026_p043_d004,5,keep,,,,
@@ -246,11 +246,11 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 245,mueller_haushalt-kueche-katalog-2026_p043_d007,5,keep,,,,
 246,mueller_haushalt-kueche-katalog-2026_p043_d008,5,keep,,,,
 247,mueller_haushalt-kueche-katalog-2026_p043_d009,5,keep,,,,
-248,mueller_haushalt-kueche-katalog-2026_p043_d010,5,keep,,,T1,colour swatch
-249,mueller_haushalt-kueche-katalog-2026_p043_d011,5,keep,,,T1,colour swatch
-250,mueller_haushalt-kueche-katalog-2026_p043_d012,5,keep,,,T1,colour swatch
+248,mueller_haushalt-kueche-katalog-2026_p043_d010,5,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch
+249,mueller_haushalt-kueche-katalog-2026_p043_d011,5,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch
+250,mueller_haushalt-kueche-katalog-2026_p043_d012,5,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch
 251,mueller_haushalt-kueche-katalog-2026_p044_d000,5,keep,,,,
-252,mueller_haushalt-kueche-katalog-2026_p044_d001,5,keep,,,T2,sliver
+252,mueller_haushalt-kueche-katalog-2026_p044_d001,5,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 253,mueller_haushalt-kueche-katalog-2026_p044_d002,5,keep,,,,
 254,mueller_haushalt-kueche-katalog-2026_p044_d003,5,keep,,,,
 255,mueller_haushalt-kueche-katalog-2026_p045_d000,5,keep,,,,
@@ -268,7 +268,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 267,mueller_haushalt-kueche-katalog-2026_p047_d002,5,keep,,,,
 268,mueller_haushalt-kueche-katalog-2026_p047_d003,5,keep,,,,
 269,mueller_haushalt-kueche-katalog-2026_p047_d004,5,keep,,,,
-270,mueller_haushalt-kueche-katalog-2026_p048_d000,5,keep,,,T2,sliver
+270,mueller_haushalt-kueche-katalog-2026_p048_d000,5,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 271,mueller_haushalt-kueche-katalog-2026_p048_d001,5,keep,,,,
 272,mueller_haushalt-kueche-katalog-2026_p048_d002,5,keep,,,,
 273,mueller_haushalt-kueche-katalog-2026_p048_d003,5,keep,,,,
@@ -278,7 +278,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 277,mueller_haushalt-kueche-katalog-2026_p049_d003,5,keep,,,,
 278,mueller_haushalt-kueche-katalog-2026_p049_d004,5,keep,,,,
 279,mueller_haushalt-kueche-katalog-2026_p049_d005,5,keep,,,,
-280,mueller_haushalt-kueche-katalog-2026_p050_d000,5,keep,,,T4,food scene
+280,mueller_haushalt-kueche-katalog-2026_p050_d000,5,exclude,T4,AI suggestion accepted in bulk,T4,food scene
 281,mueller_haushalt-kueche-katalog-2026_p050_d001,5,keep,,,,
 282,mueller_haushalt-kueche-katalog-2026_p050_d002,5,keep,,,,
 283,mueller_haushalt-kueche-katalog-2026_p050_d003,5,keep,,,,
@@ -302,7 +302,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 301,mueller_haushalt-kueche-katalog-2026_p052_d000,6,keep,,,,
 302,mueller_haushalt-kueche-katalog-2026_p052_d001,6,keep,,,,
 303,mueller_haushalt-kueche-katalog-2026_p052_d002,6,keep,,,,
-304,mueller_haushalt-kueche-katalog-2026_p053_d000,6,keep,,,T4,food scene with logo
+304,mueller_haushalt-kueche-katalog-2026_p053_d000,6,exclude,T4,AI suggestion accepted in bulk,T4,food scene with logo
 305,mueller_haushalt-kueche-katalog-2026_p053_d001,6,keep,,,,
 306,mueller_haushalt-kueche-katalog-2026_p053_d002,6,keep,,,,
 307,mueller_haushalt-kueche-katalog-2026_p053_d003,6,keep,,,,
@@ -311,29 +311,29 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 310,mueller_haushalt-kueche-katalog-2026_p054_d000,6,keep,,,,
 311,mueller_haushalt-kueche-katalog-2026_p055_d000,6,keep,,,,
 312,mueller_haushalt-kueche-katalog-2026_p055_d001,6,keep,,,,
-313,mueller_haushalt-kueche-katalog-2026_p055_d002,6,keep,,,T2,detail close-up
-314,mueller_haushalt-kueche-katalog-2026_p055_d003,6,keep,,,T1,feature icon
+313,mueller_haushalt-kueche-katalog-2026_p055_d002,6,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
+314,mueller_haushalt-kueche-katalog-2026_p055_d003,6,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
 315,mueller_haushalt-kueche-katalog-2026_p055_d004,6,keep,,,,
 316,mueller_haushalt-kueche-katalog-2026_p055_d005,6,keep,,,,
-317,mueller_haushalt-kueche-katalog-2026_p055_d006,6,keep,,,T1,energy badge
+317,mueller_haushalt-kueche-katalog-2026_p055_d006,6,exclude,T1,AI suggestion accepted in bulk,T1,energy badge
 318,mueller_haushalt-kueche-katalog-2026_p055_d007,6,keep,,,,
-319,mueller_haushalt-kueche-katalog-2026_p055_d008,6,keep,,,T1,feature icon
-320,mueller_haushalt-kueche-katalog-2026_p056_d000,6,keep,,,T2,unrecognisable
-321,mueller_haushalt-kueche-katalog-2026_p056_d001,6,keep,,,T1,feature icon
-322,mueller_haushalt-kueche-katalog-2026_p057_d000,6,keep,,,T1,text fragment
-323,mueller_haushalt-kueche-katalog-2026_p057_d001,6,keep,,,T1,text fragment
-324,mueller_haushalt-kueche-katalog-2026_p057_d002,6,keep,,,T1,text fragment
-325,mueller_haushalt-kueche-katalog-2026_p057_d003,6,keep,,,T1,feature icon
-326,mueller_haushalt-kueche-katalog-2026_p057_d004,6,keep,,,T1,feature icon
-327,mueller_haushalt-kueche-katalog-2026_p057_d005,6,keep,,,T1,feature icon
+319,mueller_haushalt-kueche-katalog-2026_p055_d008,6,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+320,mueller_haushalt-kueche-katalog-2026_p056_d000,6,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
+321,mueller_haushalt-kueche-katalog-2026_p056_d001,6,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+322,mueller_haushalt-kueche-katalog-2026_p057_d000,6,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
+323,mueller_haushalt-kueche-katalog-2026_p057_d001,6,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
+324,mueller_haushalt-kueche-katalog-2026_p057_d002,6,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
+325,mueller_haushalt-kueche-katalog-2026_p057_d003,6,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+326,mueller_haushalt-kueche-katalog-2026_p057_d004,6,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+327,mueller_haushalt-kueche-katalog-2026_p057_d005,6,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
 328,mueller_haushalt-kueche-katalog-2026_p057_d006,6,keep,,,,
 329,mueller_haushalt-kueche-katalog-2026_p058_d000,6,keep,,,,
-330,mueller_haushalt-kueche-katalog-2026_p058_d001,6,keep,,,T1,text fragment
+330,mueller_haushalt-kueche-katalog-2026_p058_d001,6,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
 331,mueller_haushalt-kueche-katalog-2026_p058_d002,6,keep,,,,
 332,mueller_haushalt-kueche-katalog-2026_p058_d003,6,keep,,,,
 333,mueller_haushalt-kueche-katalog-2026_p058_d004,6,keep,,,,
-334,mueller_haushalt-kueche-katalog-2026_p059_d000,6,keep,,,T1,text fragment
-335,mueller_haushalt-kueche-katalog-2026_p060_d000,6,keep,,,T3,two pans
+334,mueller_haushalt-kueche-katalog-2026_p059_d000,6,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
+335,mueller_haushalt-kueche-katalog-2026_p060_d000,6,exclude,T3,AI suggestion accepted in bulk,T3,two pans
 336,mueller_haushalt-kueche-katalog-2026_p060_d001,6,keep,,,,
 337,mueller_haushalt-kueche-katalog-2026_p060_d002,6,keep,,,,
 338,mueller_haushalt-kueche-katalog-2026_p060_d003,6,keep,,,,
@@ -361,8 +361,8 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 360,mueller_haushalt-kueche-katalog-2026_p063_d006,6,keep,,,,
 361,mueller_haushalt-kueche-katalog-2026_p063_d007,7,keep,,,,
 362,mueller_haushalt-kueche-katalog-2026_p063_d008,7,keep,,,,
-363,mueller_haushalt-kueche-katalog-2026_p063_d009,7,keep,,,T4,cutting scene
-364,mueller_haushalt-kueche-katalog-2026_p063_d010,7,keep,,,T2,unrecognisable close-up
+363,mueller_haushalt-kueche-katalog-2026_p063_d009,7,exclude,T4,AI suggestion accepted in bulk,T4,cutting scene
+364,mueller_haushalt-kueche-katalog-2026_p063_d010,7,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable close-up
 365,mueller_haushalt-kueche-katalog-2026_p063_d011,7,keep,,,,
 366,mueller_haushalt-kueche-katalog-2026_p063_d012,7,keep,,,,
 367,mueller_haushalt-kueche-katalog-2026_p063_d013,7,keep,,,,
@@ -379,48 +379,48 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 378,mueller_haushalt-kueche-katalog-2026_p064_d010,7,keep,,,,
 379,mueller_haushalt-kueche-katalog-2026_p064_d011,7,keep,,,,
 380,mueller_haushalt-kueche-katalog-2026_p064_d012,7,keep,,,,
-381,mueller_haushalt-kueche-katalog-2026_p064_d013,7,keep,,,T1,material detail icon
+381,mueller_haushalt-kueche-katalog-2026_p064_d013,7,exclude,T1,AI suggestion accepted in bulk,T1,material detail icon
 382,mueller_haushalt-kueche-katalog-2026_p064_d014,7,keep,,,,
-383,mueller_haushalt-kueche-katalog-2026_p064_d015,7,keep,,,T1,material detail icon
+383,mueller_haushalt-kueche-katalog-2026_p064_d015,7,exclude,T1,AI suggestion accepted in bulk,T1,material detail icon
 384,mueller_haushalt-kueche-katalog-2026_p064_d016,7,keep,,,,
 385,mueller_haushalt-kueche-katalog-2026_p064_d017,7,keep,,,,
 386,mueller_haushalt-kueche-katalog-2026_p064_d018,7,keep,,,,
 387,mueller_haushalt-kueche-katalog-2026_p064_d019,7,keep,,,,
-388,mueller_haushalt-kueche-katalog-2026_p064_d020,7,keep,,,T1,material detail icon
+388,mueller_haushalt-kueche-katalog-2026_p064_d020,7,exclude,T1,AI suggestion accepted in bulk,T1,material detail icon
 389,mueller_haushalt-kueche-katalog-2026_p065_d000,7,keep,,,,
-390,mueller_haushalt-kueche-katalog-2026_p065_d001,7,keep,,,T2,detail close-up
-391,mueller_haushalt-kueche-katalog-2026_p066_d000,7,keep,,,T1,logo
+390,mueller_haushalt-kueche-katalog-2026_p065_d001,7,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
+391,mueller_haushalt-kueche-katalog-2026_p066_d000,7,exclude,T1,AI suggestion accepted in bulk,T1,logo
 392,mueller_haushalt-kueche-katalog-2026_p066_d001,7,keep,,,,
 393,mueller_haushalt-kueche-katalog-2026_p066_d002,7,keep,,,,
-394,mueller_haushalt-kueche-katalog-2026_p066_d003,7,keep,,,T4,food scene
+394,mueller_haushalt-kueche-katalog-2026_p066_d003,7,exclude,T4,AI suggestion accepted in bulk,T4,food scene
 395,mueller_haushalt-kueche-katalog-2026_p066_d004,7,keep,,,,
 396,mueller_haushalt-kueche-katalog-2026_p066_d005,7,keep,,,,
 397,mueller_haushalt-kueche-katalog-2026_p066_d006,7,keep,,,,
-398,mueller_haushalt-kueche-katalog-2026_p067_d000,7,keep,,,T1,logo
+398,mueller_haushalt-kueche-katalog-2026_p067_d000,7,exclude,T1,AI suggestion accepted in bulk,T1,logo
 399,mueller_haushalt-kueche-katalog-2026_p067_d001,7,keep,,,,
 400,mueller_haushalt-kueche-katalog-2026_p067_d002,7,keep,,,,
-401,mueller_haushalt-kueche-katalog-2026_p067_d003,7,keep,,,T4,"food photo, no product"
+401,mueller_haushalt-kueche-katalog-2026_p067_d003,7,exclude,T4,AI suggestion accepted in bulk,T4,"food photo, no product"
 402,mueller_haushalt-kueche-katalog-2026_p067_d004,7,keep,,,,
 403,mueller_haushalt-kueche-katalog-2026_p067_d005,7,keep,,,,
 404,mueller_haushalt-kueche-katalog-2026_p067_d006,7,keep,,,,
 405,mueller_haushalt-kueche-katalog-2026_p067_d007,7,keep,,,,
 406,mueller_haushalt-kueche-katalog-2026_p067_d008,7,keep,,,,
-407,mueller_haushalt-kueche-katalog-2026_p068_d000,7,keep,,,T1,logo
+407,mueller_haushalt-kueche-katalog-2026_p068_d000,7,exclude,T1,AI suggestion accepted in bulk,T1,logo
 408,mueller_haushalt-kueche-katalog-2026_p068_d001,7,keep,,,,
-409,mueller_haushalt-kueche-katalog-2026_p068_d002,7,keep,,,T3,two knives
+409,mueller_haushalt-kueche-katalog-2026_p068_d002,7,exclude,T3,AI suggestion accepted in bulk,T3,two knives
 410,mueller_haushalt-kueche-katalog-2026_p068_d003,7,keep,,,,
 411,mueller_haushalt-kueche-katalog-2026_p068_d004,7,keep,,,,
 412,mueller_haushalt-kueche-katalog-2026_p068_d005,7,keep,,,,
 413,mueller_haushalt-kueche-katalog-2026_p069_d000,7,keep,,,,
-414,mueller_haushalt-kueche-katalog-2026_p069_d001,7,keep,,,T1,badge
-415,mueller_haushalt-kueche-katalog-2026_p069_d002,7,keep,,,T1,badge
+414,mueller_haushalt-kueche-katalog-2026_p069_d001,7,exclude,T1,AI suggestion accepted in bulk,T1,badge
+415,mueller_haushalt-kueche-katalog-2026_p069_d002,7,exclude,T1,AI suggestion accepted in bulk,T1,badge
 416,mueller_haushalt-kueche-katalog-2026_p069_d003,7,keep,,,,
 417,mueller_haushalt-kueche-katalog-2026_p069_d004,7,keep,,,,
 418,mueller_haushalt-kueche-katalog-2026_p069_d005,7,keep,,,,
 419,mueller_haushalt-kueche-katalog-2026_p069_d006,7,keep,,,,
 420,mueller_haushalt-kueche-katalog-2026_p069_d007,7,keep,,,,
 421,mueller_haushalt-kueche-katalog-2026_p069_d008,8,keep,,,,
-422,mueller_haushalt-kueche-katalog-2026_p070_d000,8,keep,,,T2,partial
+422,mueller_haushalt-kueche-katalog-2026_p070_d000,8,exclude,T2,AI suggestion accepted in bulk,T2,partial
 423,mueller_haushalt-kueche-katalog-2026_p070_d001,8,keep,,,,
 424,mueller_haushalt-kueche-katalog-2026_p070_d002,8,keep,,,,
 425,mueller_haushalt-kueche-katalog-2026_p070_d003,8,keep,,,,
@@ -430,34 +430,34 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 429,mueller_haushalt-kueche-katalog-2026_p070_d007,8,keep,,,,
 430,mueller_haushalt-kueche-katalog-2026_p070_d008,8,keep,,,,
 431,mueller_haushalt-kueche-katalog-2026_p071_d000,8,keep,,,,
-432,mueller_haushalt-kueche-katalog-2026_p071_d001,8,keep,,,T1,"food photo, no product"
+432,mueller_haushalt-kueche-katalog-2026_p071_d001,8,exclude,T1,AI suggestion accepted in bulk,T1,"food photo, no product"
 433,mueller_haushalt-kueche-katalog-2026_p071_d002,8,keep,,,,
 434,mueller_haushalt-kueche-katalog-2026_p071_d003,8,keep,,,,
 435,mueller_haushalt-kueche-katalog-2026_p071_d004,8,keep,,,,
-436,mueller_haushalt-kueche-katalog-2026_p072_d000,8,keep,,,T1,logo
+436,mueller_haushalt-kueche-katalog-2026_p072_d000,8,exclude,T1,AI suggestion accepted in bulk,T1,logo
 437,mueller_haushalt-kueche-katalog-2026_p072_d001,8,keep,,,,
 438,mueller_haushalt-kueche-katalog-2026_p072_d002,8,keep,,,,
-439,mueller_haushalt-kueche-katalog-2026_p072_d003,8,keep,,,T1,detail icon
+439,mueller_haushalt-kueche-katalog-2026_p072_d003,8,exclude,T1,AI suggestion accepted in bulk,T1,detail icon
 440,mueller_haushalt-kueche-katalog-2026_p072_d004,8,keep,,,,
-441,mueller_haushalt-kueche-katalog-2026_p072_d005,8,keep,,,T1,blank icon
-442,mueller_haushalt-kueche-katalog-2026_p072_d006,8,keep,,,T4,food scene
+441,mueller_haushalt-kueche-katalog-2026_p072_d005,8,exclude,T1,AI suggestion accepted in bulk,T1,blank icon
+442,mueller_haushalt-kueche-katalog-2026_p072_d006,8,exclude,T4,AI suggestion accepted in bulk,T4,food scene
 443,mueller_haushalt-kueche-katalog-2026_p072_d007,8,keep,,,,
 444,mueller_haushalt-kueche-katalog-2026_p072_d008,8,keep,,,,
 445,mueller_haushalt-kueche-katalog-2026_p073_d000,8,keep,,,,
-446,mueller_haushalt-kueche-katalog-2026_p073_d001,8,keep,,,T2,partial
+446,mueller_haushalt-kueche-katalog-2026_p073_d001,8,exclude,T2,AI suggestion accepted in bulk,T2,partial
 447,mueller_haushalt-kueche-katalog-2026_p073_d002,8,keep,,,,
 448,mueller_haushalt-kueche-katalog-2026_p073_d003,8,keep,,,,
 449,mueller_haushalt-kueche-katalog-2026_p073_d004,8,keep,,,,
-450,mueller_haushalt-kueche-katalog-2026_p073_d005,8,keep,,,T2,partial
-451,mueller_haushalt-kueche-katalog-2026_p073_d006,8,keep,,,T1,"food photo, no product"
+450,mueller_haushalt-kueche-katalog-2026_p073_d005,8,exclude,T2,AI suggestion accepted in bulk,T2,partial
+451,mueller_haushalt-kueche-katalog-2026_p073_d006,8,exclude,T1,AI suggestion accepted in bulk,T1,"food photo, no product"
 452,mueller_haushalt-kueche-katalog-2026_p073_d007,8,keep,,,,
 453,mueller_haushalt-kueche-katalog-2026_p073_d008,8,keep,,,,
 454,mueller_haushalt-kueche-katalog-2026_p073_d009,8,keep,,,,
 455,mueller_haushalt-kueche-katalog-2026_p073_d010,8,keep,,,,
-456,mueller_haushalt-kueche-katalog-2026_p073_d011,8,keep,,,T1,detail icon
-457,mueller_haushalt-kueche-katalog-2026_p073_d012,8,keep,,,T1,detail icon
-458,mueller_haushalt-kueche-katalog-2026_p073_d013,8,keep,,,T1,detail icon
-459,mueller_haushalt-kueche-katalog-2026_p073_d014,8,keep,,,T1,"food photo, no product"
+456,mueller_haushalt-kueche-katalog-2026_p073_d011,8,exclude,T1,AI suggestion accepted in bulk,T1,detail icon
+457,mueller_haushalt-kueche-katalog-2026_p073_d012,8,exclude,T1,AI suggestion accepted in bulk,T1,detail icon
+458,mueller_haushalt-kueche-katalog-2026_p073_d013,8,exclude,T1,AI suggestion accepted in bulk,T1,detail icon
+459,mueller_haushalt-kueche-katalog-2026_p073_d014,8,exclude,T1,AI suggestion accepted in bulk,T1,"food photo, no product"
 460,mueller_haushalt-kueche-katalog-2026_p073_d015,8,keep,,,,
 461,mueller_haushalt-kueche-katalog-2026_p074_d000,8,keep,,,,
 462,mueller_haushalt-kueche-katalog-2026_p074_d001,8,keep,,,,
@@ -467,46 +467,46 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 466,mueller_haushalt-kueche-katalog-2026_p074_d005,8,keep,,,,
 467,mueller_haushalt-kueche-katalog-2026_p074_d006,8,keep,,,,
 468,mueller_haushalt-kueche-katalog-2026_p075_d000,8,keep,,,,
-469,mueller_haushalt-kueche-katalog-2026_p075_d001,8,keep,,,T1,detail icon
+469,mueller_haushalt-kueche-katalog-2026_p075_d001,8,exclude,T1,AI suggestion accepted in bulk,T1,detail icon
 470,mueller_haushalt-kueche-katalog-2026_p075_d002,8,keep,,,,
-471,mueller_haushalt-kueche-katalog-2026_p075_d003,8,keep,,,T1,detail icon
+471,mueller_haushalt-kueche-katalog-2026_p075_d003,8,exclude,T1,AI suggestion accepted in bulk,T1,detail icon
 472,mueller_haushalt-kueche-katalog-2026_p075_d004,8,keep,,,,
 473,mueller_haushalt-kueche-katalog-2026_p075_d005,8,keep,,,,
-474,mueller_haushalt-kueche-katalog-2026_p075_d006,8,keep,,,T1,QR code
+474,mueller_haushalt-kueche-katalog-2026_p075_d006,8,exclude,T1,AI suggestion accepted in bulk,T1,QR code
 475,mueller_haushalt-kueche-katalog-2026_p075_d007,8,keep,,,,
 476,mueller_haushalt-kueche-katalog-2026_p075_d008,8,keep,,,,
-477,mueller_haushalt-kueche-katalog-2026_p075_d009,8,keep,,,T2,detail close-up
+477,mueller_haushalt-kueche-katalog-2026_p075_d009,8,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
 478,mueller_haushalt-kueche-katalog-2026_p076_d000,8,keep,,,,
 479,mueller_haushalt-kueche-katalog-2026_p076_d001,8,keep,,,,
 480,mueller_haushalt-kueche-katalog-2026_p076_d002,8,keep,,,,
 481,mueller_haushalt-kueche-katalog-2026_p076_d003,9,keep,,,,
-482,mueller_haushalt-kueche-katalog-2026_p076_d004,9,keep,,,T1,colour swatch icon
-483,mueller_haushalt-kueche-katalog-2026_p076_d005,9,keep,,,T1,colour swatch icon
-484,mueller_haushalt-kueche-katalog-2026_p076_d006,9,keep,,,T1,colour swatch icon
-485,mueller_haushalt-kueche-katalog-2026_p076_d007,9,keep,,,T1,colour swatch icon
-486,mueller_haushalt-kueche-katalog-2026_p076_d008,9,keep,,,T1,colour swatch icon
+482,mueller_haushalt-kueche-katalog-2026_p076_d004,9,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch icon
+483,mueller_haushalt-kueche-katalog-2026_p076_d005,9,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch icon
+484,mueller_haushalt-kueche-katalog-2026_p076_d006,9,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch icon
+485,mueller_haushalt-kueche-katalog-2026_p076_d007,9,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch icon
+486,mueller_haushalt-kueche-katalog-2026_p076_d008,9,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch icon
 487,mueller_haushalt-kueche-katalog-2026_p076_d009,9,keep,,,,
 488,mueller_haushalt-kueche-katalog-2026_p076_d010,9,keep,,,,
 489,mueller_haushalt-kueche-katalog-2026_p076_d011,9,keep,,,,
 490,mueller_haushalt-kueche-katalog-2026_p077_d000,9,keep,,,,
-491,mueller_haushalt-kueche-katalog-2026_p077_d001,9,keep,,,T1,logo
+491,mueller_haushalt-kueche-katalog-2026_p077_d001,9,exclude,T1,AI suggestion accepted in bulk,T1,logo
 492,mueller_haushalt-kueche-katalog-2026_p077_d002,9,keep,,,,
 493,mueller_haushalt-kueche-katalog-2026_p077_d003,9,keep,,,,
 494,mueller_haushalt-kueche-katalog-2026_p077_d004,9,keep,,,,
-495,mueller_haushalt-kueche-katalog-2026_p077_d005,9,keep,,,T4,styled scene
+495,mueller_haushalt-kueche-katalog-2026_p077_d005,9,exclude,T4,AI suggestion accepted in bulk,T4,styled scene
 496,mueller_haushalt-kueche-katalog-2026_p077_d006,9,keep,,,,
 497,mueller_haushalt-kueche-katalog-2026_p077_d007,9,keep,,,,
 498,mueller_haushalt-kueche-katalog-2026_p077_d008,9,keep,,,,
-499,mueller_haushalt-kueche-katalog-2026_p077_d009,9,keep,,,T1,logo
+499,mueller_haushalt-kueche-katalog-2026_p077_d009,9,exclude,T1,AI suggestion accepted in bulk,T1,logo
 500,mueller_haushalt-kueche-katalog-2026_p077_d010,9,keep,,,,
-501,mueller_haushalt-kueche-katalog-2026_p077_d011,9,keep,,,T1,logo
+501,mueller_haushalt-kueche-katalog-2026_p077_d011,9,exclude,T1,AI suggestion accepted in bulk,T1,logo
 502,mueller_haushalt-kueche-katalog-2026_p077_d012,9,keep,,,,
 503,mueller_haushalt-kueche-katalog-2026_p077_d013,9,keep,,,,
-504,mueller_haushalt-kueche-katalog-2026_p077_d014,9,keep,,,T1,"food photo, no product"
-505,mueller_haushalt-kueche-katalog-2026_p078_d000,9,keep,,,T1,logo letter
+504,mueller_haushalt-kueche-katalog-2026_p077_d014,9,exclude,T1,AI suggestion accepted in bulk,T1,"food photo, no product"
+505,mueller_haushalt-kueche-katalog-2026_p078_d000,9,exclude,T1,AI suggestion accepted in bulk,T1,logo letter
 506,mueller_haushalt-kueche-katalog-2026_p078_d001,9,keep,,,,
 507,mueller_haushalt-kueche-katalog-2026_p078_d002,9,keep,,,,
-508,mueller_haushalt-kueche-katalog-2026_p078_d003,9,keep,,,T1,detail icon
+508,mueller_haushalt-kueche-katalog-2026_p078_d003,9,exclude,T1,AI suggestion accepted in bulk,T1,detail icon
 509,mueller_haushalt-kueche-katalog-2026_p078_d004,9,keep,,,,
 510,mueller_haushalt-kueche-katalog-2026_p078_d005,9,keep,,,,
 511,mueller_haushalt-kueche-katalog-2026_p078_d006,9,keep,,,,
@@ -514,13 +514,13 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 513,mueller_haushalt-kueche-katalog-2026_p078_d008,9,keep,,,,
 514,mueller_haushalt-kueche-katalog-2026_p078_d009,9,keep,,,,
 515,mueller_haushalt-kueche-katalog-2026_p078_d010,9,keep,,,,
-516,mueller_haushalt-kueche-katalog-2026_p078_d011,9,keep,,,T3,several jugs
+516,mueller_haushalt-kueche-katalog-2026_p078_d011,9,exclude,T3,AI suggestion accepted in bulk,T3,several jugs
 517,mueller_haushalt-kueche-katalog-2026_p078_d012,9,keep,,,,
 518,mueller_haushalt-kueche-katalog-2026_p079_d000,9,keep,,,,
 519,mueller_haushalt-kueche-katalog-2026_p079_d001,9,keep,,,,
-520,mueller_haushalt-kueche-katalog-2026_p079_d002,9,keep,,,T4,drink scene
-521,mueller_haushalt-kueche-katalog-2026_p079_d003,9,keep,,,T4,drink scene
-522,mueller_haushalt-kueche-katalog-2026_p079_d004,9,keep,,,T1,"food photo, no product"
+520,mueller_haushalt-kueche-katalog-2026_p079_d002,9,exclude,T4,AI suggestion accepted in bulk,T4,drink scene
+521,mueller_haushalt-kueche-katalog-2026_p079_d003,9,exclude,T4,AI suggestion accepted in bulk,T4,drink scene
+522,mueller_haushalt-kueche-katalog-2026_p079_d004,9,exclude,T1,AI suggestion accepted in bulk,T1,"food photo, no product"
 523,mueller_haushalt-kueche-katalog-2026_p079_d005,9,keep,,,,
 524,mueller_haushalt-kueche-katalog-2026_p079_d006,9,keep,,,,
 525,mueller_haushalt-kueche-katalog-2026_p079_d007,9,keep,,,,
@@ -532,7 +532,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 531,mueller_haushalt-kueche-katalog-2026_p080_d003,9,keep,,,,
 532,mueller_haushalt-kueche-katalog-2026_p080_d004,9,keep,,,,
 533,mueller_haushalt-kueche-katalog-2026_p080_d005,9,keep,,,,
-534,mueller_haushalt-kueche-katalog-2026_p080_d006,9,keep,,,T4,drink photo
+534,mueller_haushalt-kueche-katalog-2026_p080_d006,9,exclude,T4,AI suggestion accepted in bulk,T4,drink photo
 535,mueller_haushalt-kueche-katalog-2026_p080_d007,9,keep,,,,
 536,mueller_haushalt-kueche-katalog-2026_p080_d008,9,keep,,,,
 537,mueller_haushalt-kueche-katalog-2026_p080_d009,9,keep,,,,
@@ -554,14 +554,14 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 553,mueller_haushalt-kueche-katalog-2026_p081_d005,10,keep,,,,
 554,mueller_haushalt-kueche-katalog-2026_p081_d006,10,keep,,,,
 555,mueller_haushalt-kueche-katalog-2026_p081_d007,10,keep,,,,
-556,mueller_haushalt-kueche-katalog-2026_p082_d000,10,keep,,,T1,logo
+556,mueller_haushalt-kueche-katalog-2026_p082_d000,10,exclude,T1,AI suggestion accepted in bulk,T1,logo
 557,mueller_haushalt-kueche-katalog-2026_p082_d001,10,keep,,,,
 558,mueller_haushalt-kueche-katalog-2026_p082_d002,10,keep,,,,
-559,mueller_haushalt-kueche-katalog-2026_p082_d003,10,keep,,,T1,colour swatch
+559,mueller_haushalt-kueche-katalog-2026_p082_d003,10,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch
 560,mueller_haushalt-kueche-katalog-2026_p082_d004,10,keep,,,,
-561,mueller_haushalt-kueche-katalog-2026_p082_d005,10,keep,,,T3,several cups
-562,mueller_haushalt-kueche-katalog-2026_p082_d006,10,keep,,,T1,text fragment
-563,mueller_haushalt-kueche-katalog-2026_p082_d007,10,keep,,,T3,several cups
+561,mueller_haushalt-kueche-katalog-2026_p082_d005,10,exclude,T3,AI suggestion accepted in bulk,T3,several cups
+562,mueller_haushalt-kueche-katalog-2026_p082_d006,10,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
+563,mueller_haushalt-kueche-katalog-2026_p082_d007,10,exclude,T3,AI suggestion accepted in bulk,T3,several cups
 564,mueller_haushalt-kueche-katalog-2026_p082_d008,10,keep,,,,
 565,mueller_haushalt-kueche-katalog-2026_p082_d009,10,keep,,,,
 566,mueller_haushalt-kueche-katalog-2026_p082_d010,10,keep,,,,
@@ -571,30 +571,30 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 570,mueller_haushalt-kueche-katalog-2026_p083_d000,10,keep,,,,
 571,mueller_haushalt-kueche-katalog-2026_p083_d001,10,keep,,,,
 572,mueller_haushalt-kueche-katalog-2026_p083_d002,10,keep,,,,
-573,mueller_haushalt-kueche-katalog-2026_p083_d003,10,keep,,,T4,lunch scene
+573,mueller_haushalt-kueche-katalog-2026_p083_d003,10,exclude,T4,AI suggestion accepted in bulk,T4,lunch scene
 574,mueller_haushalt-kueche-katalog-2026_p083_d004,10,keep,,,,
-575,mueller_haushalt-kueche-katalog-2026_p083_d005,10,keep,,,T2,partial
+575,mueller_haushalt-kueche-katalog-2026_p083_d005,10,exclude,T2,AI suggestion accepted in bulk,T2,partial
 576,mueller_haushalt-kueche-katalog-2026_p083_d006,10,keep,,,,
 577,mueller_haushalt-kueche-katalog-2026_p083_d007,10,keep,,,,
 578,mueller_haushalt-kueche-katalog-2026_p083_d008,10,keep,,,,
 579,mueller_haushalt-kueche-katalog-2026_p083_d009,10,keep,,,,
 580,mueller_haushalt-kueche-katalog-2026_p083_d010,10,keep,,,,
-581,mueller_haushalt-kueche-katalog-2026_p083_d011,10,keep,,,T1,pattern swatch
-582,mueller_haushalt-kueche-katalog-2026_p083_d012,10,keep,,,T1,pattern swatch
-583,mueller_haushalt-kueche-katalog-2026_p083_d013,10,keep,,,T1,pattern swatch
-584,mueller_haushalt-kueche-katalog-2026_p083_d014,10,keep,,,T1,pattern swatch
-585,mueller_haushalt-kueche-katalog-2026_p084_d000,10,keep,,,T3,two boxes
-586,mueller_haushalt-kueche-katalog-2026_p084_d001,10,keep,,,T3,two boxes
+581,mueller_haushalt-kueche-katalog-2026_p083_d011,10,exclude,T1,AI suggestion accepted in bulk,T1,pattern swatch
+582,mueller_haushalt-kueche-katalog-2026_p083_d012,10,exclude,T1,AI suggestion accepted in bulk,T1,pattern swatch
+583,mueller_haushalt-kueche-katalog-2026_p083_d013,10,exclude,T1,AI suggestion accepted in bulk,T1,pattern swatch
+584,mueller_haushalt-kueche-katalog-2026_p083_d014,10,exclude,T1,AI suggestion accepted in bulk,T1,pattern swatch
+585,mueller_haushalt-kueche-katalog-2026_p084_d000,10,exclude,T3,AI suggestion accepted in bulk,T3,two boxes
+586,mueller_haushalt-kueche-katalog-2026_p084_d001,10,exclude,T3,AI suggestion accepted in bulk,T3,two boxes
 587,mueller_haushalt-kueche-katalog-2026_p084_d002,10,keep,,,,
 588,mueller_haushalt-kueche-katalog-2026_p084_d003,10,keep,,,,
 589,mueller_haushalt-kueche-katalog-2026_p084_d004,10,keep,,,,
 590,mueller_haushalt-kueche-katalog-2026_p084_d005,10,keep,,,,
 591,mueller_haushalt-kueche-katalog-2026_p084_d006,10,keep,,,,
 592,mueller_haushalt-kueche-katalog-2026_p084_d007,10,keep,,,,
-593,mueller_haushalt-kueche-katalog-2026_p084_d008,10,keep,,,T1,colour swatch with price
-594,mueller_haushalt-kueche-katalog-2026_p084_d009,10,keep,,,T1,colour swatch
-595,mueller_haushalt-kueche-katalog-2026_p084_d010,10,keep,,,T1,colour swatch
-596,mueller_haushalt-kueche-katalog-2026_p084_d011,10,keep,,,T1,colour swatch
+593,mueller_haushalt-kueche-katalog-2026_p084_d008,10,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch with price
+594,mueller_haushalt-kueche-katalog-2026_p084_d009,10,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch
+595,mueller_haushalt-kueche-katalog-2026_p084_d010,10,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch
+596,mueller_haushalt-kueche-katalog-2026_p084_d011,10,exclude,T1,AI suggestion accepted in bulk,T1,colour swatch
 597,mueller_haushalt-kueche-katalog-2026_p084_d012,10,keep,,,,
 598,mueller_haushalt-kueche-katalog-2026_p084_d013,10,keep,,,,
 599,mueller_haushalt-kueche-katalog-2026_p085_d000,10,keep,,,,
@@ -603,44 +603,44 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 602,mueller_haushalt-kueche-katalog-2026_p085_d003,11,keep,,,,
 603,mueller_haushalt-kueche-katalog-2026_p085_d004,11,keep,,,,
 604,mueller_haushalt-kueche-katalog-2026_p086_d000,11,keep,,,,
-605,mueller_haushalt-kueche-katalog-2026_p086_d001,11,keep,,,T1,usage icon
-606,mueller_haushalt-kueche-katalog-2026_p086_d002,11,keep,,,T1,usage icon
+605,mueller_haushalt-kueche-katalog-2026_p086_d001,11,exclude,T1,AI suggestion accepted in bulk,T1,usage icon
+606,mueller_haushalt-kueche-katalog-2026_p086_d002,11,exclude,T1,AI suggestion accepted in bulk,T1,usage icon
 607,mueller_haushalt-kueche-katalog-2026_p086_d003,11,keep,,,,
-608,mueller_haushalt-kueche-katalog-2026_p086_d004,11,keep,,,T1,usage icon
+608,mueller_haushalt-kueche-katalog-2026_p086_d004,11,exclude,T1,AI suggestion accepted in bulk,T1,usage icon
 609,mueller_haushalt-kueche-katalog-2026_p086_d005,11,keep,,,,
 610,mueller_haushalt-kueche-katalog-2026_p086_d006,11,keep,,,,
-611,mueller_haushalt-kueche-katalog-2026_p086_d007,11,keep,,,T1,display detail icon
+611,mueller_haushalt-kueche-katalog-2026_p086_d007,11,exclude,T1,AI suggestion accepted in bulk,T1,display detail icon
 612,mueller_haushalt-kueche-katalog-2026_p086_d008,11,keep,,,,
 613,mueller_haushalt-kueche-katalog-2026_p086_d009,11,keep,,,,
-614,mueller_haushalt-kueche-katalog-2026_p086_d010,11,keep,,,T2,accessory close-up
-615,mueller_haushalt-kueche-katalog-2026_p086_d011,11,keep,,,T3,several boxes
+614,mueller_haushalt-kueche-katalog-2026_p086_d010,11,exclude,T2,AI suggestion accepted in bulk,T2,accessory close-up
+615,mueller_haushalt-kueche-katalog-2026_p086_d011,11,exclude,T3,AI suggestion accepted in bulk,T3,several boxes
 616,mueller_haushalt-kueche-katalog-2026_p086_d012,11,keep,,,,
 617,mueller_haushalt-kueche-katalog-2026_p086_d013,11,keep,,,,
 618,mueller_haushalt-kueche-katalog-2026_p087_d000,11,keep,,,,
 619,mueller_haushalt-kueche-katalog-2026_p087_d001,11,keep,,,,
 620,mueller_haushalt-kueche-katalog-2026_p087_d002,11,keep,,,,
-621,mueller_haushalt-kueche-katalog-2026_p087_d003,11,keep,,,T2,partial
+621,mueller_haushalt-kueche-katalog-2026_p087_d003,11,exclude,T2,AI suggestion accepted in bulk,T2,partial
 622,mueller_haushalt-kueche-katalog-2026_p087_d004,11,keep,,,,
-623,mueller_haushalt-kueche-katalog-2026_p087_d005,11,keep,,,T2,partial
-624,mueller_haushalt-kueche-katalog-2026_p087_d006,11,keep,,,T2,partial
+623,mueller_haushalt-kueche-katalog-2026_p087_d005,11,exclude,T2,AI suggestion accepted in bulk,T2,partial
+624,mueller_haushalt-kueche-katalog-2026_p087_d006,11,exclude,T2,AI suggestion accepted in bulk,T2,partial
 625,mueller_haushalt-kueche-katalog-2026_p087_d007,11,keep,,,,
 626,mueller_haushalt-kueche-katalog-2026_p087_d008,11,keep,,,,
 627,mueller_haushalt-kueche-katalog-2026_p087_d009,11,keep,,,,
 628,mueller_haushalt-kueche-katalog-2026_p088_d000,11,keep,,,,
 629,mueller_haushalt-kueche-katalog-2026_p088_d001,11,keep,,,,
 630,mueller_haushalt-kueche-katalog-2026_p088_d002,11,keep,,,,
-631,mueller_haushalt-kueche-katalog-2026_p088_d003,11,keep,,,T1,"food photo, no product"
+631,mueller_haushalt-kueche-katalog-2026_p088_d003,11,exclude,T1,AI suggestion accepted in bulk,T1,"food photo, no product"
 632,mueller_haushalt-kueche-katalog-2026_p088_d004,11,keep,,,,
 633,mueller_haushalt-kueche-katalog-2026_p088_d005,11,keep,,,,
 634,mueller_haushalt-kueche-katalog-2026_p088_d006,11,keep,,,,
 635,mueller_haushalt-kueche-katalog-2026_p089_d000,11,keep,,,,
 636,mueller_haushalt-kueche-katalog-2026_p089_d001,11,keep,,,,
-637,mueller_haushalt-kueche-katalog-2026_p089_d002,11,keep,,,T1,usage icon
-638,mueller_haushalt-kueche-katalog-2026_p089_d003,11,keep,,,T4,hand in scene
+637,mueller_haushalt-kueche-katalog-2026_p089_d002,11,exclude,T1,AI suggestion accepted in bulk,T1,usage icon
+638,mueller_haushalt-kueche-katalog-2026_p089_d003,11,exclude,T4,AI suggestion accepted in bulk,T4,hand in scene
 639,mueller_haushalt-kueche-katalog-2026_p089_d004,11,keep,,,,
-640,mueller_haushalt-kueche-katalog-2026_p089_d005,11,keep,,,T1,usage icon
-641,mueller_haushalt-kueche-katalog-2026_p090_d000,11,keep,,,T1,text fragment
-642,mueller_haushalt-kueche-katalog-2026_p090_d001,11,keep,,,T4,kitchen scene
+640,mueller_haushalt-kueche-katalog-2026_p089_d005,11,exclude,T1,AI suggestion accepted in bulk,T1,usage icon
+641,mueller_haushalt-kueche-katalog-2026_p090_d000,11,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
+642,mueller_haushalt-kueche-katalog-2026_p090_d001,11,exclude,T4,AI suggestion accepted in bulk,T4,kitchen scene
 643,mueller_haushalt-kueche-katalog-2026_p090_d002,11,keep,,,,
 644,mueller_haushalt-kueche-katalog-2026_p090_d003,11,keep,,,,
 645,mueller_haushalt-kueche-katalog-2026_p090_d004,11,keep,,,,
@@ -648,17 +648,17 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 647,mueller_haushalt-kueche-katalog-2026_p090_d006,11,keep,,,,
 648,mueller_haushalt-kueche-katalog-2026_p090_d007,11,keep,,,,
 649,mueller_haushalt-kueche-katalog-2026_p090_d008,11,keep,,,,
-650,mueller_haushalt-kueche-katalog-2026_p091_d000,11,keep,,,T4,hand detail
+650,mueller_haushalt-kueche-katalog-2026_p091_d000,11,exclude,T4,AI suggestion accepted in bulk,T4,hand detail
 651,mueller_haushalt-kueche-katalog-2026_p091_d001,11,keep,,,,
 652,mueller_haushalt-kueche-katalog-2026_p091_d002,11,keep,,,,
 653,mueller_haushalt-kueche-katalog-2026_p091_d003,11,keep,,,,
 654,mueller_haushalt-kueche-katalog-2026_p091_d004,11,keep,,,,
-655,mueller_haushalt-kueche-katalog-2026_p091_d005,11,keep,,,T4,person scene
+655,mueller_haushalt-kueche-katalog-2026_p091_d005,11,exclude,T4,AI suggestion accepted in bulk,T4,person scene
 656,mueller_haushalt-kueche-katalog-2026_p091_d006,11,keep,,,,
 657,mueller_haushalt-kueche-katalog-2026_p091_d007,11,keep,,,,
-658,mueller_haushalt-kueche-katalog-2026_p091_d008,11,keep,,,T4,person scene
+658,mueller_haushalt-kueche-katalog-2026_p091_d008,11,exclude,T4,AI suggestion accepted in bulk,T4,person scene
 659,mueller_haushalt-kueche-katalog-2026_p092_d000,11,keep,,,,
-660,mueller_haushalt-kueche-katalog-2026_p092_d001,11,keep,,,T2,partial
+660,mueller_haushalt-kueche-katalog-2026_p092_d001,11,exclude,T2,AI suggestion accepted in bulk,T2,partial
 661,mueller_haushalt-kueche-katalog-2026_p092_d002,12,keep,,,,
 662,mueller_haushalt-kueche-katalog-2026_p093_d000,12,keep,,,,
 663,mueller_haushalt-kueche-katalog-2026_p093_d001,12,keep,,,,
@@ -666,23 +666,23 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 665,mueller_haushalt-kueche-katalog-2026_p094_d000,12,keep,,,,
 666,mueller_haushalt-kueche-katalog-2026_p094_d001,12,keep,,,,
 667,mueller_haushalt-kueche-katalog-2026_p094_d002,12,keep,,,,
-668,mueller_haushalt-kueche-katalog-2026_p094_d003,12,keep,,,T2,partial
-669,mueller_haushalt-kueche-katalog-2026_p094_d004,12,keep,,,T2,accessory close-up
-670,mueller_haushalt-kueche-katalog-2026_p094_d005,12,keep,,,T2,accessory close-up
+668,mueller_haushalt-kueche-katalog-2026_p094_d003,12,exclude,T2,AI suggestion accepted in bulk,T2,partial
+669,mueller_haushalt-kueche-katalog-2026_p094_d004,12,exclude,T2,AI suggestion accepted in bulk,T2,accessory close-up
+670,mueller_haushalt-kueche-katalog-2026_p094_d005,12,exclude,T2,AI suggestion accepted in bulk,T2,accessory close-up
 671,mueller_haushalt-kueche-katalog-2026_p094_d006,12,keep,,,,
 672,mueller_haushalt-kueche-katalog-2026_p094_d007,12,keep,,,,
 673,mueller_haushalt-kueche-katalog-2026_p094_d008,12,keep,,,,
-674,mueller_haushalt-kueche-katalog-2026_p094_d009,12,keep,,,T4,floor scene
-675,mueller_haushalt-kueche-katalog-2026_p094_d010,12,keep,,,T4,floor scene
-676,mueller_haushalt-kueche-katalog-2026_p094_d011,12,keep,,,T1,usage icon
-677,mueller_haushalt-kueche-katalog-2026_p095_d000,12,keep,,,T1,logo
+674,mueller_haushalt-kueche-katalog-2026_p094_d009,12,exclude,T4,AI suggestion accepted in bulk,T4,floor scene
+675,mueller_haushalt-kueche-katalog-2026_p094_d010,12,exclude,T4,AI suggestion accepted in bulk,T4,floor scene
+676,mueller_haushalt-kueche-katalog-2026_p094_d011,12,exclude,T1,AI suggestion accepted in bulk,T1,usage icon
+677,mueller_haushalt-kueche-katalog-2026_p095_d000,12,exclude,T1,AI suggestion accepted in bulk,T1,logo
 678,mueller_haushalt-kueche-katalog-2026_p095_d001,12,keep,,,,
 679,mueller_haushalt-kueche-katalog-2026_p095_d002,12,keep,,,,
 680,mueller_haushalt-kueche-katalog-2026_p095_d003,12,keep,,,,
 681,mueller_haushalt-kueche-katalog-2026_p095_d004,12,keep,,,,
-682,mueller_haushalt-kueche-katalog-2026_p095_d005,12,keep,,,T1,detail icon
-683,mueller_haushalt-kueche-katalog-2026_p095_d006,12,keep,,,T1,detail icon
-684,mueller_haushalt-kueche-katalog-2026_p095_d007,12,keep,,,T1,detail icon
+682,mueller_haushalt-kueche-katalog-2026_p095_d005,12,exclude,T1,AI suggestion accepted in bulk,T1,detail icon
+683,mueller_haushalt-kueche-katalog-2026_p095_d006,12,exclude,T1,AI suggestion accepted in bulk,T1,detail icon
+684,mueller_haushalt-kueche-katalog-2026_p095_d007,12,exclude,T1,AI suggestion accepted in bulk,T1,detail icon
 685,mueller_haushalt-kueche-katalog-2026_p095_d008,12,keep,,,,
 686,mueller_haushalt-kueche-katalog-2026_p096_d000,12,keep,,,,
 687,mueller_haushalt-kueche-katalog-2026_p096_d001,12,keep,,,,
@@ -690,23 +690,23 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 689,mueller_haushalt-kueche-katalog-2026_p096_d003,12,keep,,,,
 690,mueller_haushalt-kueche-katalog-2026_p096_d004,12,keep,,,,
 691,mueller_haushalt-kueche-katalog-2026_p096_d005,12,keep,,,,
-692,mueller_haushalt-kueche-katalog-2026_p097_d000,12,keep,,,T2,partial
-693,mueller_haushalt-kueche-katalog-2026_p100_d000,12,keep,,,T3,several trays
+692,mueller_haushalt-kueche-katalog-2026_p097_d000,12,exclude,T2,AI suggestion accepted in bulk,T2,partial
+693,mueller_haushalt-kueche-katalog-2026_p100_d000,12,exclude,T3,AI suggestion accepted in bulk,T3,several trays
 694,mueller_haushalt-kueche-katalog-2026_p100_d001,12,keep,,,,
 695,mueller_haushalt-kueche-katalog-2026_p100_d002,12,keep,,,,
-696,mueller_haushalt-kueche-katalog-2026_p100_d003,12,keep,,,T3,several cutters
+696,mueller_haushalt-kueche-katalog-2026_p100_d003,12,exclude,T3,AI suggestion accepted in bulk,T3,several cutters
 697,mueller_haushalt-kueche-katalog-2026_p100_d004,12,keep,,,,
-698,mueller_haushalt-kueche-katalog-2026_p100_d005,12,keep,,,T3,several cutters
+698,mueller_haushalt-kueche-katalog-2026_p100_d005,12,exclude,T3,AI suggestion accepted in bulk,T3,several cutters
 699,mueller_haushalt-kueche-katalog-2026_p100_d006,12,keep,,,,
 700,mueller_haushalt-kueche-katalog-2026_p100_d007,12,keep,,,,
-701,mueller_haushalt-kueche-katalog-2026_p100_d008,12,keep,,,T1,"food photo, no product"
+701,mueller_haushalt-kueche-katalog-2026_p100_d008,12,exclude,T1,AI suggestion accepted in bulk,T1,"food photo, no product"
 702,mueller_haushalt-kueche-katalog-2026_p100_d009,12,keep,,,,
 703,mueller_haushalt-kueche-katalog-2026_p100_d010,12,keep,,,,
 704,mueller_haushalt-kueche-katalog-2026_p100_d011,12,keep,,,,
-705,mueller_haushalt-kueche-katalog-2026_p101_d000,12,keep,,,T3,several nozzles
-706,mueller_haushalt-kueche-katalog-2026_p101_d001,12,keep,,,T3,several nozzles
+705,mueller_haushalt-kueche-katalog-2026_p101_d000,12,exclude,T3,AI suggestion accepted in bulk,T3,several nozzles
+706,mueller_haushalt-kueche-katalog-2026_p101_d001,12,exclude,T3,AI suggestion accepted in bulk,T3,several nozzles
 707,mueller_haushalt-kueche-katalog-2026_p101_d002,12,keep,,,,
-708,mueller_haushalt-kueche-katalog-2026_p101_d003,12,keep,,,T3,several nozzles
+708,mueller_haushalt-kueche-katalog-2026_p101_d003,12,exclude,T3,AI suggestion accepted in bulk,T3,several nozzles
 709,mueller_haushalt-kueche-katalog-2026_p101_d004,12,keep,,,,
 710,mueller_haushalt-kueche-katalog-2026_p101_d005,12,keep,,,,
 711,mueller_haushalt-kueche-katalog-2026_p101_d006,12,keep,,,,
@@ -714,20 +714,20 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 713,mueller_haushalt-kueche-katalog-2026_p101_d008,12,keep,,,,
 714,mueller_haushalt-kueche-katalog-2026_p101_d009,12,keep,,,,
 715,mueller_haushalt-kueche-katalog-2026_p101_d010,12,keep,,,,
-716,mueller_haushalt-kueche-katalog-2026_p101_d011,12,keep,,,T1,"food photo, no product"
-717,mueller_haushalt-kueche-katalog-2026_p101_d012,12,keep,,,T3,several nozzles
+716,mueller_haushalt-kueche-katalog-2026_p101_d011,12,exclude,T1,AI suggestion accepted in bulk,T1,"food photo, no product"
+717,mueller_haushalt-kueche-katalog-2026_p101_d012,12,exclude,T3,AI suggestion accepted in bulk,T3,several nozzles
 718,mueller_haushalt-kueche-katalog-2026_p101_d013,12,keep,,,,
 719,mueller_haushalt-kueche-katalog-2026_p101_d014,12,keep,,,,
 720,mueller_haushalt-kueche-katalog-2026_p101_d015,12,keep,,,,
 721,mueller_haushalt-kueche-katalog-2026_p101_d016,13,keep,,,,
 722,mueller_haushalt-kueche-katalog-2026_p101_d017,13,keep,,,,
-723,mueller_haushalt-kueche-katalog-2026_p101_d018,13,keep,,,T3,several cutters
-724,mueller_haushalt-kueche-katalog-2026_p102_d000,13,keep,,,T4,cake scene
+723,mueller_haushalt-kueche-katalog-2026_p101_d018,13,exclude,T3,AI suggestion accepted in bulk,T3,several cutters
+724,mueller_haushalt-kueche-katalog-2026_p102_d000,13,exclude,T4,AI suggestion accepted in bulk,T4,cake scene
 725,mueller_haushalt-kueche-katalog-2026_p102_d001,13,keep,,,,
 726,mueller_haushalt-kueche-katalog-2026_p102_d002,13,keep,,,,
 727,mueller_haushalt-kueche-katalog-2026_p102_d003,13,keep,,,,
-728,mueller_haushalt-kueche-katalog-2026_p102_d004,13,keep,,,T2,partial
-729,mueller_haushalt-kueche-katalog-2026_p102_d005,13,keep,,,T2,partial
+728,mueller_haushalt-kueche-katalog-2026_p102_d004,13,exclude,T2,AI suggestion accepted in bulk,T2,partial
+729,mueller_haushalt-kueche-katalog-2026_p102_d005,13,exclude,T2,AI suggestion accepted in bulk,T2,partial
 730,mueller_haushalt-kueche-katalog-2026_p102_d006,13,keep,,,,
 731,mueller_haushalt-kueche-katalog-2026_p103_d000,13,keep,,,,
 732,mueller_haushalt-kueche-katalog-2026_p103_d001,13,keep,,,,
@@ -737,22 +737,22 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 736,mueller_haushalt-kueche-katalog-2026_p103_d005,13,keep,,,,
 737,mueller_haushalt-kueche-katalog-2026_p103_d006,13,keep,,,,
 738,mueller_haushalt-kueche-katalog-2026_p103_d007,13,keep,,,,
-739,mueller_haushalt-kueche-katalog-2026_p104_d000,13,keep,,,T1,badge with price
+739,mueller_haushalt-kueche-katalog-2026_p104_d000,13,exclude,T1,AI suggestion accepted in bulk,T1,badge with price
 740,mueller_haushalt-kueche-katalog-2026_p104_d001,13,keep,,,,
-741,mueller_haushalt-kueche-katalog-2026_p104_d002,13,keep,,,T4,food scene
-742,mueller_haushalt-kueche-katalog-2026_p104_d003,13,keep,,,T4,food scene
+741,mueller_haushalt-kueche-katalog-2026_p104_d002,13,exclude,T4,AI suggestion accepted in bulk,T4,food scene
+742,mueller_haushalt-kueche-katalog-2026_p104_d003,13,exclude,T4,AI suggestion accepted in bulk,T4,food scene
 743,mueller_haushalt-kueche-katalog-2026_p104_d004,13,keep,,,,
-744,mueller_haushalt-kueche-katalog-2026_p104_d005,13,keep,,,T4,person scene
+744,mueller_haushalt-kueche-katalog-2026_p104_d005,13,exclude,T4,AI suggestion accepted in bulk,T4,person scene
 745,mueller_haushalt-kueche-katalog-2026_p105_d000,13,keep,,,,
 746,mueller_haushalt-kueche-katalog-2026_p105_d001,13,keep,,,,
-747,mueller_haushalt-kueche-katalog-2026_p105_d002,13,keep,,,T3,several cups
-748,mueller_haushalt-kueche-katalog-2026_p105_d003,13,keep,,,T3,several cups
-749,mueller_haushalt-kueche-katalog-2026_p105_d004,13,keep,,,T1,text fragment
-750,mueller_haushalt-kueche-katalog-2026_p105_d005,13,keep,,,T3,several cups
-751,mueller_haushalt-kueche-katalog-2026_p105_d006,13,keep,,,T3,several cups
+747,mueller_haushalt-kueche-katalog-2026_p105_d002,13,exclude,T3,AI suggestion accepted in bulk,T3,several cups
+748,mueller_haushalt-kueche-katalog-2026_p105_d003,13,exclude,T3,AI suggestion accepted in bulk,T3,several cups
+749,mueller_haushalt-kueche-katalog-2026_p105_d004,13,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
+750,mueller_haushalt-kueche-katalog-2026_p105_d005,13,exclude,T3,AI suggestion accepted in bulk,T3,several cups
+751,mueller_haushalt-kueche-katalog-2026_p105_d006,13,exclude,T3,AI suggestion accepted in bulk,T3,several cups
 752,mueller_haushalt-kueche-katalog-2026_p105_d007,13,keep,,,,
 753,mueller_haushalt-kueche-katalog-2026_p105_d008,13,keep,,,,
-754,mueller_haushalt-kueche-katalog-2026_p105_d009,13,keep,,,T4,food scene
+754,mueller_haushalt-kueche-katalog-2026_p105_d009,13,exclude,T4,AI suggestion accepted in bulk,T4,food scene
 755,mueller_haushalt-kueche-katalog-2026_p105_d010,13,keep,,,,
 756,mueller_haushalt-kueche-katalog-2026_p105_d011,13,keep,,,,
 757,mueller_haushalt-kueche-katalog-2026_p105_d012,13,keep,,,,
@@ -762,52 +762,52 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 761,mueller_haushalt-kueche-katalog-2026_p106_d002,13,keep,,,,
 762,mueller_haushalt-kueche-katalog-2026_p106_d003,13,keep,,,,
 763,mueller_haushalt-kueche-katalog-2026_p106_d004,13,keep,,,,
-764,mueller_haushalt-kueche-katalog-2026_p106_d005,13,keep,,,T2,partial
+764,mueller_haushalt-kueche-katalog-2026_p106_d005,13,exclude,T2,AI suggestion accepted in bulk,T2,partial
 765,mueller_haushalt-kueche-katalog-2026_p107_d000,13,keep,,,,
 766,mueller_haushalt-kueche-katalog-2026_p107_d001,13,keep,,,,
-767,mueller_haushalt-kueche-katalog-2026_p107_d002,13,keep,,,T3,two boxes
+767,mueller_haushalt-kueche-katalog-2026_p107_d002,13,exclude,T3,AI suggestion accepted in bulk,T3,two boxes
 768,mueller_haushalt-kueche-katalog-2026_p107_d003,13,keep,,,,
 769,mueller_haushalt-kueche-katalog-2026_p107_d004,13,keep,,,,
 770,mueller_haushalt-kueche-katalog-2026_p107_d005,13,keep,,,,
 771,mueller_haushalt-kueche-katalog-2026_p107_d006,13,keep,,,,
 772,mueller_haushalt-kueche-katalog-2026_p107_d007,13,keep,,,,
-773,mueller_haushalt-kueche-katalog-2026_p108_d000,13,keep,,,T4,kitchen scene
+773,mueller_haushalt-kueche-katalog-2026_p108_d000,13,exclude,T4,AI suggestion accepted in bulk,T4,kitchen scene
 774,mueller_haushalt-kueche-katalog-2026_p108_d001,13,keep,,,,
 775,mueller_haushalt-kueche-katalog-2026_p108_d002,13,keep,,,,
-776,mueller_haushalt-kueche-katalog-2026_p108_d003,13,keep,,,T1,test badge
+776,mueller_haushalt-kueche-katalog-2026_p108_d003,13,exclude,T1,AI suggestion accepted in bulk,T1,test badge
 777,mueller_haushalt-kueche-katalog-2026_p108_d004,13,keep,,,,
-778,mueller_haushalt-kueche-katalog-2026_p109_d000,13,keep,,,T2,sliver
+778,mueller_haushalt-kueche-katalog-2026_p109_d000,13,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 779,mueller_haushalt-kueche-katalog-2026_p109_d001,13,keep,,,,
 780,mueller_haushalt-kueche-katalog-2026_p109_d002,13,keep,,,,
 781,mueller_haushalt-kueche-katalog-2026_p110_d000,14,keep,,,,
 782,mueller_haushalt-kueche-katalog-2026_p110_d001,14,keep,,,,
 783,mueller_haushalt-kueche-katalog-2026_p110_d002,14,keep,,,,
-784,mueller_haushalt-kueche-katalog-2026_p110_d003,14,keep,,,T1,certification badge
-785,mueller_haushalt-kueche-katalog-2026_p110_d004,14,keep,,,T3,several handkerchiefs
+784,mueller_haushalt-kueche-katalog-2026_p110_d003,14,exclude,T1,AI suggestion accepted in bulk,T1,certification badge
+785,mueller_haushalt-kueche-katalog-2026_p110_d004,14,exclude,T3,AI suggestion accepted in bulk,T3,several handkerchiefs
 786,mueller_haushalt-kueche-katalog-2026_p110_d005,14,keep,,,,
 787,mueller_haushalt-kueche-katalog-2026_p110_d006,14,keep,,,,
 788,mueller_haushalt-kueche-katalog-2026_p110_d007,14,keep,,,,
-789,mueller_haushalt-kueche-katalog-2026_p112_d000,14,keep,,,T2,partial
-790,mueller_haushalt-kueche-katalog-2026_p112_d001,14,keep,,,T2,sliver
-791,mueller_haushalt-kueche-katalog-2026_p114_d000,14,keep,,,T1,logo
+789,mueller_haushalt-kueche-katalog-2026_p112_d000,14,exclude,T2,AI suggestion accepted in bulk,T2,partial
+790,mueller_haushalt-kueche-katalog-2026_p112_d001,14,exclude,T2,AI suggestion accepted in bulk,T2,sliver
+791,mueller_haushalt-kueche-katalog-2026_p114_d000,14,exclude,T1,AI suggestion accepted in bulk,T1,logo
 792,mueller_haushalt-kueche-katalog-2026_p114_d001,14,keep,,,,
 793,mueller_haushalt-kueche-katalog-2026_p115_d000,14,keep,,,,
 794,mueller_haushalt-kueche-katalog-2026_p115_d001,14,keep,,,,
 795,mueller_haushalt-kueche-katalog-2026_p115_d002,14,keep,,,,
 796,mueller_haushalt-kueche-katalog-2026_p116_d000,14,keep,,,,
 797,mueller_haushalt-kueche-katalog-2026_p116_d001,14,keep,,,,
-798,mueller_haushalt-kueche-katalog-2026_p116_d002,14,keep,,,T1,feature icon
-799,mueller_haushalt-kueche-katalog-2026_p116_d003,14,keep,,,T1,feature icon
-800,mueller_haushalt-kueche-katalog-2026_p116_d004,14,keep,,,T1,feature icon
-801,mueller_haushalt-kueche-katalog-2026_p116_d005,14,keep,,,T1,feature icon
+798,mueller_haushalt-kueche-katalog-2026_p116_d002,14,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+799,mueller_haushalt-kueche-katalog-2026_p116_d003,14,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+800,mueller_haushalt-kueche-katalog-2026_p116_d004,14,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+801,mueller_haushalt-kueche-katalog-2026_p116_d005,14,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
 802,mueller_haushalt-kueche-katalog-2026_p116_d006,14,keep,,,,
-803,mueller_haushalt-kueche-katalog-2026_p117_d000,14,keep,,,T1,text fragment
+803,mueller_haushalt-kueche-katalog-2026_p117_d000,14,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
 804,mueller_haushalt-kueche-katalog-2026_p117_d001,14,keep,,,,
 805,mueller_haushalt-kueche-katalog-2026_p117_d002,14,keep,,,,
 806,mueller_haushalt-kueche-katalog-2026_p117_d003,14,keep,,,,
-807,mueller_haushalt-kueche-katalog-2026_p117_d004,14,keep,,,T3,two stylers
+807,mueller_haushalt-kueche-katalog-2026_p117_d004,14,exclude,T3,AI suggestion accepted in bulk,T3,two stylers
 808,mueller_haushalt-kueche-katalog-2026_p118_d000,14,keep,,,,
-809,mueller_haushalt-kueche-katalog-2026_p118_d001,14,keep,,,T2,unrecognisable
+809,mueller_haushalt-kueche-katalog-2026_p118_d001,14,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
 810,mueller_haushalt-kueche-katalog-2026_p118_d002,14,keep,,,,
 811,mueller_haushalt-kueche-katalog-2026_p118_d003,14,keep,,,,
 812,mueller_haushalt-kueche-katalog-2026_p118_d004,14,keep,,,,
@@ -820,25 +820,25 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 819,mueller_haushalt-kueche-katalog-2026_p119_d001,14,keep,,,,
 820,mueller_haushalt-kueche-katalog-2026_p119_d002,14,keep,,,,
 821,mueller_haushalt-kueche-katalog-2026_p119_d003,14,keep,,,,
-822,mueller_haushalt-kueche-katalog-2026_p119_d004,14,keep,,,T1,award badge
+822,mueller_haushalt-kueche-katalog-2026_p119_d004,14,exclude,T1,AI suggestion accepted in bulk,T1,award badge
 823,mueller_haushalt-kueche-katalog-2026_p120_d000,14,keep,,,,
-824,mueller_haushalt-kueche-katalog-2026_p120_d001,14,keep,,,T4,person scene
+824,mueller_haushalt-kueche-katalog-2026_p120_d001,14,exclude,T4,AI suggestion accepted in bulk,T4,person scene
 825,mueller_haushalt-kueche-katalog-2026_p120_d002,14,keep,,,,
-826,mueller_haushalt-kueche-katalog-2026_p120_d003,14,keep,,,T2,detail close-up
+826,mueller_haushalt-kueche-katalog-2026_p120_d003,14,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
 827,mueller_haushalt-kueche-katalog-2026_p120_d004,14,keep,,,,
-828,mueller_haushalt-kueche-katalog-2026_p120_d005,14,keep,,,T4,person scene
-829,mueller_haushalt-kueche-katalog-2026_p120_d006,14,keep,,,T2,partial
+828,mueller_haushalt-kueche-katalog-2026_p120_d005,14,exclude,T4,AI suggestion accepted in bulk,T4,person scene
+829,mueller_haushalt-kueche-katalog-2026_p120_d006,14,exclude,T2,AI suggestion accepted in bulk,T2,partial
 830,mueller_haushalt-kueche-katalog-2026_p121_d000,14,keep,,,,
-831,mueller_haushalt-kueche-katalog-2026_p121_d001,14,keep,,,T4,person scene
+831,mueller_haushalt-kueche-katalog-2026_p121_d001,14,exclude,T4,AI suggestion accepted in bulk,T4,person scene
 832,mueller_haushalt-kueche-katalog-2026_p121_d002,14,keep,,,,
-833,mueller_haushalt-kueche-katalog-2026_p121_d003,14,keep,,,T4,person scene
+833,mueller_haushalt-kueche-katalog-2026_p121_d003,14,exclude,T4,AI suggestion accepted in bulk,T4,person scene
 834,mueller_haushalt-kueche-katalog-2026_p121_d004,14,keep,,,,
-835,mueller_haushalt-kueche-katalog-2026_p121_d005,14,keep,,,T2,detail close-up
-836,mueller_haushalt-kueche-katalog-2026_p121_d006,14,keep,,,T2,partial
+835,mueller_haushalt-kueche-katalog-2026_p121_d005,14,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
+836,mueller_haushalt-kueche-katalog-2026_p121_d006,14,exclude,T2,AI suggestion accepted in bulk,T2,partial
 837,mueller_haushalt-kueche-katalog-2026_p121_d007,14,keep,,,,
-838,mueller_haushalt-kueche-katalog-2026_p121_d008,14,keep,,,T2,partial
+838,mueller_haushalt-kueche-katalog-2026_p121_d008,14,exclude,T2,AI suggestion accepted in bulk,T2,partial
 839,mueller_haushalt-kueche-katalog-2026_p121_d009,14,keep,,,,
-840,mueller_haushalt-kueche-katalog-2026_p121_d010,14,keep,,,T4,person scene
+840,mueller_haushalt-kueche-katalog-2026_p121_d010,14,exclude,T4,AI suggestion accepted in bulk,T4,person scene
 841,mueller_haushalt-kueche-katalog-2026_p121_d011,15,keep,,,,
 842,mueller_haushalt-kueche-katalog-2026_p121_d012,15,keep,,,,
 843,mueller_haushalt-kueche-katalog-2026_p121_d013,15,keep,,,,
@@ -849,13 +849,13 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 848,mueller_haushalt-kueche-katalog-2026_p122_d000,15,keep,,,,
 849,mueller_haushalt-kueche-katalog-2026_p122_d001,15,keep,,,,
 850,mueller_haushalt-kueche-katalog-2026_p122_d002,15,keep,,,,
-851,mueller_haushalt-kueche-katalog-2026_p122_d003,15,keep,,,T1,award badge
+851,mueller_haushalt-kueche-katalog-2026_p122_d003,15,exclude,T1,AI suggestion accepted in bulk,T1,award badge
 852,mueller_haushalt-kueche-katalog-2026_p122_d004,15,keep,,,,
-853,mueller_haushalt-kueche-katalog-2026_p122_d005,15,keep,,,T3,several attachments
-854,mueller_haushalt-kueche-katalog-2026_p122_d006,15,keep,,,T3,several attachments
-855,mueller_haushalt-kueche-katalog-2026_p122_d007,15,keep,,,T3,several attachments
+853,mueller_haushalt-kueche-katalog-2026_p122_d005,15,exclude,T3,AI suggestion accepted in bulk,T3,several attachments
+854,mueller_haushalt-kueche-katalog-2026_p122_d006,15,exclude,T3,AI suggestion accepted in bulk,T3,several attachments
+855,mueller_haushalt-kueche-katalog-2026_p122_d007,15,exclude,T3,AI suggestion accepted in bulk,T3,several attachments
 856,mueller_haushalt-kueche-katalog-2026_p122_d008,15,keep,,,,
-857,mueller_haushalt-kueche-katalog-2026_p122_d009,15,keep,,,T2,detail close-up
+857,mueller_haushalt-kueche-katalog-2026_p122_d009,15,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
 858,mueller_haushalt-kueche-katalog-2026_p123_d000,15,keep,,,,
 859,mueller_haushalt-kueche-katalog-2026_p123_d001,15,keep,,,,
 860,mueller_haushalt-kueche-katalog-2026_p123_d002,15,keep,,,,
@@ -873,7 +873,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 872,mueller_haushalt-kueche-katalog-2026_p125_d002,15,keep,,,,
 873,mueller_haushalt-kueche-katalog-2026_p125_d003,15,keep,,,,
 874,mueller_haushalt-kueche-katalog-2026_p125_d004,15,keep,,,,
-875,mueller_haushalt-kueche-katalog-2026_p125_d005,15,keep,,,T1,guarantee badge
+875,mueller_haushalt-kueche-katalog-2026_p125_d005,15,exclude,T1,AI suggestion accepted in bulk,T1,guarantee badge
 876,mueller_haushalt-kueche-katalog-2026_p125_d006,15,keep,,,,
 877,mueller_haushalt-kueche-katalog-2026_p125_d007,15,keep,,,,
 878,mueller_haushalt-kueche-katalog-2026_p125_d008,15,keep,,,,
@@ -881,7 +881,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 880,mueller_haushalt-kueche-katalog-2026_p125_d010,15,keep,,,,
 881,mueller_haushalt-kueche-katalog-2026_p128_d000,15,keep,,,,
 882,mueller_haushalt-kueche-katalog-2026_p128_d001,15,keep,,,,
-883,mueller_haushalt-kueche-katalog-2026_p128_d002,15,keep,,,T2,sliver
+883,mueller_haushalt-kueche-katalog-2026_p128_d002,15,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 884,mueller_haushalt-kueche-katalog-2026_p128_d003,15,keep,,,,
 885,mueller_haushalt-kueche-katalog-2026_p128_d004,15,keep,,,,
 886,mueller_haushalt-kueche-katalog-2026_p128_d005,15,keep,,,,
@@ -889,37 +889,37 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 888,mueller_haushalt-kueche-katalog-2026_p128_d007,15,keep,,,,
 889,mueller_haushalt-kueche-katalog-2026_p129_d000,15,keep,,,,
 890,mueller_haushalt-kueche-katalog-2026_p129_d001,15,keep,,,,
-891,mueller_haushalt-kueche-katalog-2026_p130_d000,15,keep,,,T1,logo
+891,mueller_haushalt-kueche-katalog-2026_p130_d000,15,exclude,T1,AI suggestion accepted in bulk,T1,logo
 892,mueller_haushalt-kueche-katalog-2026_p130_d001,15,keep,,,,
 893,mueller_haushalt-kueche-katalog-2026_p130_d002,15,keep,,,,
-894,mueller_haushalt-kueche-katalog-2026_p130_d003,15,keep,,,T1,feature icon
-895,mueller_haushalt-kueche-katalog-2026_p130_d004,15,keep,,,T1,feature icon
-896,mueller_haushalt-kueche-katalog-2026_p130_d005,15,keep,,,T1,feature icon
-897,mueller_haushalt-kueche-katalog-2026_p130_d006,15,keep,,,T1,feature icon
-898,mueller_haushalt-kueche-katalog-2026_p130_d007,15,keep,,,T1,feature icon
+894,mueller_haushalt-kueche-katalog-2026_p130_d003,15,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+895,mueller_haushalt-kueche-katalog-2026_p130_d004,15,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+896,mueller_haushalt-kueche-katalog-2026_p130_d005,15,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+897,mueller_haushalt-kueche-katalog-2026_p130_d006,15,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
+898,mueller_haushalt-kueche-katalog-2026_p130_d007,15,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
 899,mueller_haushalt-kueche-katalog-2026_p130_d008,15,keep,,,,
 900,mueller_haushalt-kueche-katalog-2026_p130_d009,15,keep,,,,
 901,mueller_haushalt-kueche-katalog-2026_p131_d000,16,keep,,,,
 902,mueller_haushalt-kueche-katalog-2026_p131_d001,16,keep,,,,
-903,mueller_haushalt-kueche-katalog-2026_p131_d002,16,keep,,,T2,fabric close-up
+903,mueller_haushalt-kueche-katalog-2026_p131_d002,16,exclude,T2,AI suggestion accepted in bulk,T2,fabric close-up
 904,mueller_haushalt-kueche-katalog-2026_p131_d003,16,keep,,,,
 905,mueller_haushalt-kueche-katalog-2026_p131_d004,16,keep,,,,
-906,mueller_haushalt-kueche-katalog-2026_p131_d005,16,keep,,,T3,two bins
-907,mueller_haushalt-kueche-katalog-2026_p131_d006,16,keep,,,T2,partial
+906,mueller_haushalt-kueche-katalog-2026_p131_d005,16,exclude,T3,AI suggestion accepted in bulk,T3,two bins
+907,mueller_haushalt-kueche-katalog-2026_p131_d006,16,exclude,T2,AI suggestion accepted in bulk,T2,partial
 908,mueller_haushalt-kueche-katalog-2026_p131_d007,16,keep,,,,
 909,mueller_haushalt-kueche-katalog-2026_p131_d008,16,keep,,,,
 910,mueller_haushalt-kueche-katalog-2026_p131_d009,16,keep,,,,
 911,mueller_haushalt-kueche-katalog-2026_p131_d010,16,keep,,,,
 912,mueller_haushalt-kueche-katalog-2026_p131_d011,16,keep,,,,
 913,mueller_haushalt-kueche-katalog-2026_p131_d012,16,keep,,,,
-914,mueller_haushalt-kueche-katalog-2026_p131_d013,16,keep,,,T4,bathroom scene
-915,mueller_haushalt-kueche-katalog-2026_p131_d014,16,keep,,,T2,partial
-916,mueller_haushalt-kueche-katalog-2026_p132_d000,16,keep,,,T4,styled scene
-917,mueller_haushalt-kueche-katalog-2026_p133_d000,16,keep,,,T3,several stickers
+914,mueller_haushalt-kueche-katalog-2026_p131_d013,16,exclude,T4,AI suggestion accepted in bulk,T4,bathroom scene
+915,mueller_haushalt-kueche-katalog-2026_p131_d014,16,exclude,T2,AI suggestion accepted in bulk,T2,partial
+916,mueller_haushalt-kueche-katalog-2026_p132_d000,16,exclude,T4,AI suggestion accepted in bulk,T4,styled scene
+917,mueller_haushalt-kueche-katalog-2026_p133_d000,16,exclude,T3,AI suggestion accepted in bulk,T3,several stickers
 918,mueller_haushalt-kueche-katalog-2026_p133_d001,16,keep,,,,
 919,mueller_haushalt-kueche-katalog-2026_p133_d002,16,keep,,,,
 920,mueller_haushalt-kueche-katalog-2026_p133_d003,16,keep,,,,
-921,mueller_haushalt-kueche-katalog-2026_p133_d004,16,keep,,,T3,two bags
+921,mueller_haushalt-kueche-katalog-2026_p133_d004,16,exclude,T3,AI suggestion accepted in bulk,T3,two bags
 922,mueller_haushalt-kueche-katalog-2026_p133_d005,16,keep,,,,
 923,mueller_haushalt-kueche-katalog-2026_p133_d006,16,keep,,,,
 924,mueller_haushalt-kueche-katalog-2026_p133_d007,16,keep,,,,
@@ -931,11 +931,11 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 930,mueller_haushalt-kueche-katalog-2026_p134_d004,16,keep,,,,
 931,mueller_haushalt-kueche-katalog-2026_p134_d005,16,keep,,,,
 932,mueller_haushalt-kueche-katalog-2026_p134_d006,16,keep,,,,
-933,mueller_haushalt-kueche-katalog-2026_p134_d007,16,keep,,,T3,several tins
-934,mueller_haushalt-kueche-katalog-2026_p134_d008,16,keep,,,T2,detail close-up
+933,mueller_haushalt-kueche-katalog-2026_p134_d007,16,exclude,T3,AI suggestion accepted in bulk,T3,several tins
+934,mueller_haushalt-kueche-katalog-2026_p134_d008,16,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
 935,mueller_haushalt-kueche-katalog-2026_p134_d009,16,keep,,,,
-936,mueller_haushalt-kueche-katalog-2026_p134_d010,16,keep,,,T4,hand scene
-937,mueller_haushalt-kueche-katalog-2026_p135_d000,16,keep,,,T2,partial
+936,mueller_haushalt-kueche-katalog-2026_p134_d010,16,exclude,T4,AI suggestion accepted in bulk,T4,hand scene
+937,mueller_haushalt-kueche-katalog-2026_p135_d000,16,exclude,T2,AI suggestion accepted in bulk,T2,partial
 938,mueller_haushalt-kueche-katalog-2026_p135_d001,16,keep,,,,
 939,mueller_haushalt-kueche-katalog-2026_p135_d002,16,keep,,,,
 940,mueller_haushalt-kueche-katalog-2026_p135_d003,16,keep,,,,
@@ -943,57 +943,57 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 942,mueller_haushalt-kueche-katalog-2026_p135_d005,16,keep,,,,
 943,mueller_haushalt-kueche-katalog-2026_p136_d000,16,keep,,,,
 944,mueller_haushalt-kueche-katalog-2026_p136_d001,16,keep,,,,
-945,mueller_haushalt-kueche-katalog-2026_p136_d002,16,keep,,,T2,detail close-up
+945,mueller_haushalt-kueche-katalog-2026_p136_d002,16,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
 946,mueller_haushalt-kueche-katalog-2026_p136_d003,16,keep,,,,
-947,mueller_haushalt-kueche-katalog-2026_p136_d004,16,keep,,,T1,QR code
+947,mueller_haushalt-kueche-katalog-2026_p136_d004,16,exclude,T1,AI suggestion accepted in bulk,T1,QR code
 948,mueller_haushalt-kueche-katalog-2026_p136_d005,16,keep,,,,
-949,mueller_haushalt-kueche-katalog-2026_p137_d000,16,keep,,,T4,drink photo
-950,mueller_haushalt-kueche-katalog-2026_p137_d001,16,keep,,,T4,food photo
+949,mueller_haushalt-kueche-katalog-2026_p137_d000,16,exclude,T4,AI suggestion accepted in bulk,T4,drink photo
+950,mueller_haushalt-kueche-katalog-2026_p137_d001,16,exclude,T4,AI suggestion accepted in bulk,T4,food photo
 951,mueller_haushalt-kueche-katalog-2026_p137_d002,16,keep,,,,
-952,mueller_haushalt-kueche-katalog-2026_p137_d003,16,keep,,,T1,usage icon
-953,mueller_haushalt-kueche-katalog-2026_p137_d004,16,keep,,,T4,food photo
+952,mueller_haushalt-kueche-katalog-2026_p137_d003,16,exclude,T1,AI suggestion accepted in bulk,T1,usage icon
+953,mueller_haushalt-kueche-katalog-2026_p137_d004,16,exclude,T4,AI suggestion accepted in bulk,T4,food photo
 954,mueller_haushalt-kueche-katalog-2026_p137_d005,16,keep,,,,
 955,mueller_haushalt-kueche-katalog-2026_p137_d006,16,keep,,,,
-956,mueller_haushalt-kueche-katalog-2026_p138_d000,16,keep,,,T4,person scene
+956,mueller_haushalt-kueche-katalog-2026_p138_d000,16,exclude,T4,AI suggestion accepted in bulk,T4,person scene
 957,mueller_haushalt-kueche-katalog-2026_p138_d001,16,keep,,,,
 958,mueller_haushalt-kueche-katalog-2026_p138_d002,16,keep,,,,
 959,mueller_haushalt-kueche-katalog-2026_p138_d003,16,keep,,,,
 960,mueller_haushalt-kueche-katalog-2026_p138_d004,16,keep,,,,
-961,mueller_haushalt-kueche-katalog-2026_p138_d005,17,keep,,,T4,usage scene
-962,mueller_haushalt-kueche-katalog-2026_p138_d006,17,keep,,,T4,usage scene
+961,mueller_haushalt-kueche-katalog-2026_p138_d005,17,exclude,T4,AI suggestion accepted in bulk,T4,usage scene
+962,mueller_haushalt-kueche-katalog-2026_p138_d006,17,exclude,T4,AI suggestion accepted in bulk,T4,usage scene
 963,mueller_haushalt-kueche-katalog-2026_p138_d007,17,keep,,,,
 964,mueller_haushalt-kueche-katalog-2026_p138_d008,17,keep,,,,
-965,mueller_haushalt-kueche-katalog-2026_p138_d009,17,keep,,,T4,hand scene
+965,mueller_haushalt-kueche-katalog-2026_p138_d009,17,exclude,T4,AI suggestion accepted in bulk,T4,hand scene
 966,mueller_haushalt-kueche-katalog-2026_p139_d000,17,keep,,,,
 967,mueller_haushalt-kueche-katalog-2026_p139_d001,17,keep,,,,
 968,mueller_haushalt-kueche-katalog-2026_p139_d002,17,keep,,,,
 969,mueller_haushalt-kueche-katalog-2026_p139_d003,17,keep,,,,
-970,mueller_haushalt-kueche-katalog-2026_p139_d004,17,keep,,,T4,usage scene
-971,mueller_haushalt-kueche-katalog-2026_p139_d005,17,keep,,,T4,usage scene
-972,mueller_haushalt-kueche-katalog-2026_p140_d000,17,keep,,,T2,partial
+970,mueller_haushalt-kueche-katalog-2026_p139_d004,17,exclude,T4,AI suggestion accepted in bulk,T4,usage scene
+971,mueller_haushalt-kueche-katalog-2026_p139_d005,17,exclude,T4,AI suggestion accepted in bulk,T4,usage scene
+972,mueller_haushalt-kueche-katalog-2026_p140_d000,17,exclude,T2,AI suggestion accepted in bulk,T2,partial
 973,mueller_haushalt-kueche-katalog-2026_p140_d001,17,keep,,,,
 974,mueller_haushalt-kueche-katalog-2026_p140_d002,17,keep,,,,
 975,mueller_haushalt-kueche-katalog-2026_p140_d003,17,keep,,,,
-976,mueller_haushalt-kueche-katalog-2026_p140_d004,17,keep,,,T4,usage scene
+976,mueller_haushalt-kueche-katalog-2026_p140_d004,17,exclude,T4,AI suggestion accepted in bulk,T4,usage scene
 977,mueller_haushalt-kueche-katalog-2026_p140_d005,17,keep,,,,
-978,mueller_haushalt-kueche-katalog-2026_p140_d006,17,keep,,,T2,partial
+978,mueller_haushalt-kueche-katalog-2026_p140_d006,17,exclude,T2,AI suggestion accepted in bulk,T2,partial
 979,mueller_haushalt-kueche-katalog-2026_p141_d000,17,keep,,,,
 980,mueller_haushalt-kueche-katalog-2026_p141_d001,17,keep,,,,
 981,mueller_haushalt-kueche-katalog-2026_p141_d002,17,keep,,,,
-982,mueller_haushalt-kueche-katalog-2026_p141_d003,17,keep,,,T4,usage scene
+982,mueller_haushalt-kueche-katalog-2026_p141_d003,17,exclude,T4,AI suggestion accepted in bulk,T4,usage scene
 983,mueller_haushalt-kueche-katalog-2026_p141_d004,17,keep,,,,
 984,mueller_haushalt-kueche-katalog-2026_p142_d000,17,keep,,,,
 985,mueller_haushalt-kueche-katalog-2026_p142_d001,17,keep,,,,
-986,mueller_haushalt-kueche-katalog-2026_p142_d002,17,keep,,,T4,usage scene
-987,mueller_haushalt-kueche-katalog-2026_p142_d003,17,keep,,,T2,detail close-up
-988,mueller_haushalt-kueche-katalog-2026_p142_d004,17,keep,,,T3,several egg cups
-989,mueller_haushalt-kueche-katalog-2026_p142_d005,17,keep,,,T4,usage scene
-990,mueller_haushalt-kueche-katalog-2026_p142_d006,17,keep,,,T2,partial
-991,mueller_haushalt-kueche-katalog-2026_p142_d007,17,keep,,,T2,detail close-up
+986,mueller_haushalt-kueche-katalog-2026_p142_d002,17,exclude,T4,AI suggestion accepted in bulk,T4,usage scene
+987,mueller_haushalt-kueche-katalog-2026_p142_d003,17,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
+988,mueller_haushalt-kueche-katalog-2026_p142_d004,17,exclude,T3,AI suggestion accepted in bulk,T3,several egg cups
+989,mueller_haushalt-kueche-katalog-2026_p142_d005,17,exclude,T4,AI suggestion accepted in bulk,T4,usage scene
+990,mueller_haushalt-kueche-katalog-2026_p142_d006,17,exclude,T2,AI suggestion accepted in bulk,T2,partial
+991,mueller_haushalt-kueche-katalog-2026_p142_d007,17,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
 992,mueller_haushalt-kueche-katalog-2026_p142_d008,17,keep,,,,
-993,mueller_haushalt-kueche-katalog-2026_p142_d009,17,keep,,,T2,partial
-994,mueller_haushalt-kueche-katalog-2026_p142_d010,17,keep,,,T2,partial
-995,mueller_haushalt-kueche-katalog-2026_p142_d011,17,keep,,,T2,partial
+993,mueller_haushalt-kueche-katalog-2026_p142_d009,17,exclude,T2,AI suggestion accepted in bulk,T2,partial
+994,mueller_haushalt-kueche-katalog-2026_p142_d010,17,exclude,T2,AI suggestion accepted in bulk,T2,partial
+995,mueller_haushalt-kueche-katalog-2026_p142_d011,17,exclude,T2,AI suggestion accepted in bulk,T2,partial
 996,mueller_haushalt-kueche-katalog-2026_p143_d000,17,keep,,,,
 997,mueller_haushalt-kueche-katalog-2026_p143_d001,17,keep,,,,
 998,mueller_haushalt-kueche-katalog-2026_p143_d002,17,keep,,,,
@@ -1001,28 +1001,28 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1000,mueller_haushalt-kueche-katalog-2026_p143_d004,17,keep,,,,
 1001,mueller_haushalt-kueche-katalog-2026_p143_d005,17,keep,,,,
 1002,mueller_haushalt-kueche-katalog-2026_p143_d006,17,keep,,,,
-1003,mueller_haushalt-kueche-katalog-2026_p144_d000,17,keep,,,T1,logo
-1004,mueller_haushalt-kueche-katalog-2026_p144_d001,17,keep,,,T1,text fragment
+1003,mueller_haushalt-kueche-katalog-2026_p144_d000,17,exclude,T1,AI suggestion accepted in bulk,T1,logo
+1004,mueller_haushalt-kueche-katalog-2026_p144_d001,17,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
 1005,mueller_haushalt-kueche-katalog-2026_p144_d002,17,keep,,,,
 1006,mueller_haushalt-kueche-katalog-2026_p145_d000,17,keep,,,,
 1007,mueller_haushalt-kueche-katalog-2026_p145_d001,17,keep,,,,
-1008,mueller_haushalt-kueche-katalog-2026_p145_d002,17,keep,,,T4,coins scene
+1008,mueller_haushalt-kueche-katalog-2026_p145_d002,17,exclude,T4,AI suggestion accepted in bulk,T4,coins scene
 1009,mueller_haushalt-kueche-katalog-2026_p145_d003,17,keep,,,,
 1010,mueller_haushalt-kueche-katalog-2026_p145_d004,17,keep,,,,
 1011,mueller_haushalt-kueche-katalog-2026_p145_d005,17,keep,,,,
-1012,mueller_haushalt-kueche-katalog-2026_p145_d006,17,keep,,,T3,several money boxes
+1012,mueller_haushalt-kueche-katalog-2026_p145_d006,17,exclude,T3,AI suggestion accepted in bulk,T3,several money boxes
 1013,mueller_haushalt-kueche-katalog-2026_p145_d007,17,keep,,,,
 1014,mueller_haushalt-kueche-katalog-2026_p145_d008,17,keep,,,,
 1015,mueller_haushalt-kueche-katalog-2026_p145_d009,17,keep,,,,
 1016,mueller_haushalt-kueche-katalog-2026_p146_d000,17,keep,,,,
 1017,mueller_haushalt-kueche-katalog-2026_p146_d001,17,keep,,,,
-1018,mueller_haushalt-kueche-katalog-2026_p146_d002,17,keep,,,T4,kitchen scene
+1018,mueller_haushalt-kueche-katalog-2026_p146_d002,17,exclude,T4,AI suggestion accepted in bulk,T4,kitchen scene
 1019,mueller_haushalt-kueche-katalog-2026_p146_d003,17,keep,,,,
-1020,mueller_haushalt-kueche-katalog-2026_p146_d004,17,keep,,,T2,partial
+1020,mueller_haushalt-kueche-katalog-2026_p146_d004,17,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1021,mueller_haushalt-kueche-katalog-2026_p146_d005,18,keep,,,,
-1022,mueller_haushalt-kueche-katalog-2026_p147_d000,18,keep,,,T1,text fragment
-1023,mueller_haushalt-kueche-katalog-2026_p147_d001,18,keep,,,T4,styled scene
-1024,mueller_haushalt-kueche-katalog-2026_p147_d002,18,keep,,,T2,partial
+1022,mueller_haushalt-kueche-katalog-2026_p147_d000,18,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
+1023,mueller_haushalt-kueche-katalog-2026_p147_d001,18,exclude,T4,AI suggestion accepted in bulk,T4,styled scene
+1024,mueller_haushalt-kueche-katalog-2026_p147_d002,18,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1025,mueller_haushalt-kueche-katalog-2026_p147_d003,18,keep,,,,
 1026,mueller_haushalt-kueche-katalog-2026_p147_d004,18,keep,,,,
 1027,mueller_haushalt-kueche-katalog-2026_p147_d005,18,keep,,,,
@@ -1030,14 +1030,14 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1029,mueller_haushalt-kueche-katalog-2026_p148_d001,18,keep,,,,
 1030,mueller_haushalt-kueche-katalog-2026_p148_d002,18,keep,,,,
 1031,mueller_haushalt-kueche-katalog-2026_p148_d003,18,keep,,,,
-1032,mueller_haushalt-kueche-katalog-2026_p149_d000,18,keep,,,T1,feature icon
+1032,mueller_haushalt-kueche-katalog-2026_p149_d000,18,exclude,T1,AI suggestion accepted in bulk,T1,feature icon
 1033,mueller_haushalt-kueche-katalog-2026_p149_d001,18,keep,,,,
 1034,mueller_haushalt-kueche-katalog-2026_p150_d000,18,keep,,,,
 1035,mueller_haushalt-kueche-katalog-2026_p150_d001,18,keep,,,,
 1036,mueller_haushalt-kueche-katalog-2026_p150_d002,18,keep,,,,
 1037,mueller_haushalt-kueche-katalog-2026_p150_d003,18,keep,,,,
 1038,mueller_haushalt-kueche-katalog-2026_p150_d004,18,keep,,,,
-1039,mueller_haushalt-kueche-katalog-2026_p150_d005,18,keep,,,T2,sliver
+1039,mueller_haushalt-kueche-katalog-2026_p150_d005,18,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 1040,mueller_modelleisenbahn-2026_p001_d000,18,keep,,,,
 1041,mueller_modelleisenbahn-2026_p001_d001,18,keep,,,,
 1042,mueller_modelleisenbahn-2026_p001_d002,18,keep,,,,
@@ -1048,10 +1048,10 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1047,mueller_modelleisenbahn-2026_p002_d004,18,keep,,,,
 1048,mueller_modelleisenbahn-2026_p002_d005,18,keep,,,,
 1049,mueller_modelleisenbahn-2026_p002_d006,18,keep,,,,
-1050,mueller_modelleisenbahn-2026_p002_d007,18,keep,,,T2,unrecognisable
+1050,mueller_modelleisenbahn-2026_p002_d007,18,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
 1051,mueller_modelleisenbahn-2026_p002_d008,18,keep,,,,
 1052,mueller_modelleisenbahn-2026_p002_d009,18,keep,,,,
-1053,mueller_modelleisenbahn-2026_p002_d010,18,keep,,,T2,unrecognisable
+1053,mueller_modelleisenbahn-2026_p002_d010,18,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
 1054,mueller_modelleisenbahn-2026_p003_d000,18,keep,,,,
 1055,mueller_modelleisenbahn-2026_p003_d001,18,keep,,,,
 1056,mueller_modelleisenbahn-2026_p003_d002,18,keep,,,,
@@ -1060,12 +1060,12 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1059,mueller_modelleisenbahn-2026_p003_d005,18,keep,,,,
 1060,mueller_modelleisenbahn-2026_p003_d006,18,keep,,,,
 1061,mueller_modelleisenbahn-2026_p003_d007,18,keep,,,,
-1062,mueller_modelleisenbahn-2026_p003_d008,18,keep,,,T3,two wagons
+1062,mueller_modelleisenbahn-2026_p003_d008,18,exclude,T3,AI suggestion accepted in bulk,T3,two wagons
 1063,mueller_modelleisenbahn-2026_p004_d000,18,keep,,,,
 1064,mueller_modelleisenbahn-2026_p004_d001,18,keep,,,,
 1065,mueller_modelleisenbahn-2026_p004_d002,18,keep,,,,
 1066,mueller_modelleisenbahn-2026_p004_d003,18,keep,,,,
-1067,mueller_modelleisenbahn-2026_p004_d004,18,keep,,,T2,sliver
+1067,mueller_modelleisenbahn-2026_p004_d004,18,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 1068,mueller_modelleisenbahn-2026_p005_d000,18,keep,,,,
 1069,mueller_modelleisenbahn-2026_p005_d001,18,keep,,,,
 1070,mueller_modelleisenbahn-2026_p005_d002,18,keep,,,,
@@ -1075,15 +1075,15 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1074,mueller_modelleisenbahn-2026_p005_d006,18,keep,,,,
 1075,mueller_modelleisenbahn-2026_p005_d007,18,keep,,,,
 1076,mueller_modelleisenbahn-2026_p005_d008,18,keep,,,,
-1077,mueller_modelleisenbahn-2026_p006_d000,18,keep,,,T2,detail close-up
+1077,mueller_modelleisenbahn-2026_p006_d000,18,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
 1078,mueller_modelleisenbahn-2026_p006_d001,18,keep,,,,
 1079,mueller_modelleisenbahn-2026_p006_d002,18,keep,,,,
 1080,mueller_modelleisenbahn-2026_p006_d003,18,keep,,,,
 1081,mueller_modelleisenbahn-2026_p006_d004,19,keep,,,,
-1082,mueller_modelleisenbahn-2026_p006_d005,19,keep,,,T3,set contents spread out
+1082,mueller_modelleisenbahn-2026_p006_d005,19,exclude,T3,AI suggestion accepted in bulk,T3,set contents spread out
 1083,mueller_modelleisenbahn-2026_p006_d006,19,keep,,,,
 1084,mueller_modelleisenbahn-2026_p006_d007,19,keep,,,,
-1085,mueller_modelleisenbahn-2026_p006_d008,19,keep,,,T3,two cars
+1085,mueller_modelleisenbahn-2026_p006_d008,19,exclude,T3,AI suggestion accepted in bulk,T3,two cars
 1086,mueller_modelleisenbahn-2026_p006_d009,19,keep,,,,
 1087,mueller_modelleisenbahn-2026_p006_d010,19,keep,,,,
 1088,mueller_modelleisenbahn-2026_p006_d011,19,keep,,,,
@@ -1096,15 +1096,15 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1095,mueller_modelleisenbahn-2026_p007_d006,19,keep,,,,
 1096,mueller_modelleisenbahn-2026_p008_d000,19,keep,,,,
 1097,mueller_modelleisenbahn-2026_p008_d001,19,keep,,,,
-1098,mueller_modelleisenbahn-2026_p008_d002,19,keep,,,T1,logo
+1098,mueller_modelleisenbahn-2026_p008_d002,19,exclude,T1,AI suggestion accepted in bulk,T1,logo
 1099,mueller_modelleisenbahn-2026_p008_d003,19,keep,,,,
-1100,mueller_modelleisenbahn-2026_p008_d004,19,keep,,,T2,sliver
+1100,mueller_modelleisenbahn-2026_p008_d004,19,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 1101,mueller_modelleisenbahn-2026_p008_d005,19,keep,,,,
 1102,mueller_modelleisenbahn-2026_p008_d006,19,keep,,,,
-1103,mueller_modelleisenbahn-2026_p008_d007,19,keep,,,T1,logo
+1103,mueller_modelleisenbahn-2026_p008_d007,19,exclude,T1,AI suggestion accepted in bulk,T1,logo
 1104,mueller_modelleisenbahn-2026_p008_d008,19,keep,,,,
-1105,mueller_modelleisenbahn-2026_p008_d009,19,keep,,,T2,sliver
-1106,mueller_modelleisenbahn-2026_p008_d010,19,keep,,,T2,sliver
+1105,mueller_modelleisenbahn-2026_p008_d009,19,exclude,T2,AI suggestion accepted in bulk,T2,sliver
+1106,mueller_modelleisenbahn-2026_p008_d010,19,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 1107,mueller_modelleisenbahn-2026_p008_d011,19,keep,,,,
 1108,mueller_modelleisenbahn-2026_p008_d012,19,keep,,,,
 1109,mueller_modelleisenbahn-2026_p008_d013,19,keep,,,,
@@ -1114,7 +1114,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1113,mueller_modelleisenbahn-2026_p008_d017,19,keep,,,,
 1114,mueller_modelleisenbahn-2026_p008_d018,19,keep,,,,
 1115,mueller_modelleisenbahn-2026_p008_d019,19,keep,,,,
-1116,mueller_modelleisenbahn-2026_p008_d020,19,keep,,,T3,several bricks
+1116,mueller_modelleisenbahn-2026_p008_d020,19,exclude,T3,AI suggestion accepted in bulk,T3,several bricks
 1117,mueller_modelleisenbahn-2026_p008_d021,19,keep,,,,
 1118,mueller_modelleisenbahn-2026_p008_d022,19,keep,,,,
 1119,mueller_modelleisenbahn-2026_p009_d000,19,keep,,,,
@@ -1124,23 +1124,23 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1123,mueller_modelleisenbahn-2026_p009_d004,19,keep,,,,
 1124,mueller_modelleisenbahn-2026_p009_d005,19,keep,,,,
 1125,mueller_modelleisenbahn-2026_p009_d006,19,keep,,,,
-1126,mueller_modelleisenbahn-2026_p009_d007,19,keep,,,T3,two locomotives
+1126,mueller_modelleisenbahn-2026_p009_d007,19,exclude,T3,AI suggestion accepted in bulk,T3,two locomotives
 1127,mueller_modelleisenbahn-2026_p009_d008,19,keep,,,,
 1128,mueller_modelleisenbahn-2026_p009_d009,19,keep,,,,
 1129,mueller_modelleisenbahn-2026_p009_d010,19,keep,,,,
-1130,mueller_modelleisenbahn-2026_p010_d000,19,keep,,,T1,logo
+1130,mueller_modelleisenbahn-2026_p010_d000,19,exclude,T1,AI suggestion accepted in bulk,T1,logo
 1131,mueller_modelleisenbahn-2026_p010_d001,19,keep,,,,
 1132,mueller_modelleisenbahn-2026_p010_d002,19,keep,,,,
 1133,mueller_modelleisenbahn-2026_p010_d003,19,keep,,,,
 1134,mueller_modelleisenbahn-2026_p010_d004,19,keep,,,,
-1135,mueller_modelleisenbahn-2026_p010_d005,19,keep,,,T4,diorama scene
-1136,mueller_modelleisenbahn-2026_p011_d000,19,keep,,,T1,logo
+1135,mueller_modelleisenbahn-2026_p010_d005,19,exclude,T4,AI suggestion accepted in bulk,T4,diorama scene
+1136,mueller_modelleisenbahn-2026_p011_d000,19,exclude,T1,AI suggestion accepted in bulk,T1,logo
 1137,mueller_modelleisenbahn-2026_p011_d001,19,keep,,,,
 1138,mueller_modelleisenbahn-2026_p011_d002,19,keep,,,,
 1139,mueller_modelleisenbahn-2026_p011_d003,19,keep,,,,
 1140,mueller_modelleisenbahn-2026_p011_d004,19,keep,,,,
-1141,mueller_modelleisenbahn-2026_p011_d005,20,keep,,,T4,diorama scene
-1142,mueller_modelleisenbahn-2026_p011_d006,20,keep,,,T4,diorama scene
+1141,mueller_modelleisenbahn-2026_p011_d005,20,exclude,T4,AI suggestion accepted in bulk,T4,diorama scene
+1142,mueller_modelleisenbahn-2026_p011_d006,20,exclude,T4,AI suggestion accepted in bulk,T4,diorama scene
 1143,mueller_modelleisenbahn-2026_p011_d007,20,keep,,,,
 1144,mueller_modelleisenbahn-2026_p011_d008,20,keep,,,,
 1145,mueller_modelleisenbahn-2026_p011_d009,20,keep,,,,
@@ -1160,11 +1160,11 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1159,mueller_modelleisenbahn-2026_p011_d023,20,keep,,,,
 1160,mueller_modelleisenbahn-2026_p011_d024,20,keep,,,,
 1161,mueller_modelleisenbahn-2026_p011_d025,20,keep,,,,
-1162,mueller_modelleisenbahn-2026_p011_d026,20,keep,,,T3,two figures
+1162,mueller_modelleisenbahn-2026_p011_d026,20,exclude,T3,AI suggestion accepted in bulk,T3,two figures
 1163,mueller_modelleisenbahn-2026_p011_d027,20,keep,,,,
 1164,mueller_modelleisenbahn-2026_p012_d000,20,keep,,,,
 1165,mueller_modelleisenbahn-2026_p012_d001,20,keep,,,,
-1166,mueller_modelleisenbahn-2026_p012_d002,20,keep,,,T4,landscape photo
+1166,mueller_modelleisenbahn-2026_p012_d002,20,exclude,T4,AI suggestion accepted in bulk,T4,landscape photo
 1167,mueller_modelleisenbahn-2026_p012_d003,20,keep,,,,
 1168,mueller_modelleisenbahn-2026_p012_d004,20,keep,,,,
 1169,mueller_modelleisenbahn-2026_p012_d005,20,keep,,,,
@@ -1180,7 +1180,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1179,mueller_modelleisenbahn-2026_p013_d009,20,keep,,,,
 1180,mueller_modelleisenbahn-2026_p013_d010,20,keep,,,,
 1181,mueller_modelleisenbahn-2026_p013_d011,20,keep,,,,
-1182,mueller_modelleisenbahn-2026_p014_d000,20,keep,,,T3,several parts
+1182,mueller_modelleisenbahn-2026_p014_d000,20,exclude,T3,AI suggestion accepted in bulk,T3,several parts
 1183,mueller_modelleisenbahn-2026_p014_d001,20,keep,,,,
 1184,mueller_modelleisenbahn-2026_p014_d002,20,keep,,,,
 1185,mueller_modelleisenbahn-2026_p014_d003,20,keep,,,,
@@ -1195,26 +1195,26 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1194,mueller_modelleisenbahn-2026_p014_d012,20,keep,,,,
 1195,mueller_modelleisenbahn-2026_p014_d013,20,keep,,,,
 1196,mueller_modelleisenbahn-2026_p015_d000,20,keep,,,,
-1197,mueller_modelleisenbahn-2026_p015_d001,20,keep,,,T3,several figures
+1197,mueller_modelleisenbahn-2026_p015_d001,20,exclude,T3,AI suggestion accepted in bulk,T3,several figures
 1198,mueller_modelleisenbahn-2026_p015_d002,20,keep,,,,
 1199,mueller_modelleisenbahn-2026_p015_d003,20,keep,,,,
 1200,mueller_modelleisenbahn-2026_p015_d004,20,keep,,,,
-1201,mueller_modelleisenbahn-2026_p015_d005,21,keep,,,T3,several figures
-1202,mueller_modelleisenbahn-2026_p015_d006,21,keep,,,T3,several figures
-1203,mueller_modelleisenbahn-2026_p015_d007,21,keep,,,T2,partial
+1201,mueller_modelleisenbahn-2026_p015_d005,21,exclude,T3,AI suggestion accepted in bulk,T3,several figures
+1202,mueller_modelleisenbahn-2026_p015_d006,21,exclude,T3,AI suggestion accepted in bulk,T3,several figures
+1203,mueller_modelleisenbahn-2026_p015_d007,21,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1204,mueller_modelleisenbahn-2026_p015_d008,21,keep,,,,
-1205,mueller_modelleisenbahn-2026_p015_d009,21,keep,,,T3,two figures
+1205,mueller_modelleisenbahn-2026_p015_d009,21,exclude,T3,AI suggestion accepted in bulk,T3,two figures
 1206,mueller_modelleisenbahn-2026_p015_d010,21,keep,,,,
-1207,mueller_modelleisenbahn-2026_p015_d011,21,keep,,,T3,two figures
-1208,mueller_modelleisenbahn-2026_p015_d012,21,keep,,,T3,several trees
-1209,mueller_modelleisenbahn-2026_p015_d013,21,keep,,,T3,several trees
+1207,mueller_modelleisenbahn-2026_p015_d011,21,exclude,T3,AI suggestion accepted in bulk,T3,two figures
+1208,mueller_modelleisenbahn-2026_p015_d012,21,exclude,T3,AI suggestion accepted in bulk,T3,several trees
+1209,mueller_modelleisenbahn-2026_p015_d013,21,exclude,T3,AI suggestion accepted in bulk,T3,several trees
 1210,mueller_modelleisenbahn-2026_p015_d014,21,keep,,,,
 1211,mueller_modelleisenbahn-2026_p015_d015,21,keep,,,,
-1212,mueller_modelleisenbahn-2026_p015_d016,21,keep,,,T3,several trees
+1212,mueller_modelleisenbahn-2026_p015_d016,21,exclude,T3,AI suggestion accepted in bulk,T3,several trees
 1213,mueller_modelleisenbahn-2026_p015_d017,21,keep,,,,
 1214,mueller_modelleisenbahn-2026_p015_d018,21,keep,,,,
 1215,mueller_modelleisenbahn-2026_p015_d019,21,keep,,,,
-1216,mueller_modelleisenbahn-2026_p015_d020,21,keep,,,T3,two figures
+1216,mueller_modelleisenbahn-2026_p015_d020,21,exclude,T3,AI suggestion accepted in bulk,T3,two figures
 1217,mueller_modelleisenbahn-2026_p015_d021,21,keep,,,,
 1218,mueller_modelleisenbahn-2026_p015_d022,21,keep,,,,
 1219,mueller_modelleisenbahn-2026_p015_d023,21,keep,,,,
@@ -1240,7 +1240,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1239,mueller_modelleisenbahn-2026_p015_d043,21,keep,,,,
 1240,mueller_modelleisenbahn-2026_p015_d044,21,keep,,,,
 1241,mueller_modelleisenbahn-2026_p015_d045,21,keep,,,,
-1242,mueller_modelleisenbahn-2026_p015_d046,21,keep,,,T3,two figures
+1242,mueller_modelleisenbahn-2026_p015_d046,21,exclude,T3,AI suggestion accepted in bulk,T3,two figures
 1243,mueller_modelleisenbahn-2026_p015_d047,21,keep,,,,
 1244,mueller_modelleisenbahn-2026_p015_d048,21,keep,,,,
 1245,mueller_modelleisenbahn-2026_p015_d049,21,keep,,,,
@@ -1249,17 +1249,17 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1248,mueller_modelleisenbahn-2026_p015_d052,21,keep,,,,
 1249,mueller_modelleisenbahn-2026_p015_d053,21,keep,,,,
 1250,mueller_modelleisenbahn-2026_p016_d000,21,keep,,,,
-1251,mueller_modelleisenbahn-2026_p016_d001,21,keep,,,T4,diorama scene
-1252,mueller_modelleisenbahn-2026_p016_d002,21,keep,,,T4,diorama scene
-1253,mueller_modelleisenbahn-2026_p016_d003,21,keep,,,T4,diorama scene
+1251,mueller_modelleisenbahn-2026_p016_d001,21,exclude,T4,AI suggestion accepted in bulk,T4,diorama scene
+1252,mueller_modelleisenbahn-2026_p016_d002,21,exclude,T4,AI suggestion accepted in bulk,T4,diorama scene
+1253,mueller_modelleisenbahn-2026_p016_d003,21,exclude,T4,AI suggestion accepted in bulk,T4,diorama scene
 1254,mueller_modelleisenbahn-2026_p016_d004,21,keep,,,,
-1255,mueller_modelleisenbahn-2026_p016_d005,21,keep,,,T3,two bags
-1256,mueller_modelleisenbahn-2026_p016_d006,21,keep,,,T3,several parts
+1255,mueller_modelleisenbahn-2026_p016_d005,21,exclude,T3,AI suggestion accepted in bulk,T3,two bags
+1256,mueller_modelleisenbahn-2026_p016_d006,21,exclude,T3,AI suggestion accepted in bulk,T3,several parts
 1257,mueller_modelleisenbahn-2026_p016_d007,21,keep,,,,
 1258,mueller_modelleisenbahn-2026_p016_d008,21,keep,,,,
-1259,mueller_modelleisenbahn-2026_p016_d009,21,keep,,,T3,two bags
-1260,mueller_modelleisenbahn-2026_p016_d010,21,keep,,,T4,diorama scene
-1261,mueller_modelleisenbahn-2026_p017_d000,22,keep,,,T1,logo
+1259,mueller_modelleisenbahn-2026_p016_d009,21,exclude,T3,AI suggestion accepted in bulk,T3,two bags
+1260,mueller_modelleisenbahn-2026_p016_d010,21,exclude,T4,AI suggestion accepted in bulk,T4,diorama scene
+1261,mueller_modelleisenbahn-2026_p017_d000,22,exclude,T1,AI suggestion accepted in bulk,T1,logo
 1262,mueller_modelleisenbahn-2026_p017_d001,22,keep,,,,
 1263,mueller_modelleisenbahn-2026_p017_d002,22,keep,,,,
 1264,mueller_modelleisenbahn-2026_p017_d003,22,keep,,,,
@@ -1275,19 +1275,19 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1274,mueller_modelleisenbahn-2026_p018_d004,22,keep,,,,
 1275,mueller_modelleisenbahn-2026_p018_d005,22,keep,,,,
 1276,mueller_modelleisenbahn-2026_p018_d006,22,keep,,,,
-1277,mueller_modelleisenbahn-2026_p018_d007,22,keep,,,T3,two cars
+1277,mueller_modelleisenbahn-2026_p018_d007,22,exclude,T3,AI suggestion accepted in bulk,T3,two cars
 1278,mueller_modelleisenbahn-2026_p018_d008,22,keep,,,,
 1279,mueller_modelleisenbahn-2026_p018_d009,22,keep,,,,
 1280,mueller_modelleisenbahn-2026_p018_d010,22,keep,,,,
 1281,mueller_modelleisenbahn-2026_p018_d011,22,keep,,,,
-1282,mueller_modelleisenbahn-2026_p018_d012,22,keep,,,T3,two vans
-1283,mueller_modelleisenbahn-2026_p018_d013,22,keep,,,T3,two vehicles
+1282,mueller_modelleisenbahn-2026_p018_d012,22,exclude,T3,AI suggestion accepted in bulk,T3,two vans
+1283,mueller_modelleisenbahn-2026_p018_d013,22,exclude,T3,AI suggestion accepted in bulk,T3,two vehicles
 1284,mueller_modelleisenbahn-2026_p018_d014,22,keep,,,,
 1285,mueller_modelleisenbahn-2026_p018_d015,22,keep,,,,
 1286,mueller_modelleisenbahn-2026_p018_d016,22,keep,,,,
 1287,mueller_modelleisenbahn-2026_p018_d017,22,keep,,,,
 1288,mueller_modelleisenbahn-2026_p018_d018,22,keep,,,,
-1289,mueller_modelleisenbahn-2026_p018_d019,22,keep,,,T3,two cars
+1289,mueller_modelleisenbahn-2026_p018_d019,22,exclude,T3,AI suggestion accepted in bulk,T3,two cars
 1290,mueller_modelleisenbahn-2026_p018_d020,22,keep,,,,
 1291,mueller_modelleisenbahn-2026_p018_d021,22,keep,,,,
 1292,mueller_modelleisenbahn-2026_p018_d022,22,keep,,,,
@@ -1306,18 +1306,18 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1305,mueller_modelleisenbahn-2026_p019_d010,22,keep,,,,
 1306,mueller_modelleisenbahn-2026_p020_d000,22,keep,,,,
 1307,mueller_modelleisenbahn-2026_p020_d001,22,keep,,,,
-1308,mueller_modelleisenbahn-2026_p020_d002,22,keep,,,T2,detail close-up
+1308,mueller_modelleisenbahn-2026_p020_d002,22,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
 1309,mueller_modelleisenbahn-2026_p020_d003,22,keep,,,,
 1310,mueller_modelleisenbahn-2026_p020_d004,22,keep,,,,
 1311,mueller_modelleisenbahn-2026_p020_d005,22,keep,,,,
 1312,mueller_modelleisenbahn-2026_p020_d006,22,keep,,,,
 1313,mueller_modelleisenbahn-2026_p020_d007,22,keep,,,,
 1314,mueller_modelleisenbahn-2026_p020_d008,22,keep,,,,
-1315,mueller_modelleisenbahn-2026_p020_d009,22,keep,,,T1,payment logos
-1316,mueller_modelleisenbahn-2026_p020_d010,22,keep,,,T1,payment logo
-1317,mueller_modelleisenbahn-2026_p020_d011,22,keep,,,T1,payment logo
-1318,mueller_modelleisenbahn-2026_p020_d012,22,keep,,,T1,payment logo
-1319,mueller_modelleisenbahn-2026_p020_d013,22,keep,,,T1,payment logo
+1315,mueller_modelleisenbahn-2026_p020_d009,22,exclude,T1,AI suggestion accepted in bulk,T1,payment logos
+1316,mueller_modelleisenbahn-2026_p020_d010,22,exclude,T1,AI suggestion accepted in bulk,T1,payment logo
+1317,mueller_modelleisenbahn-2026_p020_d011,22,exclude,T1,AI suggestion accepted in bulk,T1,payment logo
+1318,mueller_modelleisenbahn-2026_p020_d012,22,exclude,T1,AI suggestion accepted in bulk,T1,payment logo
+1319,mueller_modelleisenbahn-2026_p020_d013,22,exclude,T1,AI suggestion accepted in bulk,T1,payment logo
 1320,mueller_multimedia-2026-11-16_p001_d000,22,keep,,,,
 1321,mueller_multimedia-2026-11-16_p001_d001,23,keep,,,,
 1322,mueller_multimedia-2026-11-16_p001_d002,23,keep,,,,
@@ -1329,19 +1329,19 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1328,mueller_multimedia-2026-11-16_p001_d008,23,keep,,,,
 1329,mueller_multimedia-2026-11-16_p001_d009,23,keep,,,,
 1330,mueller_multimedia-2026-11-16_p001_d010,23,keep,,,,
-1331,mueller_multimedia-2026-11-16_p001_d011,23,keep,,,T1,"illustration, no product"
+1331,mueller_multimedia-2026-11-16_p001_d011,23,exclude,T1,AI suggestion accepted in bulk,T1,"illustration, no product"
 1332,mueller_multimedia-2026-11-16_p001_d012,23,keep,,,,
 1333,mueller_multimedia-2026-11-16_p001_d013,23,keep,,,,
 1334,mueller_multimedia-2026-11-16_p002_d000,23,keep,,,,
-1335,mueller_multimedia-2026-11-16_p002_d001,23,keep,,,T2,unrecognisable
-1336,mueller_multimedia-2026-11-16_p002_d002,23,keep,,,T3,several figurines
+1335,mueller_multimedia-2026-11-16_p002_d001,23,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
+1336,mueller_multimedia-2026-11-16_p002_d002,23,exclude,T3,AI suggestion accepted in bulk,T3,several figurines
 1337,mueller_multimedia-2026-11-16_p002_d003,23,keep,,,,
 1338,mueller_multimedia-2026-11-16_p002_d004,23,keep,,,,
 1339,mueller_multimedia-2026-11-16_p002_d005,23,keep,,,,
-1340,mueller_multimedia-2026-11-16_p002_d006,23,keep,,,T4,advertising graphic
-1341,mueller_multimedia-2026-11-16_p002_d007,23,keep,,,T3,several packs
+1340,mueller_multimedia-2026-11-16_p002_d006,23,exclude,T4,AI suggestion accepted in bulk,T4,advertising graphic
+1341,mueller_multimedia-2026-11-16_p002_d007,23,exclude,T3,AI suggestion accepted in bulk,T3,several packs
 1342,mueller_multimedia-2026-11-16_p002_d008,23,keep,,,,
-1343,mueller_multimedia-2026-11-16_p002_d009,23,keep,,,T1,logo
+1343,mueller_multimedia-2026-11-16_p002_d009,23,exclude,T1,AI suggestion accepted in bulk,T1,logo
 1344,mueller_multimedia-2026-11-16_p003_d000,23,keep,,,,
 1345,mueller_multimedia-2026-11-16_p003_d001,23,keep,,,,
 1346,mueller_multimedia-2026-11-16_p003_d002,23,keep,,,,
@@ -1350,7 +1350,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1349,mueller_multimedia-2026-11-16_p003_d005,23,keep,,,,
 1350,mueller_multimedia-2026-11-16_p003_d006,23,keep,,,,
 1351,mueller_multimedia-2026-11-16_p003_d007,23,keep,,,,
-1352,mueller_multimedia-2026-11-16_p003_d008,23,keep,,,T2,partial
+1352,mueller_multimedia-2026-11-16_p003_d008,23,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1353,mueller_multimedia-2026-11-16_p003_d009,23,keep,,,,
 1354,mueller_multimedia-2026-11-16_p003_d010,23,keep,,,,
 1355,mueller_multimedia-2026-11-16_p003_d011,23,keep,,,,
@@ -1368,43 +1368,43 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1367,mueller_multimedia-2026-11-16_p004_d005,23,keep,,,,
 1368,mueller_multimedia-2026-11-16_p004_d006,23,keep,,,,
 1369,mueller_multimedia-2026-11-16_p004_d007,23,keep,,,,
-1370,mueller_schreibwaren-weihnachten-2026_p001_d000,23,keep,,,T4,illustration scene
+1370,mueller_schreibwaren-weihnachten-2026_p001_d000,23,exclude,T4,AI suggestion accepted in bulk,T4,illustration scene
 1371,mueller_schreibwaren-weihnachten-2026_p001_d001,23,keep,,,,
 1372,mueller_schreibwaren-weihnachten-2026_p001_d002,23,keep,,,,
 1373,mueller_schreibwaren-weihnachten-2026_p001_d003,23,keep,,,,
 1374,mueller_schreibwaren-weihnachten-2026_p001_d004,23,keep,,,,
 1375,mueller_schreibwaren-weihnachten-2026_p001_d005,23,keep,,,,
-1376,mueller_schreibwaren-weihnachten-2026_p001_d006,23,keep,,,T3,two backpacks
+1376,mueller_schreibwaren-weihnachten-2026_p001_d006,23,exclude,T3,AI suggestion accepted in bulk,T3,two backpacks
 1377,mueller_schreibwaren-weihnachten-2026_p001_d007,23,keep,,,,
 1378,mueller_schreibwaren-weihnachten-2026_p001_d008,23,keep,,,,
 1379,mueller_schreibwaren-weihnachten-2026_p001_d009,23,keep,,,,
 1380,mueller_schreibwaren-weihnachten-2026_p001_d010,23,keep,,,,
 1381,mueller_schreibwaren-weihnachten-2026_p001_d011,24,keep,,,,
 1382,mueller_schreibwaren-weihnachten-2026_p001_d012,24,keep,,,,
-1383,mueller_schreibwaren-weihnachten-2026_p001_d013,24,keep,,,T1,catalog advert
-1384,mueller_schreibwaren-weihnachten-2026_p001_d014,24,keep,,,T1,catalog advert
-1385,mueller_schreibwaren-weihnachten-2026_p001_d015,24,keep,,,T2,cut off
+1383,mueller_schreibwaren-weihnachten-2026_p001_d013,24,exclude,T1,AI suggestion accepted in bulk,T1,catalog advert
+1384,mueller_schreibwaren-weihnachten-2026_p001_d014,24,exclude,T1,AI suggestion accepted in bulk,T1,catalog advert
+1385,mueller_schreibwaren-weihnachten-2026_p001_d015,24,exclude,T2,AI suggestion accepted in bulk,T2,cut off
 1386,mueller_schreibwaren-weihnachten-2026_p002_d000,24,keep,,,,
 1387,mueller_schreibwaren-weihnachten-2026_p002_d001,24,keep,,,,
 1388,mueller_schreibwaren-weihnachten-2026_p002_d002,24,keep,,,,
-1389,mueller_schreibwaren-weihnachten-2026_p002_d003,24,keep,,,T3,two ornaments
+1389,mueller_schreibwaren-weihnachten-2026_p002_d003,24,exclude,T3,AI suggestion accepted in bulk,T3,two ornaments
 1390,mueller_schreibwaren-weihnachten-2026_p002_d004,24,keep,,,,
-1391,mueller_schreibwaren-weihnachten-2026_p002_d005,24,keep,,,T3,"two items, cut off"
+1391,mueller_schreibwaren-weihnachten-2026_p002_d005,24,exclude,T3,AI suggestion accepted in bulk,T3,"two items, cut off"
 1392,mueller_schreibwaren-weihnachten-2026_p002_d006,24,keep,,,,
 1393,mueller_schreibwaren-weihnachten-2026_p002_d007,24,keep,,,,
 1394,mueller_schreibwaren-weihnachten-2026_p002_d008,24,keep,,,,
 1395,mueller_schreibwaren-weihnachten-2026_p002_d009,24,keep,,,,
 1396,mueller_schreibwaren-weihnachten-2026_p003_d000,24,keep,,,,
-1397,mueller_schreibwaren-weihnachten-2026_p003_d001,24,keep,,,T3,two mugs
+1397,mueller_schreibwaren-weihnachten-2026_p003_d001,24,exclude,T3,AI suggestion accepted in bulk,T3,two mugs
 1398,mueller_schreibwaren-weihnachten-2026_p003_d002,24,keep,,,,
 1399,mueller_schreibwaren-weihnachten-2026_p003_d003,24,keep,,,,
 1400,mueller_schreibwaren-weihnachten-2026_p003_d004,24,keep,,,,
 1401,mueller_schreibwaren-weihnachten-2026_p003_d005,24,keep,,,,
 1402,mueller_schreibwaren-weihnachten-2026_p003_d006,24,keep,,,,
 1403,mueller_schreibwaren-weihnachten-2026_p003_d007,24,keep,,,,
-1404,mueller_schreibwaren-weihnachten-2026_p003_d008,24,keep,,,T3,several plush toys
-1405,mueller_schreibwaren-weihnachten-2026_p003_d009,24,keep,,,T3,several plush toys
-1406,mueller_schreibwaren-weihnachten-2026_p003_d010,24,keep,,,T3,several plush toys
+1404,mueller_schreibwaren-weihnachten-2026_p003_d008,24,exclude,T3,AI suggestion accepted in bulk,T3,several plush toys
+1405,mueller_schreibwaren-weihnachten-2026_p003_d009,24,exclude,T3,AI suggestion accepted in bulk,T3,several plush toys
+1406,mueller_schreibwaren-weihnachten-2026_p003_d010,24,exclude,T3,AI suggestion accepted in bulk,T3,several plush toys
 1407,mueller_schreibwaren-weihnachten-2026_p003_d011,24,keep,,,,
 1408,mueller_schreibwaren-weihnachten-2026_p003_d012,24,keep,,,,
 1409,mueller_schreibwaren-weihnachten-2026_p003_d013,24,keep,,,,
@@ -1420,7 +1420,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1419,mueller_schreibwaren-weihnachten-2026_p004_d007,24,keep,,,,
 1420,mueller_schreibwaren-weihnachten-2026_p004_d008,24,keep,,,,
 1421,mueller_schreibwaren-weihnachten-2026_p004_d009,24,keep,,,,
-1422,mueller_schreibwaren-weihnachten-2026_p004_d010,24,keep,,,T2,partial
+1422,mueller_schreibwaren-weihnachten-2026_p004_d010,24,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1423,mueller_schreibwaren-weihnachten-2026_p004_d011,24,keep,,,,
 1424,mueller_schreibwaren-weihnachten-2026_p004_d012,24,keep,,,,
 1425,mueller_spielwaren-kw47-2026_p001_d000,24,keep,,,,
@@ -1434,9 +1434,9 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1433,mueller_spielwaren-kw47-2026_p001_d008,24,keep,,,,
 1434,mueller_spielwaren-kw47-2026_p001_d009,24,keep,,,,
 1435,mueller_spielwaren-kw47-2026_p001_d010,24,keep,,,,
-1436,mueller_spielwaren-kw47-2026_p001_d011,24,keep,,,T2,unrecognisable
-1437,mueller_spielwaren-kw47-2026_p001_d012,24,keep,,,T1,catalog advert
-1438,mueller_spielwaren-kw47-2026_p001_d013,24,keep,,,T1,catalog advert
+1436,mueller_spielwaren-kw47-2026_p001_d011,24,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
+1437,mueller_spielwaren-kw47-2026_p001_d012,24,exclude,T1,AI suggestion accepted in bulk,T1,catalog advert
+1438,mueller_spielwaren-kw47-2026_p001_d013,24,exclude,T1,AI suggestion accepted in bulk,T1,catalog advert
 1439,mueller_spielwaren-kw47-2026_p002_d000,24,keep,,,,
 1440,mueller_spielwaren-kw47-2026_p002_d001,24,keep,,,,
 1441,mueller_spielwaren-kw47-2026_p002_d002,25,keep,,,,
@@ -1449,21 +1449,21 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1448,mueller_spielwaren-kw47-2026_p002_d009,25,keep,,,,
 1449,mueller_spielwaren-kw47-2026_p002_d010,25,keep,,,,
 1450,mueller_spielwaren-kw47-2026_p002_d011,25,keep,,,,
-1451,mueller_spielwaren-kw47-2026_p002_d012,25,keep,,,T2,unrecognisable
+1451,mueller_spielwaren-kw47-2026_p002_d012,25,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
 1452,mueller_spielwaren-kw47-2026_p003_d000,25,keep,,,,
 1453,mueller_spielwaren-kw47-2026_p003_d001,25,keep,,,,
 1454,mueller_spielwaren-kw47-2026_p003_d002,25,keep,,,,
 1455,mueller_spielwaren-kw47-2026_p003_d003,25,keep,,,,
 1456,mueller_spielwaren-kw47-2026_p003_d004,25,keep,,,,
 1457,mueller_spielwaren-kw47-2026_p003_d005,25,keep,,,,
-1458,mueller_spielwaren-kw47-2026_p003_d006,25,keep,,,T2,partial
+1458,mueller_spielwaren-kw47-2026_p003_d006,25,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1459,mueller_spielwaren-kw47-2026_p003_d007,25,keep,,,,
 1460,mueller_spielwaren-kw47-2026_p003_d008,25,keep,,,,
 1461,mueller_spielwaren-kw47-2026_p003_d009,25,keep,,,,
-1462,mueller_spielwaren-kw47-2026_p003_d010,25,keep,,,T2,partial
+1462,mueller_spielwaren-kw47-2026_p003_d010,25,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1463,mueller_spielwaren-kw47-2026_p003_d011,25,keep,,,,
 1464,mueller_spielwaren-kw47-2026_p003_d012,25,keep,,,,
-1465,mueller_spielwaren-kw47-2026_p003_d013,25,keep,,,T2,partial
+1465,mueller_spielwaren-kw47-2026_p003_d013,25,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1466,mueller_spielwaren-kw47-2026_p004_d000,25,keep,,,,
 1467,mueller_spielwaren-kw47-2026_p004_d001,25,keep,,,,
 1468,mueller_spielwaren-kw47-2026_p004_d002,25,keep,,,,
@@ -1477,38 +1477,38 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1476,mueller_spielwaren-kw47-2026_p004_d010,25,keep,,,,
 1477,mueller_spielwaren-kw47-2026_p005_d000,25,keep,,,,
 1478,mueller_spielwaren-kw47-2026_p005_d001,25,keep,,,,
-1479,mueller_spielwaren-kw47-2026_p005_d002,25,keep,,,T3,several toys
-1480,mueller_spielwaren-kw47-2026_p005_d003,25,keep,,,T3,several toys
+1479,mueller_spielwaren-kw47-2026_p005_d002,25,exclude,T3,AI suggestion accepted in bulk,T3,several toys
+1480,mueller_spielwaren-kw47-2026_p005_d003,25,exclude,T3,AI suggestion accepted in bulk,T3,several toys
 1481,mueller_spielwaren-kw47-2026_p005_d004,25,keep,,,,
-1482,mueller_spielwaren-kw47-2026_p005_d005,25,keep,,,T3,two toys
+1482,mueller_spielwaren-kw47-2026_p005_d005,25,exclude,T3,AI suggestion accepted in bulk,T3,two toys
 1483,mueller_spielwaren-kw47-2026_p005_d006,25,keep,,,,
 1484,mueller_spielwaren-kw47-2026_p005_d007,25,keep,,,,
 1485,mueller_spielwaren-kw47-2026_p005_d008,25,keep,,,,
 1486,mueller_spielwaren-kw47-2026_p005_d009,25,keep,,,,
 1487,mueller_spielwaren-kw47-2026_p005_d010,25,keep,,,,
 1488,mueller_spielwaren-kw47-2026_p005_d011,25,keep,,,,
-1489,mueller_spielwaren-kw47-2026_p005_d012,25,keep,,,T2,unrecognisable
-1490,mueller_spielwaren-kw47-2026_p005_d013,25,keep,,,T3,several parts
-1491,mueller_spielwaren-kw47-2026_p005_d014,25,keep,,,T3,several parts
-1492,mueller_spielwaren-kw47-2026_p005_d015,25,keep,,,T2,sliver
+1489,mueller_spielwaren-kw47-2026_p005_d012,25,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
+1490,mueller_spielwaren-kw47-2026_p005_d013,25,exclude,T3,AI suggestion accepted in bulk,T3,several parts
+1491,mueller_spielwaren-kw47-2026_p005_d014,25,exclude,T3,AI suggestion accepted in bulk,T3,several parts
+1492,mueller_spielwaren-kw47-2026_p005_d015,25,exclude,T2,AI suggestion accepted in bulk,T2,sliver
 1493,mueller_spielwaren-kw47-2026_p005_d016,25,keep,,,,
 1494,mueller_spielwaren-kw47-2026_p005_d017,25,keep,,,,
-1495,mueller_spielwaren-kw47-2026_p005_d018,25,keep,,,T2,partial
+1495,mueller_spielwaren-kw47-2026_p005_d018,25,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1496,mueller_spielwaren-kw47-2026_p005_d019,25,keep,,,,
 1497,mueller_spielwaren-kw47-2026_p005_d020,25,keep,,,,
-1498,mueller_spielwaren-kw47-2026_p005_d021,25,keep,,,T3,several parts
+1498,mueller_spielwaren-kw47-2026_p005_d021,25,exclude,T3,AI suggestion accepted in bulk,T3,several parts
 1499,mueller_spielwaren-kw47-2026_p005_d022,25,keep,,,,
-1500,mueller_spielwaren-kw47-2026_p005_d023,25,keep,,,T2,unrecognisable
+1500,mueller_spielwaren-kw47-2026_p005_d023,25,exclude,T2,AI suggestion accepted in bulk,T2,unrecognisable
 1501,mueller_spielwaren-kw47-2026_p006_d000,26,keep,,,,
 1502,mueller_spielwaren-kw47-2026_p006_d001,26,keep,,,,
-1503,mueller_spielwaren-kw47-2026_p006_d002,26,keep,,,T3,doll with accessories spread out
+1503,mueller_spielwaren-kw47-2026_p006_d002,26,exclude,T3,AI suggestion accepted in bulk,T3,doll with accessories spread out
 1504,mueller_spielwaren-kw47-2026_p006_d003,26,keep,,,,
-1505,mueller_spielwaren-kw47-2026_p006_d004,26,keep,,,T3,several items
+1505,mueller_spielwaren-kw47-2026_p006_d004,26,exclude,T3,AI suggestion accepted in bulk,T3,several items
 1506,mueller_spielwaren-kw47-2026_p006_d005,26,keep,,,,
 1507,mueller_spielwaren-kw47-2026_p006_d006,26,keep,,,,
-1508,mueller_spielwaren-kw47-2026_p006_d007,26,keep,,,T3,several items
-1509,mueller_spielwaren-kw47-2026_p006_d008,26,keep,,,T3,several items
-1510,mueller_spielwaren-kw47-2026_p006_d009,26,keep,,,T3,several outfits
+1508,mueller_spielwaren-kw47-2026_p006_d007,26,exclude,T3,AI suggestion accepted in bulk,T3,several items
+1509,mueller_spielwaren-kw47-2026_p006_d008,26,exclude,T3,AI suggestion accepted in bulk,T3,several items
+1510,mueller_spielwaren-kw47-2026_p006_d009,26,exclude,T3,AI suggestion accepted in bulk,T3,several outfits
 1511,mueller_spielwaren-kw47-2026_p006_d010,26,keep,,,,
 1512,mueller_spielwaren-kw47-2026_p006_d011,26,keep,,,,
 1513,mueller_spielwaren-kw47-2026_p006_d012,26,keep,,,,
@@ -1540,14 +1540,14 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1539,mueller_spielwaren-kw47-2026_p008_d011,26,keep,,,,
 1540,mueller_spielwaren-kw47-2026_p008_d012,26,keep,,,,
 1541,mueller_spielwaren-kw47-2026_p008_d013,26,keep,,,,
-1542,mueller_spielwaren-kw47-2026_p009_d000,26,keep,,,T3,two drones
-1543,mueller_spielwaren-kw47-2026_p009_d001,26,keep,,,T2,detail close-up
+1542,mueller_spielwaren-kw47-2026_p009_d000,26,exclude,T3,AI suggestion accepted in bulk,T3,two drones
+1543,mueller_spielwaren-kw47-2026_p009_d001,26,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
 1544,mueller_spielwaren-kw47-2026_p009_d002,26,keep,,,,
-1545,mueller_spielwaren-kw47-2026_p009_d003,26,keep,,,T2,partial
+1545,mueller_spielwaren-kw47-2026_p009_d003,26,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1546,mueller_spielwaren-kw47-2026_p009_d004,26,keep,,,,
 1547,mueller_spielwaren-kw47-2026_p009_d005,26,keep,,,,
-1548,mueller_spielwaren-kw47-2026_p009_d006,26,keep,,,T2,detail close-up
-1549,mueller_spielwaren-kw47-2026_p009_d007,26,keep,,,T3,two cars
+1548,mueller_spielwaren-kw47-2026_p009_d006,26,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
+1549,mueller_spielwaren-kw47-2026_p009_d007,26,exclude,T3,AI suggestion accepted in bulk,T3,two cars
 1550,mueller_spielwaren-kw47-2026_p009_d008,26,keep,,,,
 1551,mueller_spielwaren-kw47-2026_p009_d009,26,keep,,,,
 1552,mueller_spielwaren-kw47-2026_p009_d010,26,keep,,,,
@@ -1558,14 +1558,14 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1557,mueller_spielwaren-kw47-2026_p009_d015,26,keep,,,,
 1558,mueller_spielwaren-kw47-2026_p010_d000,26,keep,,,,
 1559,mueller_spielwaren-kw47-2026_p010_d001,26,keep,,,,
-1560,mueller_spielwaren-kw47-2026_p010_d002,26,keep,,,T3,several figures
+1560,mueller_spielwaren-kw47-2026_p010_d002,26,exclude,T3,AI suggestion accepted in bulk,T3,several figures
 1561,mueller_spielwaren-kw47-2026_p010_d003,27,keep,,,,
 1562,mueller_spielwaren-kw47-2026_p010_d004,27,keep,,,,
-1563,mueller_spielwaren-kw47-2026_p010_d005,27,keep,,,T3,product with price text
+1563,mueller_spielwaren-kw47-2026_p010_d005,27,exclude,T3,AI suggestion accepted in bulk,T3,product with price text
 1564,mueller_spielwaren-kw47-2026_p010_d006,27,keep,,,,
 1565,mueller_spielwaren-kw47-2026_p010_d007,27,keep,,,,
-1566,mueller_spielwaren-kw47-2026_p010_d008,27,keep,,,T2,detail close-up
-1567,mueller_spielwaren-kw47-2026_p010_d009,27,keep,,,T2,detail close-up
+1566,mueller_spielwaren-kw47-2026_p010_d008,27,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
+1567,mueller_spielwaren-kw47-2026_p010_d009,27,exclude,T2,AI suggestion accepted in bulk,T2,detail close-up
 1568,mueller_spielwaren-kw47-2026_p010_d010,27,keep,,,,
 1569,mueller_spielwaren-kw47-2026_p010_d011,27,keep,,,,
 1570,mueller_spielwaren-kw47-2026_p010_d012,27,keep,,,,
@@ -1594,7 +1594,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1593,mueller_spielwaren-kw47-2026_p012_d009,27,keep,,,,
 1594,mueller_spielwaren-kw47-2026_p012_d010,27,keep,,,,
 1595,mueller_spielwaren-kw47-2026_p012_d011,27,keep,,,,
-1596,mueller_taschenbuecher-winter-2026_p001_d000,27,keep,,,T1,text fragment
+1596,mueller_taschenbuecher-winter-2026_p001_d000,27,exclude,T1,AI suggestion accepted in bulk,T1,text fragment
 1597,mueller_taschenbuecher-winter-2026_p001_d001,27,keep,,,,
 1598,mueller_taschenbuecher-winter-2026_p001_d002,27,keep,,,,
 1599,mueller_taschenbuecher-winter-2026_p001_d003,27,keep,,,,
@@ -1616,7 +1616,7 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1615,mueller_taschenbuecher-winter-2026_p004_d001,27,keep,,,,
 1616,mueller_taschenbuecher-winter-2026_p004_d002,27,keep,,,,
 1617,mueller_taschenbuecher-winter-2026_p004_d003,27,keep,,,,
-1618,mueller_taschenbuecher-winter-2026_p004_d004,27,keep,,,T2,partial
+1618,mueller_taschenbuecher-winter-2026_p004_d004,27,exclude,T2,AI suggestion accepted in bulk,T2,partial
 1619,mueller_taschenbuecher-winter-2026_p004_d005,27,keep,,,,
 1620,mueller_taschenbuecher-winter-2026_p004_d006,27,keep,,,,
 1621,mueller_taschenbuecher-winter-2026_p005_d000,28,keep,,,,
@@ -1643,12 +1643,12 @@ number,tile_id,sheet,decision,rule,note,suggested_rule,suggested_reason
 1642,mueller_taschenbuecher-winter-2026_p008_d003,28,keep,,,,
 1643,mueller_taschenbuecher-winter-2026_p009_d000,28,keep,,,,
 1644,mueller_taschenbuecher-winter-2026_p009_d001,28,keep,,,,
-1645,mueller_taschenbuecher-winter-2026_p009_d002,28,keep,,,T4,landscape photo
+1645,mueller_taschenbuecher-winter-2026_p009_d002,28,exclude,T4,AI suggestion accepted in bulk,T4,landscape photo
 1646,mueller_taschenbuecher-winter-2026_p009_d003,28,keep,,,,
 1647,mueller_taschenbuecher-winter-2026_p009_d004,28,keep,,,,
 1648,mueller_taschenbuecher-winter-2026_p009_d005,28,keep,,,,
 1649,mueller_taschenbuecher-winter-2026_p009_d006,28,keep,,,,
-1650,mueller_taschenbuecher-winter-2026_p009_d007,28,keep,,,T2,"blank, cut off"
+1650,mueller_taschenbuecher-winter-2026_p009_d007,28,exclude,T2,AI suggestion accepted in bulk,T2,"blank, cut off"
 1651,mueller_taschenbuecher-winter-2026_p010_d000,28,keep,,,,
 1652,mueller_taschenbuecher-winter-2026_p010_d001,28,keep,,,,
 1653,mueller_taschenbuecher-winter-2026_p010_d002,28,keep,,,,
