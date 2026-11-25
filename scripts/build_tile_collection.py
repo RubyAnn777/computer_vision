@@ -2,8 +2,11 @@
 
 Steps, each logged per crop in ``filter_log.csv``:
 
-1. **size**: drop crops whose fitted region (after `fitted_size`) is smaller
-   than ``MIN_W`` x ``MIN_H``; they would need more than 1.5x enlargement.
+1. **size**: drop crops whose centre-crop region at the tile aspect
+   (`fitted_size` with ``min_keep=0``) is smaller than ``MIN_W`` x ``MIN_H``;
+   their product content would need more than 1.5x enlargement. The rule
+   ignores ``--min-keep`` on purpose: padding enlarges the canvas, not the
+   product, so both fit strategies start from the same set of crops.
 2. **confidence** (automatic only): drop crops below ``--min-conf``.
    0.14 (the extraction threshold) keeps all; 0.58 gives the precision-first
    version (D21).
@@ -61,7 +64,7 @@ from computer_vision.tiles.standardise import (
 TILES = Path("data/processed/tiles")
 REVIEW = Path("data/tile_review.csv")
 TILE_W, TILE_H = 78, 90  # master size, W/H = 0.867 ~ sqrt(3)/2 (D22, D23)
-MIN_W, MIN_H = 52, 60  # smallest fitted region kept: at most 1.5x enlargement
+MIN_W, MIN_H = 52, 60  # smallest content region kept: at most 1.5x enlargement
 MAX_HAMMING = 6  # pHash bits that may differ for two tiles to count as copies
 SEED = 2026
 PAIR_DISTANCES = range(4, 11)
@@ -128,7 +131,7 @@ def main() -> None:
     survivors: list[dict[str, str]] = []
     for r in rows:
         w, h = int(r["width"]), int(r["height"])
-        fw, fh = fitted_size(w, h, TILE_ASPECT, args.min_keep)
+        fw, fh = fitted_size(w, h, TILE_ASPECT, 0.0)  # same rule for both fits
         entry: dict[str, object] = {
             "tile_id": r["tile_id"],
             "step": "kept",
