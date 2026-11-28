@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from computer_vision.mosaic.engine import build_mosaic
+from computer_vision.mosaic.engine import build_mosaic, tint_cells
 from computer_vision.mosaic.library import TileLibrary
 from computer_vision.mosaic.quality import viewing_scores
 
@@ -60,3 +60,29 @@ def test_scores_drop_for_an_unrelated_image() -> None:
     other = viewing_scores(photo, noise)
     assert same.ssim > other.ssim
     assert same.delta_e < other.delta_e
+
+
+def test_tint_zero_keeps_the_tiles_and_one_gives_flat_cell_colours() -> None:
+    rng = np.random.default_rng(5)
+    mosaic = rng.integers(0, 256, (2 * TILE_H, 3 * TILE_W, 3), dtype=np.uint8)
+    canvas = rng.integers(0, 256, mosaic.shape, dtype=np.uint8)
+    assert np.array_equal(tint_cells(mosaic, canvas, TILE_W, TILE_H, 0.0), mosaic)
+    flat = tint_cells(mosaic, canvas, TILE_W, TILE_H, 1.0)
+    cell = canvas[:TILE_H, :TILE_W].reshape(-1, 3).mean(axis=0)
+    assert np.abs(flat[:TILE_H, :TILE_W] - np.rint(cell)).max() <= 0.5
+    assert len(np.unique(flat[:TILE_H, :TILE_W].reshape(-1, 3), axis=0)) == 1
+
+
+def test_tint_halves_the_contrast_inside_a_tile() -> None:
+    mosaic = np.zeros((TILE_H, TILE_W, 3), np.uint8)
+    mosaic[:, TILE_W // 2 :] = 200  # tile: half black, half light grey
+    canvas = np.full_like(mosaic, 100)
+    out = tint_cells(mosaic, canvas, TILE_W, TILE_H, 0.5).astype(int)
+    assert out[0, 0].tolist() == [50, 50, 50]
+    assert out[0, -1].tolist() == [150, 150, 150]
+
+
+def test_tint_rejects_values_outside_zero_to_one() -> None:
+    image = np.zeros((TILE_H, TILE_W, 3), np.uint8)
+    with pytest.raises(ValueError, match="tint"):
+        tint_cells(image, image, TILE_W, TILE_H, 1.5)
