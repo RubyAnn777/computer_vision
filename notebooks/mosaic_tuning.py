@@ -20,11 +20,19 @@ def _():
     from computer_vision.mosaic.library import load_library
     from computer_vision.mosaic.matching import distance_table
 
+    def data_url(image):
+        """Encode a BGR image as an inline PNG, so marimo keeps no temp file."""
+        import base64
+
+        _, buf = cv2.imencode(".png", image)
+        return "data:image/png;base64," + base64.b64encode(buf.tobytes()).decode()
+
     return (
         DESCRIPTORS,
         Path,
         build_mosaic,
         cv2,
+        data_url,
         describe_in_batches,
         distance_table,
         fit_to_grid,
@@ -143,6 +151,7 @@ def _(
     ZOOM_CELLS,
     build_mosaic,
     cv2,
+    data_url,
     load_library,
     lru_cache,
     photos,
@@ -152,7 +161,7 @@ def _(
         return load_library(COLLECTIONS_DIR / name)
 
     def png(image):
-        return cv2.imencode(".png", image)[1].tobytes()
+        return data_url(image)
 
     @lru_cache(maxsize=128)
     def render(
@@ -247,7 +256,7 @@ def _(AXES, cols_axis, fixed, mo, photo_pick, render, rows_axis, zoom):
 
 
 @app.cell
-def _(mo, photo_pick, photos):
+def _(data_url, mo, photo_pick, photos):
     import cv2 as _cv2
 
     _photo = photos[photo_pick.value]
@@ -258,7 +267,7 @@ def _(mo, photo_pick, photos):
     mo.vstack(
         [
             mo.md("**The photo, at the same size**"),
-            mo.image(_cv2.imencode(".png", _small)[1].tobytes()),
+            mo.image(data_url(_small)),
         ]
     )
     return
@@ -292,6 +301,7 @@ def _(
     DESCRIPTORS,
     PREVIEW_W,
     cv2,
+    data_url,
     describe_in_batches,
     distance_table,
     fit_to_grid,
@@ -327,7 +337,7 @@ def _(
     )
     mo.vstack(
         [
-            mo.image(cv2.imencode(".png", _heat)[1].tobytes()),
+            mo.image(data_url(_heat)),
             mo.md(
                 f"Black = 0, bright yellow = {_scale:.0f} or more. "
                 f"Median best distance {np.median(_best):.1f}, "
