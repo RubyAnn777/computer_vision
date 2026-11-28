@@ -32,7 +32,7 @@ class TileLibrary:
         return len(self.tile_ids)
 
 
-def load_library(folder: Path) -> TileLibrary:
+def load_library(folder: str | Path) -> TileLibrary:
     """Read every tile listed in ``tiles.csv``, sorted by tile id.
 
     Sorting makes the tile index of a run independent of file-system order,
@@ -41,7 +41,7 @@ def load_library(folder: Path) -> TileLibrary:
 
     Parameters
     ----------
-    folder : Path
+    folder : str or Path
         A collection folder, e.g.
         ``data/processed/tiles/collections/manual_keep070_w78h90``.
 
@@ -57,6 +57,7 @@ def load_library(folder: Path) -> TileLibrary:
     ValueError
         If the collection is empty or the tiles differ in size.
     """
+    folder = Path(folder)
     with (folder / "tiles.csv").open(newline="", encoding="utf-8") as handle:
         tile_ids = sorted(row["tile_id"] for row in csv.DictReader(handle))
     if not tile_ids:

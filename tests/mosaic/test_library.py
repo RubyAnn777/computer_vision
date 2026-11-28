@@ -30,6 +30,11 @@ def test_loads_tiles_sorted_by_id(tmp_path: Path) -> None:
     assert library.images[0, 0, 0].tolist() == [0, 0, 255]  # red came first
 
 
+def test_accepts_a_plain_string_path(tmp_path: Path) -> None:
+    write_collection(tmp_path / "demo", {"t": np.zeros((9, 8, 3), np.uint8)})
+    assert load_library(str(tmp_path / "demo")).tile_ids == ("t",)
+
+
 def test_rejects_tiles_of_different_sizes(tmp_path: Path) -> None:
     write_collection(
         tmp_path / "mixed",
